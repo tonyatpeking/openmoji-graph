@@ -45,7 +45,7 @@ for (let i = 0; i < count; i++) {
   str += emoji
   valid_count += 1
   //console.log(openmoji_data[i].hexcode)
-  if (valid_count % 20 == 0) {
+  if (valid_count % 15 == 0) {
   str += "\n"
 }
 }
