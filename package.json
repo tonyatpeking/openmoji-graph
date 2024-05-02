@@ -6,11 +6,13 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
+    "build-github": "vue-tsc --noEmit && vite build --config vite-github.config.js",
     "preview": "vite preview",
     "tauri": "tauri"
   },
   "dependencies": {
     "@tauri-apps/api": "^1",
+    "3d-force-graph": "^1.73.3",
     "vue": "^3.3.4"
   },
   "devDependencies": {

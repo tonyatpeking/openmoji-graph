@@ -29,6 +29,14 @@
     - Serve webpage from `dist` for preview
 
 
+
+### Connection Rules
+
+- group - subgroup
+- base - variations (skin tones, sexes, group: flags, subgroups: keycap)
+- sanitation "flag: ", "keycap: ", "family: ", "couple with heart: ", "kiss: ", "men holding hands: dark skin tone", "woman and man holding hands: medium skin tone, dark skin tone", "person taking bath: medium-light skin tone"
+- "person in lotus position" -> "woman in lotus position" -> "woman in lotus position: light skin tone"
+
 ## Attributions
 
 All emojis designed by [OpenMoji](https://openmoji.org/) – the open-source emoji and icon project. License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/#)
