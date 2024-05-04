@@ -6,6 +6,7 @@ import special_cases from '../assets/data/special-cases.json';
 import ForceGraph3D from '3d-force-graph';
 import { SVGLoader } from 'three/addons/loaders/SVGLoader.js';
 import * as THREE from 'three';
+import tigerUrl from '../assets/tiger.svg';
 
 const greetMsg = ref("");
 
@@ -77,7 +78,7 @@ const gData = {
 function loadSVG( url: string, scene: THREE.Scene) {
 
 
-
+console.log(url);
 //
 
 const helper = new THREE.GridHelper( 160, 10, 0x8d8d8d, 0xc1c1c1 );
@@ -178,7 +179,7 @@ onMounted(() => {
   (canvas_div.value!)
     .graphData(gData);
   console.log(Graph.height());
-  loadSVG( 'src/assets/tiger.svg', Graph.scene());
+  loadSVG( tigerUrl, Graph.scene());
 })
 
 
