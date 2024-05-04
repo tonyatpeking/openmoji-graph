@@ -7,8 +7,8 @@ import ForceGraph3D from '3d-force-graph';
 import { SVGLoader } from 'three/addons/loaders/SVGLoader.js';
 import * as THREE from 'three';
 
-const SVGLoadingManager = new THREE.LoadingManager();
-const loader = new SVGLoader(SVGLoadingManager);
+const loadingManager = new THREE.LoadingManager();
+const loader = new SVGLoader(loadingManager);
 //import tigerUrl from '../assets/tiger.svg';
 
 const tigerUrl = "/openmoji/color/svg/1F1E6-1F1E8.svg";
@@ -21,6 +21,13 @@ console.log(count)
 let str = ""
 const ZERO_WIDTH_JOINER = "\u200D";
 
+let loadedEmojis = new Map<string, THREE.Object3D>();
+
+// Finished loading all svg files
+loadingManager.onLoad = function () {
+  console.log('Loading complete!');
+  console.log(loadedEmojis);
+};
 
 // Display all emojis
 let validCount = 0
@@ -76,6 +83,7 @@ const gData = {
     }))
 };
 
+
 function loadSVG(loader: SVGLoader, url: string, id: string) {
   loader.load(url, function (data) {
     const group = new THREE.Group();
@@ -83,8 +91,6 @@ function loadSVG(loader: SVGLoader, url: string, id: string) {
     group.position.x = - 70;
     group.position.y = 70;
     group.scale.y *= - 1;
-    console.log(url)
-    console.log(data)
     let renderOrder = 0;
     for (const path of data.paths) {
       if (!path.userData) {
@@ -126,7 +132,45 @@ function loadSVG(loader: SVGLoader, url: string, id: string) {
         }
       }
     }
+    loadedEmojis.set(id, group);
   });
+}
+
+function loadAllSVG(loader: SVGLoader) {
+  let count = openmojiData.length
+  // debug load 30 for now
+  count = 30
+
+  for (let i = 0; i < count; i++) {
+    const emojiData = openmojiData[i]
+    let emoji = emojiData.emoji
+    let annotation = emojiData.annotation;
+    if (annotation == "") {
+      console.log(`WARNING empty annotation ${emoji}`)
+    }
+    else if (annotation.includes(":")) {
+      //console.log(`Variation ${emoji}`)
+      continue
+    }
+    if (emojiData.subgroups == "skin-tone") {
+      continue;
+    }
+    if (emojiData.subgroups == "regional-indicator") {
+      continue;
+    }
+
+    // add zero width joiner if missing
+    // is compatible if this gets updated
+    if (specialCases.missingZeroWidthJoiner.includes(emoji)) {
+      emoji = emoji.replace(ZERO_WIDTH_JOINER, "")
+      emoji = [...emoji].join(ZERO_WIDTH_JOINER)
+    }
+    else if (specialCases.missingFont.includes(emoji)) {
+      continue;
+    }
+    const url = `/openmoji/color/svg/${emojiData.hexcode}.svg`
+    loadSVG(loader, url, emojiData.hexcode)
+  }
 }
 
 // SVG test
@@ -195,11 +239,12 @@ function loadSVGtoScene(url: string, scene: THREE.Scene) {
 let canvasDiv = ref<HTMLDivElement>();
 
 onMounted(() => {
-  const Graph = ForceGraph3D()
-    (canvasDiv.value!)
-    .graphData(gData);
-  console.log(Graph.height());
-  loadSVGtoScene(tigerUrl, Graph.scene());
+  loadAllSVG(loader);
+  // const Graph = ForceGraph3D()
+  //   (canvasDiv.value!)
+  //   .graphData(gData);
+  // console.log(Graph.height());
+  // loadSVGtoScene(tigerUrl, Graph.scene());
 })
 
 
