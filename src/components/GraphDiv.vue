@@ -4,6 +4,8 @@ import { ref,onMounted } from "vue";
 import openmoji_data from '../assets/data/openmoji.json';
 import special_cases from '../assets/data/special-cases.json';
 import ForceGraph3D from '3d-force-graph';
+import { SVGLoader } from 'three/addons/loaders/SVGLoader.js';
+import * as THREE from 'three';
 
 const greetMsg = ref("");
 
@@ -14,6 +16,8 @@ console.log(count)
 let str = ""
 const ZERO_WIDTH_JOINER = "\u200D";
 
+
+// Display all emojis
 let valid_count = 0
 for (let i = 0; i < count; i++) {
 
@@ -56,7 +60,7 @@ for (let i = 0; i < count; i++) {
 }
 
 
-
+// Graph Data
 const N = 300;
 const gData = {
   nodes: [...Array(N).keys()].map(i => ({ id: i })),
@@ -68,12 +72,113 @@ const gData = {
     }))
 };
 
+
+// SVG test
+function loadSVG( url: string, scene: THREE.Scene) {
+
+
+
+//
+
+const helper = new THREE.GridHelper( 160, 10, 0x8d8d8d, 0xc1c1c1 );
+helper.rotation.x = Math.PI / 2;
+scene.add( helper );
+
+//
+
+const loader = new SVGLoader();
+
+loader.load( url, function ( data ) {
+
+  const group = new THREE.Group();
+  group.scale.multiplyScalar( 0.25 );
+  group.position.x = - 70;
+  group.position.y = 70;
+  group.scale.y *= - 1;
+
+  console.log(url)
+  console.log(data)
+
+  let renderOrder = 0;
+
+  for ( const path of data.paths ) {
+    if( !path.userData ){
+      continue;
+    }
+    const fillColor = path.userData.style.fill;
+
+    if ( fillColor !== undefined && fillColor !== 'none' ) {
+
+      const material = new THREE.MeshBasicMaterial( {
+        color: new THREE.Color().setStyle( fillColor ),
+        opacity: path.userData.style.fillOpacity,
+        transparent: true,
+        side: THREE.DoubleSide,
+        depthWrite: false
+      } );
+
+      const shapes = SVGLoader.createShapes( path );
+
+      for ( const shape of shapes ) {
+
+        const geometry = new THREE.ShapeGeometry( shape );
+        const mesh = new THREE.Mesh( geometry, material );
+        mesh.renderOrder = renderOrder ++;
+
+        group.add( mesh );
+
+      }
+
+    }
+
+    const strokeColor = path.userData.style.stroke;
+
+    if ( strokeColor !== undefined && strokeColor !== 'none' ) {
+
+      const material = new THREE.MeshBasicMaterial( {
+        color: new THREE.Color().setStyle( strokeColor ),
+        opacity: path.userData.style.strokeOpacity,
+        transparent: true,
+        side: THREE.DoubleSide,
+        depthWrite: false
+      } );
+
+      for ( const subPath of path.subPaths ) {
+
+        const geometry = SVGLoader.pointsToStroke( subPath.getPoints(), path.userData.style );
+
+        if ( geometry ) {
+
+          const mesh = new THREE.Mesh( geometry, material );
+          mesh.renderOrder = renderOrder ++;
+
+          group.add( mesh );
+
+        }
+
+      }
+
+    }
+
+  }
+
+  scene.add( group );
+
+
+} );
+
+}
+
+
+// Mount
 let canvas_div = ref<HTMLDivElement>();
+
 onMounted(() => {
   const Graph = ForceGraph3D()
   (canvas_div.value!)
     .graphData(gData);
-  console.log(Graph.height())
+  console.log(Graph.height());
+  loadSVG( 'src/assets/tiger.svg', Graph.scene());
 })
 
 

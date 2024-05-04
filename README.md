@@ -28,6 +28,9 @@
 - `npm run preview`
     - Serve webpage from `dist` for preview
 
+### devtools
+
+- remember to disable devtools from Cargo.toml in production releases
 
 
 ### Connection Rules
