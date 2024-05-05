@@ -1,22 +1,21 @@
 <script setup lang="ts">
 import { ref, onMounted } from "vue";
 //import { invoke } from "@tauri-apps/api/tauri";
-import openmojiData from '../assets/data/openmoji.json';
+import openMojiData from '../assets/data/openmoji.json';
 import specialCases from '../assets/data/special-cases.json';
 import ForceGraph3D from '3d-force-graph';
 import { SVGLoader } from 'three/addons/loaders/SVGLoader.js';
 import * as THREE from 'three';
 
+const DEBUG_COUNT = 100
 const loadingManager = new THREE.LoadingManager();
 const loader = new SVGLoader(loadingManager);
-//import tigerUrl from '../assets/tiger.svg';
 
-const tigerUrl = "/openmoji/color/svg/1F1E6-1F1E8.svg";
 const greetMsg = ref("");
 
-const om = openmojiData[0]
+const om = openMojiData[0]
 console.log(om)
-const count = openmojiData.length
+const count = openMojiData.length
 console.log(count)
 let str = ""
 const ZERO_WIDTH_JOINER = "\u200D";
@@ -27,6 +26,12 @@ let loadedEmojis = new Map<string, THREE.Object3D>();
 loadingManager.onLoad = function () {
   console.log('Loading complete!');
   console.log(loadedEmojis);
+  const Graph = ForceGraph3D()
+    (canvasDiv.value!)
+    .nodeThreeObject((o:any) => {return loadedEmojis.get(o.hexcode)!})
+    .graphData(gData);
+  console.log(Graph.length);
+  //loadSVGtoScene(tigerUrl, Graph.scene());
 };
 
 // Display all emojis
@@ -34,7 +39,7 @@ let validCount = 0
 for (let i = 0; i < count; i++) {
 
 
-  const emojiData = openmojiData[i]
+  const emojiData = openMojiData[i]
   let emoji = emojiData.emoji
   let annotation = emojiData.annotation;
   if (annotation == "") {
@@ -64,7 +69,6 @@ for (let i = 0; i < count; i++) {
   }
   str += emoji
   validCount += 1
-  //console.log(openmojiData[i].hexcode)
   if (validCount % 15 == 0) {
     str += "\n"
   }
@@ -72,9 +76,9 @@ for (let i = 0; i < count; i++) {
 
 
 // Graph Data
-const N = 300;
+const N = DEBUG_COUNT;
 const gData = {
-  nodes: [...Array(N).keys()].map(i => ({ id: i, hexcode: openmojiData[i].hexcode })),
+  nodes: [...Array(N).keys()].map(i => ({ id: i, hexcode: openMojiData[i].hexcode })),
   links: [...Array(N).keys()]
     .filter(id => id)
     .map(id => ({
@@ -85,7 +89,7 @@ const gData = {
 
 
 function loadSVG(loader: SVGLoader, url: string, id: string) {
-  loader.load(url, function (data) {
+  loader.load(url, function (data: any) {
     const group = new THREE.Group();
     group.scale.multiplyScalar(0.25);
     group.position.x = - 70;
@@ -137,12 +141,12 @@ function loadSVG(loader: SVGLoader, url: string, id: string) {
 }
 
 function loadAllSVG(loader: SVGLoader) {
-  let count = openmojiData.length
+  let count = openMojiData.length
   // debug load 30 for now
-  count = 30
+  count = DEBUG_COUNT
 
   for (let i = 0; i < count; i++) {
-    const emojiData = openmojiData[i]
+    const emojiData = openMojiData[i]
     let emoji = emojiData.emoji
     let annotation = emojiData.annotation;
     if (annotation == "") {
@@ -180,7 +184,7 @@ function loadSVGtoScene(url: string, scene: THREE.Scene) {
   helper.rotation.x = Math.PI / 2;
   scene.add(helper);
   const loader = new SVGLoader();
-  loader.load(url, function (data) {
+  loader.load(url, function (data: any) {
     const group = new THREE.Group();
     group.scale.multiplyScalar(0.25);
     group.position.x = - 70;
@@ -240,11 +244,7 @@ let canvasDiv = ref<HTMLDivElement>();
 
 onMounted(() => {
   loadAllSVG(loader);
-  // const Graph = ForceGraph3D()
-  //   (canvasDiv.value!)
-  //   .graphData(gData);
-  // console.log(Graph.height());
-  // loadSVGtoScene(tigerUrl, Graph.scene());
+
 })
 
 
