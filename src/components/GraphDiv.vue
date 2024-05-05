@@ -7,7 +7,7 @@ import ForceGraph3D from '3d-force-graph';
 import { SVGLoader } from 'three/addons/loaders/SVGLoader.js';
 import * as THREE from 'three';
 
-const DEBUG_COUNT = 1000
+const DEBUG_COUNT = 300
 const loadingManager = new THREE.LoadingManager();
 const loader = new SVGLoader(loadingManager);
 
@@ -21,14 +21,18 @@ let str = ""
 const ZERO_WIDTH_JOINER = "\u200D";
 
 let loadedEmojis = new Map<string, THREE.Object3D>();
+let loadedEmojisIndexed = new Map<number, THREE.Object3D>();
 
 // Finished loading all svg files
 loadingManager.onLoad = function () {
   console.log('Loading complete!');
   console.log(loadedEmojis);
+
+  loadedEmojisIndexed = new Map([...loadedEmojis.entries()].map(([_, v], i) => [i, v]));
+
   const Graph = ForceGraph3D()
     (canvasDiv.value!)
-    .nodeThreeObject((o: any) => { return loadedEmojis.get(o.hexcode)! })
+    .nodeThreeObject((o: any) => { return loadedEmojisIndexed.get(o.id)! })
     .graphData(gData);
   console.log(Graph.length);
   //loadSVGtoScene(tigerUrl, Graph.scene());
@@ -75,10 +79,11 @@ for (let i = 0; i < count; i++) {
 }
 
 
+
 // Graph Data
 const N = DEBUG_COUNT;
 const gData = {
-  nodes: [...Array(N).keys()].map(i => ({ id: i, hexcode: openMojiData[i].hexcode })),
+  nodes: [...Array(N).keys()].map(i => ({ id: i })),
   links: [...Array(N).keys()]
     .filter(id => id)
     .map(id => ({
@@ -141,11 +146,9 @@ function loadSVG(loader: SVGLoader, url: string, id: string) {
 }
 
 function loadAllSVG(loader: SVGLoader) {
-  let count = openMojiData.length
-  // debug load 30 for now
-  count = DEBUG_COUNT
+  let count = 0
 
-  for (let i = 0; i < count; i++) {
+  for (let i = 0; i < openMojiData.length; i++) {
     const emojiData = openMojiData[i]
     let emoji = emojiData.emoji
     let annotation = emojiData.annotation;
@@ -175,9 +178,12 @@ function loadAllSVG(loader: SVGLoader) {
     console.log(import.meta.env.BASE_URL)
     const url = `${import.meta.env.BASE_URL}openmoji/color/svg/${emojiData.hexcode}.svg`
     loadSVG(loader, url, emojiData.hexcode)
+    count += 1;
+    if (count > DEBUG_COUNT) {
+      break;
+    }
   }
 }
-
 // SVG test
 function loadSVGtoScene(url: string, scene: THREE.Scene) {
   console.log(url);
