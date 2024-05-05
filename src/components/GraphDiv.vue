@@ -172,7 +172,8 @@ function loadAllSVG(loader: SVGLoader) {
     else if (specialCases.missingFont.includes(emoji)) {
       continue;
     }
-    const url = `/openmoji/color/svg/${emojiData.hexcode}.svg`
+    console.log(import.meta.env.BASE_URL)
+    const url = `${import.meta.env.BASE_URL}openmoji/color/svg/${emojiData.hexcode}.svg`
     loadSVG(loader, url, emojiData.hexcode)
   }
 }
