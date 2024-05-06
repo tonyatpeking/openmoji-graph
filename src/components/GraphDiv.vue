@@ -10,6 +10,8 @@ import * as THREE from 'three';
 const DEBUG_COUNT = 100
 const loadingManager = new THREE.LoadingManager();
 const loader = new SVGLoader(loadingManager);
+const SVGOffsetX = -36;
+const SVGOffsetY = 36;
 
 const greetMsg = ref("");
 
@@ -43,6 +45,9 @@ loadingManager.onLoad = function () {
     });
   console.log(Graph.length);
   //loadSVGtoScene(tigerUrl, Graph.scene());
+
+  let { nodes, links } = Graph.graphData();
+  console.log(nodes);
 };
 
 // Display all emojis
@@ -103,10 +108,7 @@ const gData = {
 function loadSVG(loader: SVGLoader, url: string, id: string) {
   loader.load(url, function (data: any) {
     const group = new THREE.Group();
-    group.scale.multiplyScalar(0.25);
-    group.position.x = - 70;
-    group.position.y = 70;
-    group.scale.y *= - 1;
+
     let renderOrder = 0;
     for (const path of data.paths) {
       if (!path.userData) {
@@ -126,6 +128,9 @@ function loadSVG(loader: SVGLoader, url: string, id: string) {
           const geometry = new THREE.ShapeGeometry(shape);
           const mesh = new THREE.Mesh(geometry, material);
           mesh.renderOrder = renderOrder++;
+          mesh.position.x += SVGOffsetX;
+          mesh.position.y += SVGOffsetY;
+          mesh.scale.y *= -1;
           group.add(mesh);
         }
       }
@@ -143,6 +148,9 @@ function loadSVG(loader: SVGLoader, url: string, id: string) {
           if (geometry) {
             const mesh = new THREE.Mesh(geometry, material);
             mesh.renderOrder = renderOrder++;
+            mesh.position.x += SVGOffsetX;
+            mesh.position.y += SVGOffsetY;
+            mesh.scale.y *= -1;
             group.add(mesh);
           }
         }
