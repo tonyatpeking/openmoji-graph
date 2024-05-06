@@ -13,5 +13,6 @@
         "**/dist": true,
         "**/target": true,
         "**/node_modules": true
-    }
+    },
+    "search.followSymlinks": false
 }

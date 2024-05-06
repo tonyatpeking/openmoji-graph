@@ -37,10 +37,10 @@ loadingManager.onLoad = function () {
   const Graph = ForceGraph3D()
     (canvasDiv.value!)
     .nodeRelSize(NodeCollisionRadius);
+
   Graph
     .nodeThreeObject((o: any) => { return loadedEmojisIndexed.get(o.id)! })
     .graphData(gData)
-    .d3Force('collide', forceCollide(Graph.nodeRelSize()))
     .numDimensions(2)
     .onNodeDrag((node: any) => {
       // setting fx and fy will pin the node
@@ -48,7 +48,17 @@ loadingManager.onLoad = function () {
       //node.fy = node.y;
       node.z = 0;
     });
-  Graph.d3Force('charge', null);
+
+  Graph.d3Force('collide', forceCollide(Graph.nodeRelSize()))
+
+  Graph.d3Force('charge')!
+    .strength(-300)
+    .distanceMin(1)
+    .distanceMax(400);
+
+  Graph.d3Force('link')!
+    .distance(40)
+    .strength(1);
   console.log(Graph.length);
   //loadSVGtoScene(tigerUrl, Graph.scene());
 
