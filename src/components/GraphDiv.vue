@@ -6,12 +6,14 @@ import specialCases from '../assets/data/special-cases.json';
 import ForceGraph3D from '3d-force-graph';
 import { SVGLoader } from 'three/addons/loaders/SVGLoader.js';
 import * as THREE from 'three';
+import { forceCollide, forceManyBody, forceLink, forceCenter } from 'd3-force-3d';
 
 const DEBUG_COUNT = 100
 const loadingManager = new THREE.LoadingManager();
 const loader = new SVGLoader(loadingManager);
 const SVGOffsetX = -36;
 const SVGOffsetY = 36;
+const NodeCollisionRadius = 36;
 
 const greetMsg = ref("");
 
@@ -34,15 +36,19 @@ loadingManager.onLoad = function () {
 
   const Graph = ForceGraph3D()
     (canvasDiv.value!)
+    .nodeRelSize(NodeCollisionRadius);
+  Graph
     .nodeThreeObject((o: any) => { return loadedEmojisIndexed.get(o.id)! })
     .graphData(gData)
+    .d3Force('collide', forceCollide(Graph.nodeRelSize()))
     .numDimensions(2)
-    .onNodeDragEnd((node: any) => {
+    .onNodeDrag((node: any) => {
       // setting fx and fy will pin the node
       //node.fx = node.x;
       //node.fy = node.y;
       node.z = 0;
     });
+  Graph.d3Force('charge', null);
   console.log(Graph.length);
   //loadSVGtoScene(tigerUrl, Graph.scene());
 
