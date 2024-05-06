@@ -54,7 +54,7 @@ loadingManager.onLoad = function () {
   Graph.d3Force('charge')!
     .strength(-300)
     .distanceMin(1)
-    .distanceMax(400);
+    .distanceMax(200);
 
   Graph.d3Force('link')!
     .distance(40)
