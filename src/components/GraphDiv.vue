@@ -33,7 +33,8 @@ loadingManager.onLoad = function () {
   const Graph = ForceGraph3D()
     (canvasDiv.value!)
     .nodeThreeObject((o: any) => { return loadedEmojisIndexed.get(o.id)! })
-    .graphData(gData);
+    .graphData(gData)
+    .numDimensions(2);
   console.log(Graph.length);
   //loadSVGtoScene(tigerUrl, Graph.scene());
 };
