@@ -7,7 +7,7 @@ import ForceGraph3D from '3d-force-graph';
 import { SVGLoader } from 'three/addons/loaders/SVGLoader.js';
 import * as THREE from 'three';
 
-const DEBUG_COUNT = 300
+const DEBUG_COUNT = 100
 const loadingManager = new THREE.LoadingManager();
 const loader = new SVGLoader(loadingManager);
 
@@ -34,7 +34,10 @@ loadingManager.onLoad = function () {
     (canvasDiv.value!)
     .nodeThreeObject((o: any) => { return loadedEmojisIndexed.get(o.id)! })
     .graphData(gData)
-    .numDimensions(2);
+    .numDimensions(2)
+    .onNodeDragEnd((node: any) => {
+      node.z = 0;
+    });
   console.log(Graph.length);
   //loadSVGtoScene(tigerUrl, Graph.scene());
 };
@@ -84,7 +87,7 @@ for (let i = 0; i < count; i++) {
 // Graph Data
 const N = DEBUG_COUNT;
 const gData = {
-  nodes: [...Array(N).keys()].map(i => ({ id: i })),
+  nodes: [...Array(N).keys()].map(i => ({ id: i, fz: 0 })),
   links: [...Array(N).keys()]
     .filter(id => id)
     .map(id => ({
