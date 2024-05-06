@@ -36,6 +36,9 @@ loadingManager.onLoad = function () {
     .graphData(gData)
     .numDimensions(2)
     .onNodeDragEnd((node: any) => {
+      // setting fx and fy will pin the node
+      //node.fx = node.x;
+      //node.fy = node.y;
       node.z = 0;
     });
   console.log(Graph.length);
