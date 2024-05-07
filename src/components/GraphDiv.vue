@@ -37,9 +37,10 @@ loadingManager.onLoad = function () {
 
   loadedEmojisIndexed = new Map([...loadedEmojis.entries()].map(([_, v], i) => [i, v]));
 
-  Graph = ForceGraph3D()
+  Graph = ForceGraph3D({controlType: 'orbit'})
     (canvasDiv.value!)
     .nodeRelSize(NodeCollisionRadius);
+
 
   Graph
     .nodeThreeObject((o: any) => { return loadedEmojisIndexed.get(o.id)! })
@@ -75,10 +76,11 @@ loadingManager.onLoad = function () {
 
   const controls = Graph.controls();
 
-  // This really mean controls.mouseButtons.ROTATE = undefined
-  controls.mouseButtons.LEFT = undefined; 
-  // This means PAN is done with left
-  controls.mouseButtons.RIGHT = THREE.MOUSE.LEFT; // PAN is done with 
+  controls.mouseButtons.LEFT = THREE.MOUSE.PAN; 
+  controls.mouseButtons.MIDDLE = THREE.MOUSE.DOLLY; 
+  controls.mouseButtons.RIGHT = undefined; 
+  controls.touches.ONE = THREE.TOUCH.PAN;
+  controls.touches.TWO = THREE.TOUCH.DOLLY_PAN;
 
   let scene = Graph.scene();
 };
@@ -303,7 +305,6 @@ useResizeObserver(canvasDiv, (entries) => {
   if(Graph) {
     Graph.width(entries[0].contentRect.width);
     Graph.height(entries[0].contentRect.height);
-    Graph.controls().handleResize();
   }
 })
 
