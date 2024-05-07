@@ -1,4 +1,43 @@
 {
+  "happy": [
+    "1F600",
+    "1F604",
+    "1F601",
+    "1F60D",
+    "1F618",
+    "1F61A",
+    "1F64B",
+    "1F385",
+    "1F936",
+    "1F389",
+    "1F38A"
+  ],
+  "grin": [
+    "1F600",
+    "1F601",
+    "1F638"
+  ],
+  "smile": [
+    "1F600",
+    "1F603",
+    "1F604",
+    "1F601",
+    "1F606",
+    "1F605",
+    "1F642",
+    "1F60A",
+    "1F60D",
+    "263A",
+    "1F619",
+    "1F60B",
+    "1F92D",
+    "1F608",
+    "1F63A",
+    "1F638",
+    "1F639",
+    "1F63B",
+    "1F63C"
+  ],
   "face": [
     "1F600",
     "1F603",
@@ -152,44 +191,14 @@
     "1F5FF",
     "E280"
   ],
-  "grin": [
-    "1F600",
-    "1F601",
-    "1F638"
-  ],
-  "smile": [
-    "1F600",
+  "teeth": [
     "1F603",
     "1F604",
     "1F601",
-    "1F606",
-    "1F605",
-    "1F642",
-    "1F60A",
-    "1F60D",
-    "263A",
-    "1F619",
-    "1F60B",
-    "1F92D",
-    "1F608",
-    "1F63A",
-    "1F638",
-    "1F639",
-    "1F63B",
-    "1F63C"
-  ],
-  "happy": [
-    "1F600",
-    "1F604",
-    "1F601",
-    "1F60D",
-    "1F618",
-    "1F61A",
-    "1F64B",
-    "1F385",
-    "1F936",
-    "1F389",
-    "1F38A"
+    "1F417",
+    "1F430",
+    "1F407",
+    "1FAA5"
   ],
   "open": [
     "1F603",
@@ -212,12 +221,6 @@
     "1F16F",
     "229C"
   ],
-  "eyes": [
-    "1F603",
-    "1F929",
-    "1F644",
-    "1F440"
-  ],
   "mouth": [
     "1F603",
     "1F604",
@@ -233,14 +236,11 @@
     "1F444",
     "1F32C"
   ],
-  "teeth": [
+  "eyes": [
     "1F603",
-    "1F604",
-    "1F601",
-    "1F417",
-    "1F430",
-    "1F407",
-    "1FAA5"
+    "1F929",
+    "1F644",
+    "1F440"
   ],
   "eye": [
     "1F604",
@@ -299,12 +299,8 @@
     "1F30A",
     "E2C0"
   ],
-  "rotfl": [
+  "floor": [
     "1F923"
-  ],
-  "rolling": [
-    "1F923",
-    "1F644"
   ],
   "rofl": [
     "1F923"
@@ -312,8 +308,12 @@
   "tears": [
     "1F923"
   ],
-  "floor": [
+  "rotfl": [
     "1F923"
+  ],
+  "rolling": [
+    "1F923",
+    "1F644"
   ],
   "tear": [
     "1F602",
@@ -335,13 +335,6 @@
   "upside-down": [
     "1F643"
   ],
-  "disappear": [
-    "1FAE0",
-    "1FAE5"
-  ],
-  "dissolve": [
-    "1FAE0"
-  ],
   "melt": [
     "1FAE0",
     "E2C1",
@@ -353,22 +346,19 @@
     "1FAE0",
     "1F4A7"
   ],
+  "dissolve": [
+    "1FAE0"
+  ],
+  "disappear": [
+    "1FAE0",
+    "1FAE5"
+  ],
   "wink": [
     "1F609",
     "1F61C"
   ],
   "blush": [
     "1F60A"
-  ],
-  "innocent": [
-    "1F607"
-  ],
-  "halo": [
-    "1F607"
-  ],
-  "angel": [
-    "1F607",
-    "1F47C"
   ],
   "fantasy": [
     "1F607",
@@ -384,6 +374,19 @@
     "1F9CC",
     "1F52E"
   ],
+  "halo": [
+    "1F607"
+  ],
+  "innocent": [
+    "1F607"
+  ],
+  "angel": [
+    "1F607",
+    "1F47C"
+  ],
+  "crush": [
+    "1F970"
+  ],
   "adore": [
     "1F970"
   ],
@@ -394,9 +397,6 @@
     "1F970",
     "1F60D",
     "1F63B"
-  ],
-  "crush": [
-    "1F970"
   ],
   "love": [
     "1F60D",
@@ -428,16 +428,6 @@
     "1F3E9",
     "1F492"
   ],
-  "surprised": [
-    "1F929",
-    "1F62F",
-    "1F640"
-  ],
-  "grinning": [
-    "1F929",
-    "1F63A",
-    "1F638"
-  ],
   "star": [
     "1F929",
     "1F4AB",
@@ -454,6 +444,16 @@
     "1F52F",
     "2734"
   ],
+  "surprised": [
+    "1F929",
+    "1F62F",
+    "1F640"
+  ],
+  "grinning": [
+    "1F929",
+    "1F63A",
+    "1F638"
+  ],
   "kiss": [
     "1F618",
     "1F617",
@@ -468,14 +468,14 @@
     "1F468-200D-2764-FE0F-200D-1F48B-200D-1F468",
     "1F469-200D-2764-FE0F-200D-1F48B-200D-1F469"
   ],
-  "relaxed": [
-    "263A"
-  ],
   "outlined": [
     "263A",
     "2754",
     "2755",
     "1F533"
+  ],
+  "relaxed": [
+    "263A"
   ],
   "closed": [
     "1F61A",
@@ -485,10 +485,10 @@
     "1F512",
     "1F510"
   ],
-  "smiling": [
+  "touched": [
     "1F972"
   ],
-  "grateful": [
+  "smiling": [
     "1F972"
   ],
   "relieved": [
@@ -496,17 +496,13 @@
     "1F60C",
     "1F625"
   ],
+  "grateful": [
+    "1F972"
+  ],
   "proud": [
     "1F972",
     "1F979",
     "1F99A"
-  ],
-  "touched": [
-    "1F972"
-  ],
-  "yummy": [
-    "1F60B",
-    "1F924"
   ],
   "tongue": [
     "1F60B",
@@ -516,17 +512,25 @@
     "1F911",
     "1F445"
   ],
-  "delicious": [
-    "1F60B"
-  ],
   "yum": [
     "1F60B"
   ],
   "savouring": [
     "1F60B"
   ],
+  "yummy": [
+    "1F60B",
+    "1F924"
+  ],
+  "delicious": [
+    "1F60B"
+  ],
   "joke": [
     "1F61C"
+  ],
+  "goofy": [
+    "1F92A",
+    "E283"
   ],
   "small": [
     "1F92A",
@@ -536,10 +540,6 @@
     "1F990",
     "1F324"
   ],
-  "goofy": [
-    "1F92A",
-    "E283"
-  ],
   "large": [
     "1F92A",
     "1F9A3",
@@ -547,11 +547,17 @@
     "1F325",
     "2B55"
   ],
+  "taste": [
+    "1F61D"
+  ],
   "horrible": [
     "1F61D"
   ],
-  "taste": [
-    "1F61D"
+  "dollar": [
+    "1F911",
+    "1F4B0",
+    "1F4B5",
+    "1F4B2"
   ],
   "money": [
     "1F911",
@@ -571,31 +577,28 @@
     "1F4B1",
     "1F4B2"
   ],
-  "dollar": [
-    "1F911",
-    "1F4B0",
-    "1F4B5",
-    "1F4B2"
+  "hugging": [
+    "1F917"
   ],
   "hands": [
     "1F917",
     "1F64C",
     "1F450"
   ],
-  "hugging": [
-    "1F917"
-  ],
   "open hands": [
     "1F917",
     "1F450"
+  ],
+  "smiling face": [
+    "1F917"
   ],
   "hug": [
     "1F917",
     "1F450",
     "1FAC2"
   ],
-  "smiling face": [
-    "1F917"
+  "whoops": [
+    "1F92D"
   ],
   "hand": [
     "1F92D",
@@ -649,17 +652,11 @@
     "E10A",
     "E10B"
   ],
-  "whoops": [
+  "covering": [
     "1F92D"
   ],
   "giggling": [
     "1F92D"
-  ],
-  "covering": [
-    "1F92D"
-  ],
-  "amazement": [
-    "1FAE2"
   ],
   "disbelief": [
     "1FAE2",
@@ -668,31 +665,31 @@
     "1F926-200D-2640-FE0F",
     "E281"
   ],
+  "amazement": [
+    "1FAE2"
+  ],
   "scared": [
     "1FAE2",
     "1F628",
     "1F631"
   ],
-  "embarrass": [
+  "surprise": [
     "1FAE2"
   ],
   "awe": [
     "1FAE2"
   ],
-  "surprise": [
+  "embarrass": [
     "1FAE2"
   ],
   "stare": [
     "1FAE3"
   ],
-  "captivated": [
-    "1FAE3"
-  ],
   "peep": [
     "1FAE3"
   ],
-  "shush": [
-    "1F92B"
+  "captivated": [
+    "1FAE3"
   ],
   "silent": [
     "1F92B",
@@ -706,11 +703,10 @@
     "1F507",
     "1F515"
   ],
-  "curious": [
-    "1F914",
-    "1F99D"
+  "shush": [
+    "1F92B"
   ],
-  "overthinking": [
+  "thinking": [
     "1F914"
   ],
   "frown": [
@@ -721,15 +717,27 @@
     "1F626",
     "1F64D"
   ],
-  "thinking": [
-    "1F914"
-  ],
   "chin": [
     "1F914"
   ],
-  "yes": [
+  "curious": [
+    "1F914",
+    "1F99D"
+  ],
+  "overthinking": [
+    "1F914"
+  ],
+  "sunny": [
     "1FAE1",
-    "1F44D"
+    "2600",
+    "26C5",
+    "1F324"
+  ],
+  "salute": [
+    "1FAE1"
+  ],
+  "troops": [
+    "1FAE1"
   ],
   "ok": [
     "1FAE1",
@@ -739,17 +747,9 @@
     "1F646-200D-2640-FE0F",
     "1F197"
   ],
-  "salute": [
-    "1FAE1"
-  ],
-  "sunny": [
+  "yes": [
     "1FAE1",
-    "2600",
-    "26C5",
-    "1F324"
-  ],
-  "troops": [
-    "1FAE1"
+    "1F44D"
   ],
   "zipper": [
     "1F910"
@@ -763,7 +763,7 @@
   "skeptic": [
     "1F928"
   ],
-  "deadpan": [
+  "neutral": [
     "1F610"
   ],
   "poker face": [
@@ -775,15 +775,15 @@
     "1F615",
     "1FAE4"
   ],
-  "neutral": [
+  "deadpan": [
     "1F610"
-  ],
-  "inexpressive": [
-    "1F611"
   ],
   "unamused": [
     "1F611",
     "1F612"
+  ],
+  "inexpressive": [
+    "1F611"
   ],
   "unexpressive": [
     "1F611"
@@ -799,26 +799,26 @@
   "shhh": [
     "1F636"
   ],
-  "invisible": [
-    "1FAE5"
+  "depressed": [
+    "1FAE5",
+    "1F63F"
   ],
-  "introvert": [
+  "invisible": [
     "1FAE5"
   ],
   "hide": [
     "1FAE5"
   ],
-  "depressed": [
-    "1FAE5",
-    "1F63F"
-  ],
-  "face in the fog": [
-    "1F636-200D-1F32B-FE0F"
+  "introvert": [
+    "1FAE5"
   ],
   "absentminded": [
     "1F636-200D-1F32B-FE0F"
   ],
   "head in clouds": [
+    "1F636-200D-1F32B-FE0F"
+  ],
+  "face in the fog": [
     "1F636-200D-1F32B-FE0F"
   ],
   "smirk": [
@@ -837,29 +837,23 @@
   "grimace": [
     "1F62C"
   ],
-  "gasp": [
-    "1F62E-200D-1F4A8"
-  ],
-  "relief": [
-    "1F62E-200D-1F4A8"
-  ],
   "whisper": [
     "1F62E-200D-1F4A8"
   ],
-  "exhale": [
-    "1F62E-200D-1F4A8"
-  ],
-  "whistle": [
+  "gasp": [
     "1F62E-200D-1F4A8"
   ],
   "groan": [
     "1F62E-200D-1F4A8"
   ],
-  "nose": [
-    "1F925",
-    "1F978",
-    "1F443",
-    "1F43D"
+  "exhale": [
+    "1F62E-200D-1F4A8"
+  ],
+  "relief": [
+    "1F62E-200D-1F4A8"
+  ],
+  "whistle": [
+    "1F62E-200D-1F4A8"
   ],
   "lie": [
     "1F925"
@@ -871,33 +865,30 @@
   "pinocchio": [
     "1F925"
   ],
-  "shaking": [
-    "1FAE8"
+  "nose": [
+    "1F925",
+    "1F978",
+    "1F443",
+    "1F43D"
   ],
   "shock": [
     "1FAE8"
   ],
-  "vibrate": [
+  "shaking": [
     "1FAE8"
   ],
   "earthquake": [
     "1FAE8"
   ],
-  "dejected": [
-    "1F614"
+  "vibrate": [
+    "1FAE8"
   ],
   "pensive": [
     "1F614",
     "E282"
   ],
-  "good night": [
-    "1F62A",
-    "1F634",
-    "1F4A4",
-    "1F6CC"
-  ],
-  "snot bubble": [
-    "1F62A"
+  "dejected": [
+    "1F614"
   ],
   "sleep": [
     "1F62A",
@@ -911,15 +902,20 @@
   "side-tear": [
     "1F62A"
   ],
+  "snot bubble": [
+    "1F62A"
+  ],
+  "good night": [
+    "1F62A",
+    "1F634",
+    "1F4A4",
+    "1F6CC"
+  ],
   "drooling": [
     "1F924"
   ],
   "hungry": [
     "1F924"
-  ],
-  "zzz": [
-    "1F634",
-    "1F4A4"
   ],
   "tired": [
     "1F634",
@@ -928,22 +924,9 @@
     "1F971",
     "E280"
   ],
-  "sick": [
-    "1F637",
-    "1F912",
-    "1F92E",
-    "1F321",
-    "1F489",
-    "1F48A"
-  ],
-  "mask": [
-    "1F637",
-    "1F3AD",
-    "E145"
-  ],
-  "ill": [
-    "1F637",
-    "1F912"
+  "zzz": [
+    "1F634",
+    "1F4A4"
   ],
   "doctor": [
     "1F637",
@@ -957,9 +940,22 @@
     "1FA7A",
     "1FA7B"
   ],
-  "thermometer": [
+  "ill": [
+    "1F637",
+    "1F912"
+  ],
+  "mask": [
+    "1F637",
+    "1F3AD",
+    "E145"
+  ],
+  "sick": [
+    "1F637",
     "1F912",
-    "E0B3"
+    "1F92E",
+    "1F321",
+    "1F489",
+    "1F48A"
   ],
   "fever": [
     "1F912",
@@ -967,13 +963,9 @@
     "1F321",
     "E324"
   ],
-  "hurt": [
-    "1F915",
-    "1FA7C"
-  ],
-  "injury": [
-    "1F915",
-    "1FA78"
+  "thermometer": [
+    "1F912",
+    "E0B3"
   ],
   "head": [
     "1F915",
@@ -989,6 +981,14 @@
     "1F926-200D-2640-FE0F",
     "1F937",
     "1F5E3"
+  ],
+  "injury": [
+    "1F915",
+    "1FA78"
+  ],
+  "hurt": [
+    "1F915",
+    "1FA7C"
   ],
   "bandage": [
     "1F915",
@@ -1035,13 +1035,13 @@
   "sneeze": [
     "1F927"
   ],
+  "heat stroke": [
+    "1F975"
+  ],
   "sweating": [
     "1F975"
   ],
   "feverish": [
-    "1F975"
-  ],
-  "heat stroke": [
     "1F975"
   ],
   "red-faced": [
@@ -1063,28 +1063,20 @@
     "1F525",
     "1FAAD"
   ],
+  "frostbite": [
+    "1F976"
+  ],
   "icicles": [
     "1F976"
   ],
   "blue-faced": [
     "1F976"
   ],
-  "frostbite": [
-    "1F976"
-  ],
   "freezing": [
     "1F976"
   ],
-  "intoxicated": [
-    "1F974"
-  ],
   "wavy mouth": [
     "1F974"
-  ],
-  "dizzy": [
-    "1F974",
-    "1F635-200D-1F4AB",
-    "1F300"
   ],
   "tipsy": [
     "1F974"
@@ -1092,26 +1084,28 @@
   "uneven eyes": [
     "1F974"
   ],
-  "dead eyes": [
+  "dizzy": [
+    "1F974",
+    "1F635-200D-1F4AB",
+    "1F300"
+  ],
+  "intoxicated": [
+    "1F974"
+  ],
+  "knocked out": [
     "1F635"
   ],
   "dead": [
     "1F635",
     "26B0"
   ],
+  "dead eyes": [
+    "1F635"
+  ],
   "crossed-out eyes": [
     "1F635"
   ],
-  "knocked out": [
-    "1F635"
-  ],
-  "whoa": [
-    "1F635-200D-1F4AB"
-  ],
   "trouble": [
-    "1F635-200D-1F4AB"
-  ],
-  "hypnotized": [
     "1F635-200D-1F4AB"
   ],
   "spiral": [
@@ -1121,8 +1115,11 @@
     "1F5D2",
     "1F5D3"
   ],
-  "mind blown": [
-    "1F92F"
+  "hypnotized": [
+    "1F635-200D-1F4AB"
+  ],
+  "whoa": [
+    "1F635-200D-1F4AB"
   ],
   "shocked": [
     "1F92F",
@@ -1134,6 +1131,16 @@
     "1F4A5",
     "1F4A3"
   ],
+  "mind blown": [
+    "1F92F"
+  ],
+  "cowgirl": [
+    "1F920"
+  ],
+  "cowboy": [
+    "1F920",
+    "1F3F4-E0075-E0073-E0074-E0078-E007F"
+  ],
   "hat": [
     "1F920",
     "1F973",
@@ -1144,15 +1151,26 @@
     "1F393",
     "26D1"
   ],
-  "cowgirl": [
-    "1F920"
-  ],
-  "cowboy": [
-    "1F920",
-    "1F3F4-E0075-E0073-E0074-E0078-E007F"
-  ],
   "howdy": [
     "1F920"
+  ],
+  "party": [
+    "1F973",
+    "1F37E",
+    "1F378",
+    "1F379",
+    "1F37A",
+    "1F37B",
+    "1F942",
+    "1F388",
+    "1F389",
+    "1F380",
+    "1FA85",
+    "1FAA9",
+    "1F468-200D-1FAA9",
+    "1F469-200D-1FAA9",
+    "1F9D1-200D-1FAA9",
+    "E181"
   ],
   "celebration": [
     "1F973",
@@ -1180,24 +1198,6 @@
     "1FA85",
     "1F393"
   ],
-  "party": [
-    "1F973",
-    "1F37E",
-    "1F378",
-    "1F379",
-    "1F37A",
-    "1F37B",
-    "1F942",
-    "1F388",
-    "1F389",
-    "1F380",
-    "1FA85",
-    "1FAA9",
-    "1F468-200D-1FAA9",
-    "1F469-200D-1FAA9",
-    "1F9D1-200D-1FAA9",
-    "E181"
-  ],
   "horn": [
     "1F973",
     "1F98F",
@@ -1216,18 +1216,6 @@
     "1F468-200D-1F4BB",
     "1F469-200D-1F4BB",
     "1F576"
-  ],
-  "bright": [
-    "1F60E",
-    "2600",
-    "1F31D",
-    "1F31E",
-    "1F31F",
-    "1F320",
-    "1F4F8",
-    "1F56F",
-    "1F526",
-    "1F506"
   ],
   "sun": [
     "1F60E",
@@ -1251,10 +1239,6 @@
     "1F30A",
     "E2CD"
   ],
-  "sunglasses": [
-    "1F60E",
-    "1F576"
-  ],
   "cool": [
     "1F60E",
     "26C5",
@@ -1263,10 +1247,26 @@
     "1F327",
     "1F192"
   ],
-  "nerd": [
-    "1F913"
+  "sunglasses": [
+    "1F60E",
+    "1F576"
+  ],
+  "bright": [
+    "1F60E",
+    "2600",
+    "1F31D",
+    "1F31E",
+    "1F31F",
+    "1F320",
+    "1F4F8",
+    "1F56F",
+    "1F526",
+    "1F506"
   ],
   "geek": [
+    "1F913"
+  ],
+  "nerd": [
     "1F913"
   ],
   "learning": [
@@ -1291,9 +1291,6 @@
   "unsure": [
     "1FAE4"
   ],
-  "skeptical": [
-    "1FAE4"
-  ],
   "disappointed": [
     "1FAE4",
     "1F625",
@@ -1301,10 +1298,8 @@
     "E282",
     "E283"
   ],
-  "worried": [
-    "1F61F",
-    "1F630",
-    "1FAE6"
+  "skeptical": [
+    "1FAE4"
   ],
   "sad": [
     "1F61F",
@@ -1316,6 +1311,11 @@
     "1F63E",
     "1F64E",
     "1F940"
+  ],
+  "worried": [
+    "1F61F",
+    "1F630",
+    "1FAE6"
   ],
   "negative": [
     "2639",
@@ -1331,29 +1331,38 @@
   "stunned": [
     "1F62F"
   ],
-  "astonished": [
-    "1F632"
-  ],
   "totally": [
     "1F632"
   ],
-  "flushed": [
-    "1F633"
+  "astonished": [
+    "1F632"
   ],
   "red jaws": [
+    "1F633"
+  ],
+  "flushed": [
     "1F633"
   ],
   "dazed": [
     "1F633"
   ],
-  "mercy": [
+  "puppy eyes": [
     "1F97A"
   ],
-  "puppy eyes": [
+  "mercy": [
     "1F97A"
   ],
   "begging": [
     "1F97A"
+  ],
+  "resist": [
+    "1F979"
+  ],
+  "cry": [
+    "1F979",
+    "1F622",
+    "1F62D",
+    "1F63F"
   ],
   "angry": [
     "1F979",
@@ -1366,28 +1375,27 @@
     "1F64D",
     "1F417"
   ],
-  "resist": [
-    "1F979"
-  ],
-  "cry": [
-    "1F979",
-    "1F622",
-    "1F62D",
-    "1F63F"
-  ],
   "anguished": [
     "1F627"
-  ],
-  "fearful": [
-    "1F628"
   ],
   "fear": [
     "1F628",
     "1F631",
     "1FAE6"
   ],
+  "fearful": [
+    "1F628"
+  ],
   "rushed": [
     "1F630"
+  ],
+  "considerate": [
+    "1F630"
+  ],
+  "anxious": [
+    "1F630",
+    "1F625",
+    "1FAE6"
   ],
   "blue": [
     "1F630",
@@ -1400,38 +1408,30 @@
     "1F537",
     "1F539"
   ],
-  "considerate": [
-    "1F630"
-  ],
-  "anxious": [
-    "1F630",
-    "1F625",
-    "1FAE6"
-  ],
   "whew": [
     "1F625"
   ],
   "sob": [
     "1F62D"
   ],
-  "munch": [
+  "open mouth": [
     "1F631"
   ],
   "scream": [
     "1F631"
   ],
-  "open mouth": [
+  "munch": [
     "1F631"
   ],
   "confounded": [
     "1F616"
   ],
-  "persevere": [
-    "1F623"
-  ],
   "ouch": [
     "1F623",
     "1FABC"
+  ],
+  "persevere": [
+    "1F623"
   ],
   "distraught": [
     "1F629"
@@ -1456,21 +1456,8 @@
   "won": [
     "1F624"
   ],
-  "mad": [
-    "1F621",
-    "1F620",
-    "1F4A2",
-    "1F5EF"
-  ],
   "enraged": [
     "1F621"
-  ],
-  "pouting": [
-    "1F621",
-    "1F63E",
-    "1F64E",
-    "1F64E-200D-2642-FE0F",
-    "1F64E-200D-2640-FE0F"
   ],
   "rage": [
     "1F621"
@@ -1502,6 +1489,19 @@
     "1F53B",
     "E10C"
   ],
+  "pouting": [
+    "1F621",
+    "1F63E",
+    "1F64E",
+    "1F64E-200D-2642-FE0F",
+    "1F64E-200D-2640-FE0F"
+  ],
+  "mad": [
+    "1F621",
+    "1F620",
+    "1F4A2",
+    "1F5EF"
+  ],
   "anger": [
     "1F620"
   ],
@@ -1523,9 +1523,6 @@
     "1F410",
     "1F3BA"
   ],
-  "malicious": [
-    "1F608"
-  ],
   "fairy tale": [
     "1F608",
     "1F480",
@@ -1540,18 +1537,25 @@
     "1F409",
     "1F52E"
   ],
-  "mean": [
-    "1F47F"
+  "malicious": [
+    "1F608"
   ],
   "demon": [
+    "1F47F"
+  ],
+  "imp": [
     "1F47F"
   ],
   "devil": [
     "1F47F",
     "1F918"
   ],
-  "imp": [
+  "mean": [
     "1F47F"
+  ],
+  "skull": [
+    "1F480",
+    "2620"
   ],
   "monster": [
     "1F480",
@@ -1570,20 +1574,16 @@
     "26B0",
     "26B1"
   ],
-  "skull": [
-    "1F480",
-    "2620"
-  ],
   "crossbones": [
     "2620"
+  ],
+  "poop": [
+    "1F4A9"
   ],
   "dung": [
     "1F4A9"
   ],
   "poo": [
-    "1F4A9"
-  ],
-  "poop": [
     "1F4A9"
   ],
   "clown": [
@@ -1599,10 +1599,6 @@
   "ghost": [
     "1F47B"
   ],
-  "extraterrestrial": [
-    "1F47D",
-    "1F47E"
-  ],
   "ufo": [
     "1F47D",
     "1F47E",
@@ -1614,6 +1610,10 @@
     "1F680",
     "1F6F8",
     "E20B"
+  ],
+  "extraterrestrial": [
+    "1F47D",
+    "1F47E"
   ],
   "cat": [
     "1F63A",
@@ -1653,25 +1653,20 @@
     "1F492",
     "1FA7A"
   ],
-  "wry": [
-    "1F63C"
-  ],
   "ironic": [
     "1F63C"
   ],
-  "wow": [
-    "1F640"
+  "wry": [
+    "1F63C"
   ],
   "oh": [
     "1F640"
   ],
-  "monkey": [
-    "1F648",
-    "1F649",
-    "1F64A",
-    "1F435",
-    "1F412",
-    "1F98D"
+  "wow": [
+    "1F640"
+  ],
+  "see": [
+    "1F648"
   ],
   "forbidden": [
     "1F648",
@@ -1698,8 +1693,13 @@
     "1F9B9-200D-2642-FE0F",
     "1F9B9-200D-2640-FE0F"
   ],
-  "see": [
-    "1F648"
+  "monkey": [
+    "1F648",
+    "1F649",
+    "1F64A",
+    "1F435",
+    "1F412",
+    "1F98D"
   ],
   "hear": [
     "1F649",
@@ -1710,14 +1710,6 @@
     "1F64A",
     "1F5E3",
     "E24A"
-  ],
-  "letter": [
-    "1F48C",
-    "2709",
-    "1F4E7",
-    "1F4E8",
-    "1F4E4",
-    "1F4E5"
   ],
   "mail": [
     "1F48C",
@@ -1731,8 +1723,13 @@
     "1F4ED",
     "1F4EE"
   ],
-  "cupid": [
-    "1F498"
+  "letter": [
+    "1F48C",
+    "2709",
+    "1F4E7",
+    "1F4E8",
+    "1F4E4",
+    "1F4E5"
   ],
   "arrow": [
     "1F498",
@@ -1779,13 +1776,13 @@
     "1F53B",
     "E0A6"
   ],
+  "cupid": [
+    "1F498"
+  ],
   "inlove": [
     "1F498",
     "1F496",
     "1F497"
-  ],
-  "valentine": [
-    "1F49D"
   ],
   "present": [
     "1F49D",
@@ -1793,6 +1790,9 @@
     "1F339",
     "1F380",
     "1F381"
+  ],
+  "valentine": [
+    "1F49D"
   ],
   "ribbon": [
     "1F49D",
@@ -1812,6 +1812,10 @@
     "1F496",
     "1F497"
   ],
+  "pulse": [
+    "1F497",
+    "1FAC0"
+  ],
   "growing": [
     "1F497",
     "1F331"
@@ -1820,17 +1824,13 @@
     "1F497",
     "1FAE6"
   ],
-  "pulse": [
-    "1F497",
-    "1FAC0"
-  ],
-  "beating": [
-    "1F493"
-  ],
   "pulsating": [
     "1F493"
   ],
   "heartbeat": [
+    "1F493"
+  ],
+  "beating": [
     "1F493"
   ],
   "revolving": [
@@ -1873,15 +1873,20 @@
     "2755",
     "2757"
   ],
-  "heartbreak": [
+  "break": [
     "1F494"
   ],
   "broken": [
     "1F494",
     "E31F"
   ],
-  "break": [
+  "heartbreak": [
     "1F494"
+  ],
+  "burn": [
+    "2764-FE0F-200D-1F525",
+    "1FABC",
+    "1F525"
   ],
   "lust": [
     "2764-FE0F-200D-1F525"
@@ -1889,36 +1894,28 @@
   "sacred heart": [
     "2764-FE0F-200D-1F525"
   ],
-  "burn": [
-    "2764-FE0F-200D-1F525",
-    "1FABC",
-    "1F525"
-  ],
-  "recuperating": [
-    "2764-FE0F-200D-1FA79"
-  ],
-  "mending": [
-    "2764-FE0F-200D-1FA79"
-  ],
-  "improving": [
-    "2764-FE0F-200D-1FA79"
-  ],
   "recovering": [
-    "2764-FE0F-200D-1FA79"
-  ],
-  "healthier": [
     "2764-FE0F-200D-1FA79"
   ],
   "well": [
     "2764-FE0F-200D-1FA79"
   ],
-  "cute": [
+  "healthier": [
+    "2764-FE0F-200D-1FA79"
+  ],
+  "improving": [
+    "2764-FE0F-200D-1FA79"
+  ],
+  "mending": [
+    "2764-FE0F-200D-1FA79"
+  ],
+  "recuperating": [
+    "2764-FE0F-200D-1FA79"
+  ],
+  "like": [
     "1FA77",
-    "1F42D",
-    "1F401",
-    "1F430",
-    "1F407",
-    "1F43C"
+    "1F44D",
+    "1FAC2"
   ],
   "pink": [
     "1FA77",
@@ -1930,10 +1927,13 @@
     "1F337",
     "1F351"
   ],
-  "like": [
+  "cute": [
     "1FA77",
-    "1F44D",
-    "1FAC2"
+    "1F42D",
+    "1F401",
+    "1F430",
+    "1F407",
+    "1F43C"
   ],
   "orange": [
     "1F9E1",
@@ -1960,13 +1960,13 @@
     "1F7E1",
     "1F7E8"
   ],
-  "cyan": [
+  "light blue": [
     "1FA75"
   ],
   "teal": [
     "1FA75"
   ],
-  "light blue": [
+  "cyan": [
     "1FA75"
   ],
   "purple": [
@@ -1982,9 +1982,6 @@
     "1F7E4",
     "1F7EB"
   ],
-  "wicked": [
-    "1F5A4"
-  ],
   "black": [
     "1F5A4",
     "1F408-200D-2B1B",
@@ -1992,6 +1989,9 @@
     "1F403",
     "1F426-200D-2B1B",
     "1F54B"
+  ],
+  "wicked": [
+    "1F5A4"
   ],
   "silver": [
     "1FA76",
@@ -2029,15 +2029,12 @@
     "1F48B",
     "1F444"
   ],
-  "perfect": [
+  "excellent": [
+    "1F4AF"
+  ],
+  "score": [
     "1F4AF",
-    "1F44C"
-  ],
-  "hundred": [
-    "1F4AF"
-  ],
-  "100": [
-    "1F4AF"
+    "1F3BC"
   ],
   "full": [
     "1F4AF",
@@ -2046,12 +2043,15 @@
     "1F315",
     "1F31D"
   ],
-  "excellent": [
+  "100": [
     "1F4AF"
   ],
-  "score": [
+  "perfect": [
     "1F4AF",
-    "1F3BC"
+    "1F44C"
+  ],
+  "hundred": [
+    "1F4AF"
   ],
   "comic": [
     "1F4A2",
@@ -2077,17 +2077,17 @@
   "splashing": [
     "1F4A6"
   ],
+  "dash": [
+    "1F4A8",
+    "3030",
+    "002D"
+  ],
   "running": [
     "1F4A8",
     "1F3C3",
     "1F3C3-200D-2642-FE0F",
     "1F3C3-200D-2640-FE0F",
     "1F3BD"
-  ],
-  "dash": [
-    "1F4A8",
-    "3030",
-    "002D"
   ],
   "hole": [
     "1F573",
@@ -2098,24 +2098,11 @@
     "1F99C",
     "E24A"
   ],
-  "dialog": [
-    "1F4AC",
-    "1F5E8",
-    "E248"
-  ],
   "speech": [
     "1F4AC",
     "1F441-FE0F-200D-1F5E8-FE0F",
     "1F5E8",
     "1F3A4"
-  ],
-  "balloon": [
-    "1F4AC",
-    "1F441-FE0F-200D-1F5E8-FE0F",
-    "1F5E8",
-    "1F5EF",
-    "1F4AD",
-    "1F388"
   ],
   "bubble": [
     "1F4AC",
@@ -2126,16 +2113,29 @@
     "1F9CB",
     "E24A"
   ],
+  "balloon": [
+    "1F4AC",
+    "1F441-FE0F-200D-1F5E8-FE0F",
+    "1F5E8",
+    "1F5EF",
+    "1F4AD",
+    "1F388"
+  ],
+  "dialog": [
+    "1F4AC",
+    "1F5E8",
+    "E248"
+  ],
   "speech bubble": [
     "1F441-FE0F-200D-1F5E8-FE0F"
   ],
   "witness": [
     "1F441-FE0F-200D-1F5E8-FE0F"
   ],
-  "thought": [
+  "think": [
     "1F4AD"
   ],
-  "think": [
+  "thought": [
     "1F4AD"
   ],
   "night": [
@@ -2153,19 +2153,19 @@
     "1F91D",
     "1FAC2"
   ],
-  "waving hand sign": [
-    "1F44B"
+  "wave": [
+    "1F44B",
+    "1F3C4",
+    "1F30A",
+    "E189"
   ],
   "goodbye": [
     "1F44B",
     "1F91D",
     "1FAC2"
   ],
-  "wave": [
-    "1F44B",
-    "1F3C4",
-    "1F30A",
-    "E189"
+  "waving hand sign": [
+    "1F44B"
   ],
   "waving": [
     "1F44B"
@@ -2183,10 +2183,8 @@
     "1F446",
     "1F447"
   ],
-  "five": [
-    "1F590",
-    "1F554",
-    "1F560"
+  "five hand": [
+    "1F590"
   ],
   "finger": [
     "1F590",
@@ -2205,17 +2203,13 @@
     "E10A",
     "E10B"
   ],
-  "five hand": [
-    "1F590"
+  "five": [
+    "1F590",
+    "1F554",
+    "1F560"
   ],
   "splayed": [
     "1F590"
-  ],
-  "raise": [
-    "270B"
-  ],
-  "raised hand": [
-    "270B"
   ],
   "high five": [
     "270B",
@@ -2223,15 +2217,15 @@
     "1FAF8",
     "1F64F"
   ],
+  "raise": [
+    "270B"
+  ],
+  "raised hand": [
+    "270B"
+  ],
   "high 5": [
     "270B",
     "1F64F"
-  ],
-  "star trek": [
-    "1F596"
-  ],
-  "vulcan": [
-    "1F596"
   ],
   "fingers": [
     "1F596",
@@ -2240,6 +2234,16 @@
   ],
   "spock": [
     "1F596"
+  ],
+  "star trek": [
+    "1F596"
+  ],
+  "vulcan": [
+    "1F596"
+  ],
+  "rightward": [
+    "1FAF1",
+    "1FAF8"
   ],
   "right": [
     "1FAF1",
@@ -2255,10 +2259,6 @@
     "E10A",
     "E1C3"
   ],
-  "rightward": [
-    "1FAF1",
-    "1FAF8"
-  ],
   "left": [
     "1FAF2",
     "1F448",
@@ -2273,10 +2273,10 @@
     "1FAF2",
     "1FAF7"
   ],
-  "dismiss": [
+  "shoo": [
     "1FAF3"
   ],
-  "shoo": [
+  "dismiss": [
     "1FAF3"
   ],
   "drop": [
@@ -2285,12 +2285,6 @@
     "2614",
     "1F4A7"
   ],
-  "offer": [
-    "1FAF4"
-  ],
-  "beckon": [
-    "1FAF4"
-  ],
   "catch": [
     "1FAF4",
     "1FA9D"
@@ -2298,9 +2292,11 @@
   "come": [
     "1FAF4"
   ],
-  "wait": [
-    "1FAF7",
-    "1FAF8"
+  "beckon": [
+    "1FAF4"
+  ],
+  "offer": [
+    "1FAF4"
   ],
   "push": [
     "1FAF7",
@@ -2318,6 +2314,10 @@
     "23F9",
     "E10C"
   ],
+  "wait": [
+    "1FAF7",
+    "1FAF8"
+  ],
   "refuse": [
     "1FAF7",
     "1FAF8"
@@ -2326,42 +2326,42 @@
     "1F44C",
     "1F197"
   ],
-  "pinched": [
-    "1F90C"
-  ],
   "interrogation": [
-    "1F90C"
-  ],
-  "hand gesture": [
     "1F90C"
   ],
   "sarcastic": [
     "1F90C"
   ],
+  "pinched": [
+    "1F90C"
+  ],
+  "hand gesture": [
+    "1F90C"
+  ],
   "small amount": [
     "1F90F"
-  ],
-  "victory": [
-    "270C"
   ],
   "peace": [
     "270C",
     "1F54A",
     "262E"
   ],
-  "peace sign": [
+  "quotes": [
     "270C"
   ],
-  "air quotes": [
+  "v": [
     "270C"
   ],
   "V sign": [
     "270C"
   ],
-  "quotes": [
+  "peace sign": [
     "270C"
   ],
-  "v": [
+  "victory": [
+    "270C"
+  ],
+  "air quotes": [
     "270C"
   ],
   "cross": [
@@ -2374,25 +2374,22 @@
     "274C",
     "E264"
   ],
+  "fingers crossed": [
+    "1F91E"
+  ],
   "luck": [
     "1F91E",
     "1F340",
     "1F260"
   ],
-  "crossed": [
-    "1F91E",
-    "2694",
-    "1F500"
-  ],
-  "fingers crossed": [
-    "1F91E"
-  ],
   "good luck": [
     "1F91E",
     "1F9E7"
   ],
-  "snap": [
-    "1FAF0"
+  "crossed": [
+    "1F91E",
+    "2694",
+    "1F500"
   ],
   "expensive": [
     "1FAF0",
@@ -2400,14 +2397,20 @@
     "1F48D",
     "1F48E"
   ],
-  "ily": [
-    "1F91F"
+  "snap": [
+    "1FAF0"
   ],
   "heavy metal": [
     "1F91F",
     "1F918"
   ],
-  "devil fingers": [
+  "ily": [
+    "1F91F"
+  ],
+  "rock-on": [
+    "1F918"
+  ],
+  "rock on": [
     "1F918"
   ],
   "rock": [
@@ -2417,10 +2420,7 @@
     "1F469-200D-1F3A4",
     "1F94C"
   ],
-  "rock-on": [
-    "1F918"
-  ],
-  "rock on": [
+  "devil fingers": [
     "1F918"
   ],
   "heavy": [
@@ -2442,6 +2442,14 @@
   "shaka sign": [
     "1F919"
   ],
+  "call": [
+    "1F919",
+    "260E",
+    "1F4DE"
+  ],
+  "shaka": [
+    "1F919"
+  ],
   "phone": [
     "1F919",
     "1F933",
@@ -2454,25 +2462,25 @@
     "1F4F3",
     "1F4F4"
   ],
-  "call": [
-    "1F919",
-    "260E",
-    "1F4DE"
-  ],
-  "hang loose": [
+  "right on": [
     "1F919"
   ],
-  "right on": [
+  "hang loose": [
     "1F919"
   ],
   "call me hand": [
     "1F919"
   ],
-  "shaka": [
-    "1F919"
-  ],
   "point left": [
     "1F448"
+  ],
+  "point": [
+    "1F448",
+    "1F449",
+    "1F446",
+    "1F447",
+    "261D",
+    "1FAF5"
   ],
   "index": [
     "1F448",
@@ -2483,19 +2491,8 @@
     "1F5C2",
     "1F4C7"
   ],
-  "point": [
-    "1F448",
-    "1F449",
-    "1F446",
-    "1F447",
-    "261D",
-    "1FAF5"
-  ],
   "point right": [
     "1F449"
-  ],
-  "point up": [
-    "1F446"
   ],
   "up": [
     "1F446",
@@ -2507,6 +2504,9 @@
     "E104",
     "E109",
     "E202"
+  ],
+  "point up": [
+    "1F446"
   ],
   "fingering": [
     "1F595"
@@ -2532,17 +2532,14 @@
   "you": [
     "1FAF5"
   ],
-  "thumb": [
-    "1F44D",
-    "1F44E"
-  ],
   "+1": [
     "1F44D"
   ],
   "thumbs up": [
     "1F44D"
   ],
-  "thumbs": [
+  "thumb": [
+    "1F44D",
     "1F44E"
   ],
   "no": [
@@ -2555,16 +2552,19 @@
     "1F6B7",
     "1F4F5"
   ],
-  "dislike": [
+  "-1": [
     "1F44E"
   ],
   "thumbs down": [
     "1F44E"
   ],
-  "-1": [
+  "dislike": [
     "1F44E"
   ],
   "thumbs down sign": [
+    "1F44E"
+  ],
+  "thumbs": [
     "1F44E"
   ],
   "clenched": [
@@ -2582,13 +2582,13 @@
     "270A",
     "1F44A"
   ],
-  "brofist": [
+  "bump": [
     "1F44A"
   ],
   "oncoming fist": [
     "1F44A"
   ],
-  "bump": [
+  "brofist": [
     "1F44A"
   ],
   "bro": [
@@ -2600,55 +2600,37 @@
   "leftwards": [
     "1F91B"
   ],
-  "rightwards": [
-    "1F91C"
-  ],
   "right-facing fist": [
     "1F91C"
   ],
-  "golf clap": [
-    "1F44F"
+  "rightwards": [
+    "1F91C"
   ],
-  "applause": [
+  "round of applause": [
     "1F44F"
   ],
   "clapping hands": [
     "1F44F"
   ],
+  "applause": [
+    "1F44F"
+  ],
   "clapping": [
+    "1F44F"
+  ],
+  "golf clap": [
     "1F44F"
   ],
   "clap": [
     "1F44F"
   ],
-  "round of applause": [
-    "1F44F"
+  "hooray": [
+    "1F64C"
   ],
   "Festivus miracle": [
     "1F64C"
   ],
-  "banzai": [
-    "1F64C"
-  ],
-  "hooray": [
-    "1F64C"
-  ],
-  "two hands": [
-    "1F64C"
-  ],
   "hallelujah": [
-    "1F64C"
-  ],
-  "raising": [
-    "1F64C"
-  ],
-  "arms in the air": [
-    "1F64C"
-  ],
-  "raising hands": [
-    "1F64C"
-  ],
-  "praise hands": [
     "1F64C"
   ],
   "gesture": [
@@ -2677,16 +2659,30 @@
     "E10A",
     "E10B"
   ],
-  "jazz": [
-    "1F450",
-    "1F3B7"
+  "raising": [
+    "1F64C"
+  ],
+  "raising hands": [
+    "1F64C"
+  ],
+  "arms in the air": [
+    "1F64C"
+  ],
+  "banzai": [
+    "1F64C"
+  ],
+  "praise hands": [
+    "1F64C"
+  ],
+  "two hands": [
+    "1F64C"
   ],
   "jazz hands": [
     "1F450"
   ],
-  "prayer": [
-    "1F932",
-    "1F4FF"
+  "jazz": [
+    "1F450",
+    "1F3B7"
   ],
   "god": [
     "1F932",
@@ -2706,29 +2702,31 @@
     "1F54B",
     "1F6D0"
   ],
-  "agreement": [
-    "1F91D",
-    "E380"
-  ],
-  "bye": [
-    "1F91D"
-  ],
-  "shaking hands": [
-    "1F91D"
+  "prayer": [
+    "1F932",
+    "1F4FF"
   ],
   "shake": [
     "1F91D",
     "1FA87"
   ],
+  "bye": [
+    "1F91D"
+  ],
+  "agreement": [
+    "1F91D",
+    "E380"
+  ],
+  "shaking hands": [
+    "1F91D"
+  ],
   "meeting": [
     "1F91D",
     "E380"
   ],
-  "folded": [
-    "1F64F"
-  ],
-  "ask": [
-    "1F64F"
+  "thanks": [
+    "1F64F",
+    "1FAC2"
   ],
   "bow": [
     "1F64F",
@@ -2737,9 +2735,11 @@
     "1F3BB",
     "1F3F9"
   ],
-  "thanks": [
-    "1F64F",
-    "1FAC2"
+  "ask": [
+    "1F64F"
+  ],
+  "folded": [
+    "1F64F"
   ],
   "please": [
     "1F64F"
@@ -2780,10 +2780,10 @@
   "nail": [
     "1F485"
   ],
-  "polish": [
+  "manicure": [
     "1F485"
   ],
-  "manicure": [
+  "polish": [
     "1F485"
   ],
   "camera": [
@@ -2795,27 +2795,7 @@
     "1F3A6",
     "E1C4"
   ],
-  "muscle": [
-    "1F4AA"
-  ],
   "flex": [
-    "1F4AA"
-  ],
-  "strong": [
-    "1F4AA",
-    "1F42F",
-    "1F405",
-    "1F406",
-    "1F402",
-    "1F417"
-  ],
-  "flexed": [
-    "1F4AA"
-  ],
-  "feats": [
-    "1F4AA"
-  ],
-  "feats of strength": [
     "1F4AA"
   ],
   "biceps": [
@@ -2827,9 +2807,25 @@
   "strength": [
     "1F4AA"
   ],
-  "prosthetic": [
-    "1F9BE",
-    "1F9BF"
+  "feats of strength": [
+    "1F4AA"
+  ],
+  "flexed": [
+    "1F4AA"
+  ],
+  "strong": [
+    "1F4AA",
+    "1F42F",
+    "1F405",
+    "1F406",
+    "1F402",
+    "1F417"
+  ],
+  "feats": [
+    "1F4AA"
+  ],
+  "muscle": [
+    "1F4AA"
   ],
   "accessibility": [
     "1F9BE",
@@ -2854,20 +2850,26 @@
     "E326",
     "E327"
   ],
+  "prosthetic": [
+    "1F9BE",
+    "1F9BF"
+  ],
+  "limb": [
+    "1F9B5"
+  ],
   "kick": [
     "1F9B5",
     "1F9B6",
     "1F6F4"
   ],
-  "limb": [
-    "1F9B5"
-  ],
   "stomp": [
     "1F9B6"
   ],
-  "listen": [
+  "ear": [
     "1F442",
-    "1F30A"
+    "1F9CF",
+    "1F33E",
+    "1F33D"
   ],
   "body": [
     "1F442",
@@ -2875,11 +2877,9 @@
     "1F441",
     "1F445"
   ],
-  "ear": [
+  "listen": [
     "1F442",
-    "1F9CF",
-    "1F33E",
-    "1F33D"
+    "1F30A"
   ],
   "hard of hearing": [
     "1F9BB"
@@ -2898,6 +2898,17 @@
     "1F469-200D-1F4BB",
     "1F431-200D-1F4BB"
   ],
+  "anatomical": [
+    "1FAC0"
+  ],
+  "blood": [
+    "1FAC0",
+    "E316"
+  ],
+  "pump": [
+    "1FAC0",
+    "26FD"
+  ],
   "organ": [
     "1FAC0",
     "1FAC1",
@@ -2913,27 +2924,16 @@
     "1FA98",
     "E308"
   ],
-  "anatomical": [
-    "1FAC0"
-  ],
-  "blood": [
-    "1FAC0",
-    "E316"
-  ],
-  "pump": [
-    "1FAC0",
-    "26FD"
-  ],
   "cardiology": [
     "1FAC0"
   ],
+  "respiration": [
+    "1FAC1"
+  ],
+  "exhalation": [
+    "1FAC1"
+  ],
   "inhalation": [
-    "1FAC1"
-  ],
-  "breathing": [
-    "1FAC1"
-  ],
-  "breath": [
     "1FAC1"
   ],
   "air": [
@@ -2947,10 +2947,10 @@
     "1F300",
     "1F30A"
   ],
-  "exhalation": [
+  "breathing": [
     "1FAC1"
   ],
-  "respiration": [
+  "breath": [
     "1FAC1"
   ],
   "dentist": [
@@ -2966,10 +2966,10 @@
   "licking": [
     "1F445"
   ],
-  "flirting": [
+  "uncomfortable": [
     "1FAE6"
   ],
-  "uncomfortable": [
+  "flirting": [
     "1FAE6"
   ],
   "young": [
@@ -3056,15 +3056,6 @@
     "1F464",
     "1F465"
   ],
-  "unspecified gender": [
-    "1F9D2",
-    "1F9D1",
-    "1F9D1-200D-1F9B0",
-    "1F9D1-200D-1F9B1",
-    "1F9D1-200D-1F9B3",
-    "1F9D1-200D-1F9B2",
-    "1F9D3"
-  ],
   "gender-neutral": [
     "1F9D2",
     "1F9D1",
@@ -3074,9 +3065,14 @@
     "1F9D1-200D-1F9B2",
     "1F9D3"
   ],
-  "virgo": [
-    "1F467",
-    "264D"
+  "unspecified gender": [
+    "1F9D2",
+    "1F9D1",
+    "1F9D1-200D-1F9B0",
+    "1F9D1-200D-1F9B1",
+    "1F9D1-200D-1F9B3",
+    "1F9D1-200D-1F9B2",
+    "1F9D3"
   ],
   "zodiac": [
     "1F467",
@@ -3106,6 +3102,10 @@
     "2653",
     "26CE"
   ],
+  "virgo": [
+    "1F467",
+    "264D"
+  ],
   "adult": [
     "1F9D1",
     "1F468",
@@ -3126,18 +3126,21 @@
     "1F474",
     "1F475"
   ],
-  "blond": [
-    "1F471",
-    "1F471-200D-2642-FE0F"
-  ],
   "hair": [
     "1F471",
     "1F471-200D-2640-FE0F",
     "1F471-200D-2642-FE0F",
     "1FAAE"
   ],
+  "blond": [
+    "1F471",
+    "1F471-200D-2642-FE0F"
+  ],
   "blond-haired person": [
     "1F471"
+  ],
+  "manly": [
+    "1F9D4"
   ],
   "man": [
     "1F9D4",
@@ -3242,9 +3245,6 @@
     "1F473"
   ],
   "facial hair": [
-    "1F9D4"
-  ],
-  "manly": [
     "1F9D4"
   ],
   "woman": [
@@ -3367,10 +3367,10 @@
     "1F469-200D-1F9B2",
     "1F9D1-200D-1F9B2"
   ],
-  "blond-haired woman": [
+  "blonde": [
     "1F471-200D-2640-FE0F"
   ],
-  "blonde": [
+  "blond-haired woman": [
     "1F471-200D-2640-FE0F"
   ],
   "blond-haired man": [
@@ -3398,9 +3398,6 @@
     "1F64D-200D-2642-FE0F",
     "1F64D-200D-2640-FE0F"
   ],
-  "person gesturing no": [
-    "1F645"
-  ],
   "prohibited": [
     "1F645",
     "1F645-200D-2642-FE0F",
@@ -3411,6 +3408,9 @@
     "1F6AF",
     "1F6B7",
     "1F51E"
+  ],
+  "person gesturing no": [
+    "1F645"
   ],
   "man gesturing no": [
     "1F645-200D-2642-FE0F"
@@ -3427,14 +3427,6 @@
   "woman gesturing ok": [
     "1F646-200D-2640-FE0F"
   ],
-  "sassy": [
-    "1F481",
-    "1F481-200D-2642-FE0F",
-    "1F481-200D-2640-FE0F"
-  ],
-  "tipping": [
-    "1F481"
-  ],
   "information": [
     "1F481"
   ],
@@ -3443,6 +3435,14 @@
     "1F3E5",
     "1F691",
     "1F198"
+  ],
+  "tipping": [
+    "1F481"
+  ],
+  "sassy": [
+    "1F481",
+    "1F481-200D-2642-FE0F",
+    "1F481-200D-2640-FE0F"
   ],
   "tipping hand": [
     "1F481-200D-2642-FE0F",
@@ -3457,17 +3457,13 @@
     "1F9CF-200D-2642-FE0F",
     "1F9CF-200D-2640-FE0F"
   ],
-  "apology": [
-    "1F647",
-    "1F647-200D-2642-FE0F",
-    "1F647-200D-2640-FE0F"
-  ],
   "sorry": [
     "1F647",
     "1F647-200D-2642-FE0F",
     "1F647-200D-2640-FE0F"
   ],
-  "bowing": [
+  "apology": [
+    "1F647",
     "1F647-200D-2642-FE0F",
     "1F647-200D-2640-FE0F"
   ],
@@ -3475,15 +3471,9 @@
     "1F647-200D-2642-FE0F",
     "1F647-200D-2640-FE0F"
   ],
-  "facepalm": [
-    "1F926",
-    "1F926-200D-2642-FE0F",
-    "1F926-200D-2640-FE0F"
-  ],
-  "exasperation": [
-    "1F926",
-    "1F926-200D-2642-FE0F",
-    "1F926-200D-2640-FE0F"
+  "bowing": [
+    "1F647-200D-2642-FE0F",
+    "1F647-200D-2640-FE0F"
   ],
   "palm": [
     "1F926",
@@ -3491,17 +3481,27 @@
     "1F965",
     "1F3DD"
   ],
+  "exasperation": [
+    "1F926",
+    "1F926-200D-2642-FE0F",
+    "1F926-200D-2640-FE0F"
+  ],
+  "facepalm": [
+    "1F926",
+    "1F926-200D-2642-FE0F",
+    "1F926-200D-2640-FE0F"
+  ],
   "ignorance": [
     "1F937",
     "1F937-200D-2642-FE0F",
     "1F937-200D-2640-FE0F"
   ],
-  "indifference": [
+  "shrug": [
     "1F937",
     "1F937-200D-2642-FE0F",
     "1F937-200D-2640-FE0F"
   ],
-  "shrug": [
+  "indifference": [
     "1F937",
     "1F937-200D-2642-FE0F",
     "1F937-200D-2640-FE0F"
@@ -3516,12 +3516,12 @@
     "1F468-200D-2695-FE0F",
     "1F469-200D-2695-FE0F"
   ],
-  "therapist": [
+  "nurse": [
     "1F9D1-200D-2695-FE0F",
     "1F468-200D-2695-FE0F",
     "1F469-200D-2695-FE0F"
   ],
-  "nurse": [
+  "therapist": [
     "1F9D1-200D-2695-FE0F",
     "1F468-200D-2695-FE0F",
     "1F469-200D-2695-FE0F"
@@ -3539,7 +3539,13 @@
     "1F468-200D-1F393",
     "1F469-200D-1F393"
   ],
-  "collegian": [
+  "black robe": [
+    "1F468-200D-1F393",
+    "1F469-200D-1F393",
+    "1F468-200D-2696-FE0F",
+    "1F469-200D-2696-FE0F"
+  ],
+  "student": [
     "1F468-200D-1F393",
     "1F469-200D-1F393"
   ],
@@ -3547,20 +3553,14 @@
     "1F468-200D-1F393",
     "1F469-200D-1F393"
   ],
+  "collegian": [
+    "1F468-200D-1F393",
+    "1F469-200D-1F393"
+  ],
   "graduation": [
     "1F468-200D-1F393",
     "1F469-200D-1F393",
     "1F393"
-  ],
-  "student": [
-    "1F468-200D-1F393",
-    "1F469-200D-1F393"
-  ],
-  "black robe": [
-    "1F468-200D-1F393",
-    "1F469-200D-1F393",
-    "1F468-200D-2696-FE0F",
-    "1F469-200D-2696-FE0F"
   ],
   "instructor": [
     "1F9D1-200D-1F3EB",
@@ -3572,7 +3572,11 @@
     "1F468-200D-1F3EB",
     "1F469-200D-1F3EB"
   ],
-  "teacher": [
+  "chalkboard": [
+    "1F468-200D-1F3EB",
+    "1F469-200D-1F3EB"
+  ],
+  "lecturer": [
     "1F468-200D-1F3EB",
     "1F469-200D-1F3EB"
   ],
@@ -3580,11 +3584,7 @@
     "1F468-200D-1F3EB",
     "1F469-200D-1F3EB"
   ],
-  "chalkboard": [
-    "1F468-200D-1F3EB",
-    "1F469-200D-1F3EB"
-  ],
-  "lecturer": [
+  "teacher": [
     "1F468-200D-1F3EB",
     "1F469-200D-1F3EB"
   ],
@@ -3602,6 +3602,15 @@
     "2696",
     "264E"
   ],
+  "law": [
+    "1F468-200D-2696-FE0F",
+    "1F469-200D-2696-FE0F",
+    "1F46E"
+  ],
+  "judge": [
+    "1F468-200D-2696-FE0F",
+    "1F469-200D-2696-FE0F"
+  ],
   "gavel": [
     "1F468-200D-2696-FE0F",
     "1F469-200D-2696-FE0F"
@@ -3610,34 +3619,25 @@
     "1F468-200D-2696-FE0F",
     "1F469-200D-2696-FE0F"
   ],
-  "law": [
-    "1F468-200D-2696-FE0F",
-    "1F469-200D-2696-FE0F",
-    "1F46E"
-  ],
   "judge hammer": [
     "1F468-200D-2696-FE0F",
     "1F469-200D-2696-FE0F"
-  ],
-  "judge": [
-    "1F468-200D-2696-FE0F",
-    "1F469-200D-2696-FE0F"
-  ],
-  "rancher": [
-    "1F9D1-200D-1F33E",
-    "1F468-200D-1F33E",
-    "1F469-200D-1F33E"
   ],
   "gardener": [
     "1F9D1-200D-1F33E",
     "1F468-200D-1F33E",
     "1F469-200D-1F33E"
   ],
-  "pitchfork": [
+  "rancher": [
+    "1F9D1-200D-1F33E",
     "1F468-200D-1F33E",
     "1F469-200D-1F33E"
   ],
   "farmer": [
+    "1F468-200D-1F33E",
+    "1F469-200D-1F33E"
+  ],
+  "pitchfork": [
     "1F468-200D-1F33E",
     "1F469-200D-1F33E"
   ],
@@ -3652,17 +3652,13 @@
     "1F468-200D-1F373",
     "1F469-200D-1F373"
   ],
-  "toque": [
+  "cooking": [
     "1F468-200D-1F373",
-    "1F469-200D-1F373"
-  ],
-  "chef's hat": [
-    "1F468-200D-1F373",
-    "1F469-200D-1F373"
-  ],
-  "cook": [
-    "1F468-200D-1F373",
-    "1F469-200D-1F373"
+    "1F469-200D-1F373",
+    "1F37D",
+    "1F374",
+    "1F52A",
+    "1F3FA"
   ],
   "food": [
     "1F468-200D-1F373",
@@ -3686,13 +3682,23 @@
     "1F990",
     "1F991"
   ],
-  "cooking": [
+  "cook": [
     "1F468-200D-1F373",
-    "1F469-200D-1F373",
-    "1F37D",
-    "1F374",
-    "1F52A",
-    "1F3FA"
+    "1F469-200D-1F373"
+  ],
+  "chef's hat": [
+    "1F468-200D-1F373",
+    "1F469-200D-1F373"
+  ],
+  "toque": [
+    "1F468-200D-1F373",
+    "1F469-200D-1F373"
+  ],
+  "plumber": [
+    "1F9D1-200D-1F527",
+    "1F468-200D-1F527",
+    "1F469-200D-1F527",
+    "1FAA0"
   ],
   "electrician": [
     "1F9D1-200D-1F527",
@@ -3704,18 +3710,12 @@
     "1F468-200D-1F527",
     "1F469-200D-1F527"
   ],
-  "plumber": [
-    "1F9D1-200D-1F527",
-    "1F468-200D-1F527",
-    "1F469-200D-1F527",
-    "1FAA0"
-  ],
   "wrench": [
     "1F468-200D-1F527",
     "1F469-200D-1F527",
     "1F6E0"
   ],
-  "blue hat": [
+  "overalls": [
     "1F468-200D-1F527",
     "1F469-200D-1F527"
   ],
@@ -3728,7 +3728,7 @@
     "1F469-200D-1F527",
     "1F9F0"
   ],
-  "overalls": [
+  "blue hat": [
     "1F468-200D-1F527",
     "1F469-200D-1F527"
   ],
@@ -3736,14 +3736,6 @@
     "1F9D1-200D-1F3ED",
     "1F468-200D-1F3ED",
     "1F469-200D-1F3ED"
-  ],
-  "worker": [
-    "1F9D1-200D-1F3ED",
-    "1F468-200D-1F3ED",
-    "1F469-200D-1F3ED",
-    "1F477",
-    "1F477-200D-2642-FE0F",
-    "1F477-200D-2640-FE0F"
   ],
   "assembly": [
     "1F9D1-200D-1F3ED",
@@ -3755,6 +3747,14 @@
     "1F9D1-200D-1F3ED",
     "1F468-200D-1F3ED",
     "1F469-200D-1F3ED"
+  ],
+  "worker": [
+    "1F9D1-200D-1F3ED",
+    "1F468-200D-1F3ED",
+    "1F469-200D-1F3ED",
+    "1F477",
+    "1F477-200D-2642-FE0F",
+    "1F477-200D-2640-FE0F"
   ],
   "welder": [
     "1F468-200D-1F3ED",
@@ -3769,16 +3769,6 @@
     "1F469-200D-1F3ED",
     "1F97D"
   ],
-  "white-collar": [
-    "1F9D1-200D-1F4BC",
-    "1F468-200D-1F4BC",
-    "1F469-200D-1F4BC"
-  ],
-  "architect": [
-    "1F9D1-200D-1F4BC",
-    "1F468-200D-1F4BC",
-    "1F469-200D-1F4BC"
-  ],
   "business": [
     "1F9D1-200D-1F4BC",
     "1F468-200D-1F4BC",
@@ -3790,12 +3780,18 @@
     "1F3ED",
     "E046"
   ],
-  "manager": [
+  "architect": [
     "1F9D1-200D-1F4BC",
     "1F468-200D-1F4BC",
     "1F469-200D-1F4BC"
   ],
-  "papers": [
+  "white-collar": [
+    "1F9D1-200D-1F4BC",
+    "1F468-200D-1F4BC",
+    "1F469-200D-1F4BC"
+  ],
+  "manager": [
+    "1F9D1-200D-1F4BC",
     "1F468-200D-1F4BC",
     "1F469-200D-1F4BC"
   ],
@@ -3807,16 +3803,26 @@
     "1F4C2",
     "1F4CE"
   ],
+  "papers": [
+    "1F468-200D-1F4BC",
+    "1F469-200D-1F4BC"
+  ],
   "copy": [
     "1F468-200D-1F4BC",
     "1F469-200D-1F4BC"
   ],
-  "engineer": [
+  "physicist": [
     "1F9D1-200D-1F52C",
     "1F468-200D-1F52C",
     "1F469-200D-1F52C"
   ],
-  "physicist": [
+  "chemist": [
+    "1F9D1-200D-1F52C",
+    "1F468-200D-1F52C",
+    "1F469-200D-1F52C",
+    "1F9EA"
+  ],
+  "engineer": [
     "1F9D1-200D-1F52C",
     "1F468-200D-1F52C",
     "1F469-200D-1F52C"
@@ -3828,32 +3834,11 @@
     "1F9EB",
     "1F9EC"
   ],
-  "chemist": [
-    "1F9D1-200D-1F52C",
-    "1F468-200D-1F52C",
-    "1F469-200D-1F52C",
-    "1F9EA"
-  ],
-  "experiment": [
-    "1F468-200D-1F52C",
-    "1F469-200D-1F52C",
-    "1F97C",
-    "1F9EA"
-  ],
-  "scientist": [
-    "1F468-200D-1F52C",
-    "1F469-200D-1F52C",
-    "1F97C"
-  ],
-  "safety glasses": [
-    "1F468-200D-1F52C",
-    "1F469-200D-1F52C"
-  ],
-  "erlenmeyer flask": [
-    "1F468-200D-1F52C",
-    "1F469-200D-1F52C"
-  ],
   "mathematician": [
+    "1F468-200D-1F52C",
+    "1F469-200D-1F52C"
+  ],
+  "laboratory": [
     "1F468-200D-1F52C",
     "1F469-200D-1F52C"
   ],
@@ -3863,9 +3848,31 @@
     "1F9EA",
     "1F9EB"
   ],
-  "laboratory": [
+  "scientist": [
+    "1F468-200D-1F52C",
+    "1F469-200D-1F52C",
+    "1F97C"
+  ],
+  "experiment": [
+    "1F468-200D-1F52C",
+    "1F469-200D-1F52C",
+    "1F97C",
+    "1F9EA"
+  ],
+  "safety glasses": [
     "1F468-200D-1F52C",
     "1F469-200D-1F52C"
+  ],
+  "erlenmeyer flask": [
+    "1F468-200D-1F52C",
+    "1F469-200D-1F52C"
+  ],
+  "developer": [
+    "1F9D1-200D-1F4BB",
+    "1F468-200D-1F4BB",
+    "1F469-200D-1F4BB",
+    "E066",
+    "1F431-200D-1F4BB"
   ],
   "coder": [
     "1F9D1-200D-1F4BB",
@@ -3884,27 +3891,21 @@
     "1F468-200D-1F4BB",
     "1F469-200D-1F4BB"
   ],
-  "developer": [
-    "1F9D1-200D-1F4BB",
-    "1F468-200D-1F4BB",
-    "1F469-200D-1F4BB",
-    "E066",
-    "1F431-200D-1F4BB"
-  ],
-  "technologist": [
-    "1F468-200D-1F4BB",
-    "1F469-200D-1F4BB",
-    "1F431-200D-1F4BB"
-  ],
   "graphs": [
     "1F468-200D-1F4BB",
     "1F469-200D-1F4BB"
   ],
-  "smart": [
+  "tablet": [
+    "1F468-200D-1F4BB",
+    "1F469-200D-1F4BB"
+  ],
+  "coding": [
+    "1F468-200D-1F4BB",
+    "1F469-200D-1F4BB"
+  ],
+  "technologist": [
     "1F468-200D-1F4BB",
     "1F469-200D-1F4BB",
-    "1F98A",
-    "1F454",
     "1F431-200D-1F4BB"
   ],
   "code": [
@@ -3914,13 +3915,12 @@
     "E059",
     "1F431-200D-1F4BB"
   ],
-  "tablet": [
+  "smart": [
     "1F468-200D-1F4BB",
-    "1F469-200D-1F4BB"
-  ],
-  "coding": [
-    "1F468-200D-1F4BB",
-    "1F469-200D-1F4BB"
+    "1F469-200D-1F4BB",
+    "1F98A",
+    "1F454",
+    "1F431-200D-1F4BB"
   ],
   "entertainer": [
     "1F9D1-200D-1F3A4",
@@ -3946,6 +3946,9 @@
     "1F468-200D-1F3A4",
     "1F469-200D-1F3A4"
   ],
+  "wavy hair": [
+    "1F469-200D-1F3A4"
+  ],
   "glamour": [
     "1F469-200D-1F3A4"
   ],
@@ -3957,25 +3960,13 @@
     "1F457",
     "1F97B"
   ],
-  "wavy hair": [
-    "1F469-200D-1F3A4"
-  ],
   "palette": [
     "1F9D1-200D-1F3A8",
     "1F468-200D-1F3A8",
     "1F469-200D-1F3A8",
     "1F3A8"
   ],
-  "drawing": [
-    "1F468-200D-1F3A8",
-    "1F469-200D-1F3A8",
-    "E06B"
-  ],
-  "beret": [
-    "1F468-200D-1F3A8",
-    "1F469-200D-1F3A8"
-  ],
-  "creativity": [
+  "painter": [
     "1F468-200D-1F3A8",
     "1F469-200D-1F3A8"
   ],
@@ -3987,33 +3978,9 @@
     "1F468-200D-1F3A8",
     "1F469-200D-1F3A8"
   ],
-  "illustrating": [
+  "beret": [
     "1F468-200D-1F3A8",
     "1F469-200D-1F3A8"
-  ],
-  "brush": [
-    "1F468-200D-1F3A8",
-    "1F469-200D-1F3A8",
-    "1F58C",
-    "1FAA5"
-  ],
-  "painter": [
-    "1F468-200D-1F3A8",
-    "1F469-200D-1F3A8"
-  ],
-  "colors": [
-    "1F468-200D-1F3A8",
-    "1F469-200D-1F3A8",
-    "1F58C",
-    "1F58D"
-  ],
-  "painting": [
-    "1F468-200D-1F3A8",
-    "1F469-200D-1F3A8",
-    "1F5BC",
-    "1F3A8",
-    "1F58C",
-    "1F58D"
   ],
   "art": [
     "1F468-200D-1F3A8",
@@ -4023,12 +3990,45 @@
     "1F3A8",
     "F77A"
   ],
+  "painting": [
+    "1F468-200D-1F3A8",
+    "1F469-200D-1F3A8",
+    "1F5BC",
+    "1F3A8",
+    "1F58C",
+    "1F58D"
+  ],
   "artist": [
     "1F468-200D-1F3A8",
     "1F469-200D-1F3A8",
     "1F939",
     "1F5BC",
     "1F3A8"
+  ],
+  "colors": [
+    "1F468-200D-1F3A8",
+    "1F469-200D-1F3A8",
+    "1F58C",
+    "1F58D"
+  ],
+  "drawing": [
+    "1F468-200D-1F3A8",
+    "1F469-200D-1F3A8",
+    "E06B"
+  ],
+  "illustrating": [
+    "1F468-200D-1F3A8",
+    "1F469-200D-1F3A8"
+  ],
+  "creativity": [
+    "1F468-200D-1F3A8",
+    "1F469-200D-1F3A8"
+  ],
+  "brush": [
+    "1F468-200D-1F3A8",
+    "1F469-200D-1F3A8",
+    "1F58C",
+    "1FAA5"
   ],
   "french hat": [
     "1F468-200D-1F3A8",
@@ -4043,15 +4043,15 @@
     "1F468-200D-2708-FE0F",
     "1F469-200D-2708-FE0F"
   ],
-  "pilot": [
-    "1F468-200D-2708-FE0F",
-    "1F469-200D-2708-FE0F"
-  ],
   "flying": [
     "1F468-200D-2708-FE0F",
     "1F469-200D-2708-FE0F",
     "1FABD",
     "1F681"
+  ],
+  "pilot": [
+    "1F468-200D-2708-FE0F",
+    "1F469-200D-2708-FE0F"
   ],
   "rocket": [
     "1F9D1-200D-1F680",
@@ -4059,6 +4059,10 @@
     "1F469-200D-1F680",
     "1F680",
     "E20B"
+  ],
+  "spaceship": [
+    "1F468-200D-1F680",
+    "1F469-200D-1F680"
   ],
   "space": [
     "1F468-200D-1F680",
@@ -4072,19 +4076,15 @@
     "1F3F3-FE0F-200D-1F7E6-200D-1F30C",
     "E20B"
   ],
-  "spacesuit": [
-    "1F468-200D-1F680",
-    "1F469-200D-1F680"
-  ],
   "astronaut": [
     "1F468-200D-1F680",
     "1F469-200D-1F680"
   ],
-  "universe": [
+  "spacesuit": [
     "1F468-200D-1F680",
     "1F469-200D-1F680"
   ],
-  "spaceship": [
+  "universe": [
     "1F468-200D-1F680",
     "1F469-200D-1F680"
   ],
@@ -4093,19 +4093,19 @@
     "1F468-200D-1F692",
     "1F469-200D-1F692"
   ],
-  "save": [
+  "firefighter": [
     "1F468-200D-1F692",
-    "1F469-200D-1F692",
-    "E260"
+    "1F469-200D-1F692"
   ],
   "rescue": [
     "1F468-200D-1F692",
     "1F469-200D-1F692",
     "1F6DF"
   ],
-  "firefighter": [
+  "save": [
     "1F468-200D-1F692",
-    "1F469-200D-1F692"
+    "1F469-200D-1F692",
+    "E260"
   ],
   "red helmet": [
     "1F468-200D-1F692",
@@ -4137,14 +4137,6 @@
     "1F46E-200D-2642-FE0F",
     "1F46E-200D-2640-FE0F"
   ],
-  "coat": [
-    "1F575"
-  ],
-  "spy": [
-    "1F575",
-    "1F575-FE0F-200D-2642-FE0F",
-    "1F575-FE0F-200D-2640-FE0F"
-  ],
   "magnifier": [
     "1F575"
   ],
@@ -4156,14 +4148,22 @@
     "1F575-FE0F-200D-2642-FE0F",
     "1F575-FE0F-200D-2640-FE0F"
   ],
+  "coat": [
+    "1F575"
+  ],
+  "cloak": [
+    "1F575"
+  ],
   "magnifying glass": [
     "1F575"
   ],
   "investigator": [
     "1F575"
   ],
-  "cloak": [
-    "1F575"
+  "spy": [
+    "1F575",
+    "1F575-FE0F-200D-2642-FE0F",
+    "1F575-FE0F-200D-2640-FE0F"
   ],
   "detective": [
     "1F575-FE0F-200D-2642-FE0F",
@@ -4174,10 +4174,14 @@
   "britain": [
     "1F482"
   ],
-  "protection": [
-    "1F482",
-    "1F6E1",
-    "1FAAC"
+  "england": [
+    "1F482"
+  ],
+  "furry hat guard": [
+    "1F482"
+  ],
+  "great britain": [
+    "1F482"
   ],
   "london": [
     "1F482"
@@ -4186,10 +4190,7 @@
     "1F482",
     "1F451"
   ],
-  "great britain": [
-    "1F482"
-  ],
-  "england": [
+  "royal guard": [
     "1F482"
   ],
   "guard": [
@@ -4197,11 +4198,10 @@
     "1F482-200D-2642-FE0F",
     "1F482-200D-2640-FE0F"
   ],
-  "furry hat guard": [
-    "1F482"
-  ],
-  "royal guard": [
-    "1F482"
+  "protection": [
+    "1F482",
+    "1F6E1",
+    "1FAAC"
   ],
   "fighter": [
     "1F977"
@@ -4211,9 +4211,6 @@
   ],
   "stealth": [
     "1F977"
-  ],
-  "striped west": [
-    "1F477"
   ],
   "construction": [
     "1F477",
@@ -4227,6 +4224,12 @@
     "26D1",
     "E14A"
   ],
+  "striped west": [
+    "1F477"
+  ],
+  "regal": [
+    "1FAC5"
+  ],
   "royalty": [
     "1FAC5"
   ],
@@ -4234,9 +4237,6 @@
     "1FAC5"
   ],
   "monarch": [
-    "1FAC5"
-  ],
-  "regal": [
     "1FAC5"
   ],
   "charming": [
@@ -4249,10 +4249,10 @@
   "prince": [
     "1F934"
   ],
-  "princess crown": [
+  "pink dress": [
     "1F478"
   ],
-  "pink dress": [
+  "princess crown": [
     "1F478"
   ],
   "turban": [
@@ -4290,25 +4290,11 @@
     "1F472",
     "1F393"
   ],
-  "skullcap": [
-    "1F472"
-  ],
   "gua pi mao": [
     "1F472"
   ],
-  "religious": [
-    "1F9D5",
-    "26EA",
-    "1F54C",
-    "1F54D",
-    "26E9",
-    "1F54B"
-  ],
-  "headscarf": [
-    "1F9D5"
-  ],
-  "tichel": [
-    "1F9D5"
+  "skullcap": [
+    "1F472"
   ],
   "muslim": [
     "1F9D5",
@@ -4319,7 +4305,21 @@
   "hijab": [
     "1F9D5"
   ],
+  "religious": [
+    "1F9D5",
+    "26EA",
+    "1F54C",
+    "1F54D",
+    "26E9",
+    "1F54B"
+  ],
   "mantilla": [
+    "1F9D5"
+  ],
+  "headscarf": [
+    "1F9D5"
+  ],
+  "tichel": [
     "1F9D5"
   ],
   "groom": [
@@ -4330,17 +4330,20 @@
     "1F935-200D-2642-FE0F",
     "1F935-200D-2640-FE0F"
   ],
-  "veil": [
+  "wedding": [
     "1F470",
-    "1F470-200D-2642-FE0F",
     "1F470-200D-2640-FE0F"
   ],
   "bride": [
     "1F470",
     "1F470-200D-2640-FE0F"
   ],
-  "wedding": [
+  "veil": [
     "1F470",
+    "1F470-200D-2642-FE0F",
+    "1F470-200D-2640-FE0F"
+  ],
+  "married": [
     "1F470-200D-2640-FE0F"
   ],
   "female": [
@@ -4350,9 +4353,6 @@
     "1F6BB",
     "E187"
   ],
-  "married": [
-    "1F470-200D-2640-FE0F"
-  ],
   "marriage": [
     "1F470-200D-2640-FE0F",
     "1F492"
@@ -4360,12 +4360,14 @@
   "wedding dress": [
     "1F470-200D-2640-FE0F"
   ],
-  "birth": [
-    "1F930"
-  ],
-  "trust": [
+  "motherhood": [
     "1F930",
     "1F931"
+  ],
+  "mother": [
+    "1F930",
+    "1F931",
+    "1F936"
   ],
   "baby": [
     "1F930",
@@ -4380,23 +4382,25 @@
     "1F37C",
     "1F6BC"
   ],
+  "pregnant": [
+    "1F930",
+    "1FAC3",
+    "1FAC4"
+  ],
+  "birth": [
+    "1F930"
+  ],
+  "trust": [
+    "1F930",
+    "1F931"
+  ],
   "child": [
     "1F930",
     "1F46A",
     "1F468-200D-1F469-200D-1F467",
     "1F6B8"
   ],
-  "motherhood": [
-    "1F930",
-    "1F931"
-  ],
-  "mother": [
-    "1F930",
-    "1F931",
-    "1F936"
-  ],
-  "pregnant": [
-    "1F930",
+  "belly": [
     "1FAC3",
     "1FAC4"
   ],
@@ -4404,9 +4408,8 @@
     "1FAC3",
     "1FAC4"
   ],
-  "belly": [
-    "1FAC3",
-    "1FAC4"
+  "breast": [
+    "1F931"
   ],
   "nursing": [
     "1F931",
@@ -4414,15 +4417,20 @@
     "1F468-200D-1F37C",
     "1F9D1-200D-1F37C"
   ],
-  "breast": [
-    "1F931"
-  ],
   "feeding": [
     "1F469-200D-1F37C",
     "1F468-200D-1F37C",
     "1F9D1-200D-1F37C"
   ],
-  "saint nicholas": [
+  "father": [
+    "1F385"
+  ],
+  "holiday": [
+    "1F385",
+    "1F936",
+    "1F3E8"
+  ],
+  "santa": [
     "1F385"
   ],
   "claus": [
@@ -4430,8 +4438,20 @@
     "1F936",
     "1F9D1-200D-1F384"
   ],
-  "santa": [
+  "santa claus": [
     "1F385"
+  ],
+  "saint nicholas": [
+    "1F385"
+  ],
+  "jolly": [
+    "1F385",
+    "1F936"
+  ],
+  "xmas": [
+    "1F385",
+    "1F936",
+    "1F384"
   ],
   "christmas": [
     "1F385",
@@ -4440,36 +4460,25 @@
     "1F384",
     "1F381"
   ],
-  "jolly": [
-    "1F385",
-    "1F936"
-  ],
-  "holiday": [
-    "1F385",
-    "1F936",
-    "1F3E8"
-  ],
-  "xmas": [
-    "1F385",
-    "1F936",
-    "1F384"
-  ],
-  "father": [
-    "1F385"
-  ],
-  "santa claus": [
-    "1F385"
-  ],
   "mrs. clause": [
-    "1F936"
-  ],
-  "mrs. claus": [
     "1F936"
   ],
   "mrs.": [
     "1F936"
   ],
+  "mrs. claus": [
+    "1F936"
+  ],
   "good": [
+    "1F9B8",
+    "1F9B8-200D-2642-FE0F",
+    "1F9B8-200D-2640-FE0F"
+  ],
+  "heroine": [
+    "1F9B8",
+    "1F9B8-200D-2640-FE0F"
+  ],
+  "hero": [
     "1F9B8",
     "1F9B8-200D-2642-FE0F",
     "1F9B8-200D-2640-FE0F"
@@ -4482,15 +4491,6 @@
     "1F9B9-200D-2642-FE0F",
     "1F9B9-200D-2640-FE0F"
   ],
-  "hero": [
-    "1F9B8",
-    "1F9B8-200D-2642-FE0F",
-    "1F9B8-200D-2640-FE0F"
-  ],
-  "heroine": [
-    "1F9B8",
-    "1F9B8-200D-2640-FE0F"
-  ],
   "criminal": [
     "1F9B9",
     "1F9B9-200D-2642-FE0F",
@@ -4501,10 +4501,12 @@
     "1F9B9-200D-2642-FE0F",
     "1F9B9-200D-2640-FE0F"
   ],
-  "wizard": [
+  "wand": [
+    "1F9D9"
+  ],
+  "sorceress": [
     "1F9D9",
-    "1F9D9-200D-2642-FE0F",
-    "1FA84"
+    "1F9D9-200D-2640-FE0F"
   ],
   "sorcerer": [
     "1F9D9",
@@ -4519,19 +4521,21 @@
     "1FA84",
     "1F9F9"
   ],
-  "wand": [
-    "1F9D9"
-  ],
   "magician": [
     "1F9D9"
   ],
-  "sorceress": [
+  "wizard": [
     "1F9D9",
-    "1F9D9-200D-2640-FE0F"
+    "1F9D9-200D-2642-FE0F",
+    "1FA84"
   ],
   "oberon": [
     "1F9DA",
     "1F9DA-200D-2642-FE0F"
+  ],
+  "titania": [
+    "1F9DA",
+    "1F9DA-200D-2640-FE0F"
   ],
   "puck": [
     "1F9DA",
@@ -4539,9 +4543,10 @@
     "1F3D1",
     "1F3D2"
   ],
-  "titania": [
-    "1F9DA",
-    "1F9DA-200D-2640-FE0F"
+  "dracula": [
+    "1F9DB",
+    "1F9DB-200D-2642-FE0F",
+    "1F987"
   ],
   "undead": [
     "1F9DB",
@@ -4551,19 +4556,14 @@
     "1F9DF-200D-2642-FE0F",
     "1F9DF-200D-2640-FE0F"
   ],
-  "dracula": [
-    "1F9DB",
-    "1F9DB-200D-2642-FE0F",
-    "1F987"
-  ],
   "merwoman": [
     "1F9DC",
     "1F9DC-200D-2640-FE0F"
   ],
-  "mermaid": [
+  "merman": [
     "1F9DC"
   ],
-  "merman": [
+  "mermaid": [
     "1F9DC"
   ],
   "triton": [
@@ -4584,39 +4584,40 @@
   "magic lamp": [
     "1F9DE"
   ],
+  "wish": [
+    "1F9DE",
+    "1F320"
+  ],
   "magic": [
     "1F9DE",
     "2728",
     "1FA84",
     "1F3A9"
   ],
-  "wish": [
-    "1F9DE",
-    "1F320"
-  ],
   "djinn": [
     "1F9DE",
     "1F9DE-200D-2642-FE0F",
     "1F9DE-200D-2640-FE0F"
+  ],
+  "decayed": [
+    "1F9DF"
   ],
   "walking dead": [
     "1F9DF",
     "1F9DF-200D-2642-FE0F",
     "1F9DF-200D-2640-FE0F"
   ],
-  "decayed": [
-    "1F9DF"
-  ],
-  "salon": [
-    "1F486"
-  ],
   "massage": [
     "1F486",
     "1F486-200D-2642-FE0F",
     "1F486-200D-2640-FE0F"
   ],
-  "parlor": [
-    "1F487"
+  "salon": [
+    "1F486"
+  ],
+  "beauty": [
+    "1F487",
+    "1F488"
   ],
   "barber": [
     "1F487",
@@ -4628,9 +4629,8 @@
     "1F487-200D-2640-FE0F",
     "1F488"
   ],
-  "beauty": [
-    "1F487",
-    "1F488"
+  "parlor": [
+    "1F487"
   ],
   "walk": [
     "1F6B6",
@@ -4692,16 +4692,16 @@
     "1F3CE",
     "1F3CD"
   ],
-  "dancing": [
-    "1F483",
-    "1F57A"
-  ],
   "dance": [
     "1F483",
     "1F57A",
     "1FAA9",
     "1FAAD",
     "1FA70"
+  ],
+  "dancing": [
+    "1F483",
+    "1F57A"
   ],
   "suit": [
     "1F574",
@@ -4733,12 +4733,12 @@
     "1F46D",
     "1F6BA"
   ],
-  "sauna": [
+  "steam room": [
     "1F9D6",
     "1F9D6-200D-2642-FE0F",
     "1F9D6-200D-2640-FE0F"
   ],
-  "steam room": [
+  "sauna": [
     "1F9D6",
     "1F9D6-200D-2642-FE0F",
     "1F9D6-200D-2640-FE0F"
@@ -4751,13 +4751,10 @@
   "epee": [
     "1F93A"
   ],
-  "fencing": [
-    "1F93A"
-  ],
-  "sword": [
-    "1F93A"
-  ],
   "fencer": [
+    "1F93A"
+  ],
+  "fencing": [
     "1F93A"
   ],
   "sports": [
@@ -4780,18 +4777,8 @@
     "1F3CE",
     "1F3C5"
   ],
-  "horse": [
-    "1F3C7",
-    "1F434",
-    "1F993",
-    "1F3A0"
-  ],
-  "racehorse": [
-    "1F3C7",
-    "1F40E"
-  ],
-  "jockey": [
-    "1F3C7"
+  "sword": [
+    "1F93A"
   ],
   "animal": [
     "1F3C7",
@@ -4816,6 +4803,24 @@
     "E008",
     "E182"
   ],
+  "jockey": [
+    "1F3C7"
+  ],
+  "racehorse": [
+    "1F3C7",
+    "1F40E"
+  ],
+  "horse": [
+    "1F3C7",
+    "1F434",
+    "1F993",
+    "1F3A0"
+  ],
+  "ski": [
+    "26F7",
+    "1F3C2",
+    "1F3BF"
+  ],
   "snow": [
     "26F7",
     "1F3C2",
@@ -4824,11 +4829,6 @@
     "2744",
     "2603",
     "26C4",
-    "1F3BF"
-  ],
-  "ski": [
-    "26F7",
-    "1F3C2",
     "1F3BF"
   ],
   "winter": [
@@ -4871,9 +4871,6 @@
     "1F3B1",
     "1F52E",
     "1F9F6"
-  ],
-  "surfer": [
-    "1F3C4"
   ],
   "water": [
     "1F3C4",
@@ -4918,6 +4915,22 @@
     "E008",
     "1FAD9-200D-1F7E6"
   ],
+  "ocean": [
+    "1F3C4",
+    "1FAB8",
+    "2693",
+    "26F5",
+    "1F6A4",
+    "1F6F3",
+    "1F6E5",
+    "1F6A2",
+    "1F30A"
+  ],
+  "surfing": [
+    "1F3C4",
+    "1F3C4-200D-2642-FE0F",
+    "1F3C4-200D-2640-FE0F"
+  ],
   "sea": [
     "1F3C4",
     "1F334",
@@ -4935,21 +4948,11 @@
     "E2C7",
     "E189"
   ],
-  "ocean": [
-    "1F3C4",
-    "1FAB8",
-    "2693",
-    "26F5",
-    "1F6A4",
-    "1F6F3",
-    "1F6E5",
-    "1F6A2",
-    "1F30A"
+  "surfer": [
+    "1F3C4"
   ],
-  "surfing": [
-    "1F3C4",
-    "1F3C4-200D-2642-FE0F",
-    "1F3C4-200D-2640-FE0F"
+  "canoe": [
+    "1F6A3"
   ],
   "boat": [
     "1F6A3",
@@ -4970,9 +4973,6 @@
     "1F6A3-200D-2640-FE0F"
   ],
   "kayak": [
-    "1F6A3"
-  ],
-  "canoe": [
     "1F6A3"
   ],
   "swim": [
@@ -4999,14 +4999,14 @@
   "dribble": [
     "26F9"
   ],
-  "lifter": [
-    "1F3CB"
-  ],
   "power": [
     "1F3CB",
     "1F4A1",
     "E2CD",
     "E2D1"
+  ],
+  "lifter": [
+    "1F3CB"
   ],
   "weight": [
     "1F3CB",
@@ -5015,14 +5015,6 @@
   "weight lifter": [
     "1F3CB-FE0F-200D-2642-FE0F",
     "1F3CB-FE0F-200D-2640-FE0F"
-  ],
-  "cyclist": [
-    "1F6B4",
-    "1F6B4-200D-2642-FE0F",
-    "1F6B4-200D-2640-FE0F",
-    "1F6B5",
-    "1F6B5-200D-2642-FE0F",
-    "1F6B5-200D-2640-FE0F"
   ],
   "biking": [
     "1F6B4",
@@ -5041,8 +5033,13 @@
     "1F6B2",
     "1F6B3"
   ],
-  "bicyclist": [
-    "1F6B5"
+  "cyclist": [
+    "1F6B4",
+    "1F6B4-200D-2642-FE0F",
+    "1F6B4-200D-2640-FE0F",
+    "1F6B5",
+    "1F6B5-200D-2642-FE0F",
+    "1F6B5-200D-2640-FE0F"
   ],
   "bike": [
     "1F6B5",
@@ -5064,6 +5061,9 @@
     "1F69E",
     "1F6A0"
   ],
+  "bicyclist": [
+    "1F6B5"
+  ],
   "cartwheel": [
     "1F938",
     "1F938-200D-2642-FE0F",
@@ -5074,13 +5074,13 @@
     "1F938-200D-2642-FE0F",
     "1F938-200D-2640-FE0F"
   ],
-  "fighting": [
-    "1F93C"
-  ],
   "wrestle": [
     "1F93C",
     "1F93C-200D-2642-FE0F",
     "1F93C-200D-2640-FE0F"
+  ],
+  "fighting": [
+    "1F93C"
   ],
   "wrestler": [
     "1F93C"
@@ -5092,13 +5092,16 @@
     "1F93D-200D-2642-FE0F",
     "1F93D-200D-2640-FE0F"
   ],
-  "indoor": [
-    "1F93E"
-  ],
   "handball": [
     "1F93E",
     "1F93E-200D-2642-FE0F",
     "1F93E-200D-2640-FE0F"
+  ],
+  "indoor": [
+    "1F93E"
+  ],
+  "juggle": [
+    "1F939"
   ],
   "balance": [
     "1F939",
@@ -5106,23 +5109,17 @@
     "262F",
     "264E"
   ],
+  "skill": [
+    "1F939"
+  ],
   "multitask": [
     "1F939",
     "1F939-200D-2642-FE0F",
     "1F939-200D-2640-FE0F"
   ],
-  "skill": [
-    "1F939"
-  ],
-  "juggle": [
-    "1F939"
-  ],
   "juggling": [
     "1F939-200D-2642-FE0F",
     "1F939-200D-2640-FE0F"
-  ],
-  "exercise": [
-    "1F9D8"
   ],
   "yoga": [
     "1F9D8",
@@ -5134,12 +5131,15 @@
     "1F9D8-200D-2642-FE0F",
     "1F9D8-200D-2640-FE0F"
   ],
-  "bathtub": [
-    "1F6C0"
+  "exercise": [
+    "1F9D8"
   ],
   "bath": [
     "1F6C0",
     "1F6C1"
+  ],
+  "bathtub": [
+    "1F6C0"
   ],
   "hotel": [
     "1F6CC",
@@ -5173,62 +5173,43 @@
     "1F468-200D-2764-FE0F-200D-1F468",
     "1F469-200D-2764-FE0F-200D-1F469"
   ],
-  "girlfriend": [
+  "lesbian": [
     "1F46D",
-    "1F469-200D-2764-FE0F-200D-1F48B-200D-1F469"
+    "1F469-200D-2764-FE0F-200D-1F48B-200D-1F469",
+    "1F469-200D-2764-FE0F-200D-1F469"
   ],
   "homosexual": [
     "1F46D",
     "1F46C"
   ],
-  "lesbian": [
+  "girlfriend": [
     "1F46D",
-    "1F469-200D-2764-FE0F-200D-1F48B-200D-1F469",
-    "1F469-200D-2764-FE0F-200D-1F469"
+    "1F469-200D-2764-FE0F-200D-1F48B-200D-1F469"
   ],
   "together": [
     "1F46D",
     "1F46B",
     "1F46C"
   ],
-  "straight": [
-    "1F46B",
-    "1F4CF"
-  ],
   "heterosexual": [
     "1F46B"
   ],
-  "twins": [
-    "1F46C",
-    "264A"
-  ],
-  "gemini": [
-    "1F46C",
-    "264A"
+  "straight": [
+    "1F46B",
+    "1F4CF"
   ],
   "gay": [
     "1F46C",
     "1F468-200D-2764-FE0F-200D-1F48B-200D-1F468",
     "1F468-200D-2764-FE0F-200D-1F468"
   ],
-  "girl": [
-    "1F48F",
-    "1F468-200D-1F469-200D-1F467",
-    "1F468-200D-1F469-200D-1F467-200D-1F466",
-    "1F468-200D-1F469-200D-1F467-200D-1F467",
-    "1F468-200D-1F468-200D-1F467",
-    "1F468-200D-1F468-200D-1F467-200D-1F466",
-    "1F468-200D-1F468-200D-1F467-200D-1F467",
-    "1F469-200D-1F469-200D-1F467",
-    "1F469-200D-1F469-200D-1F467-200D-1F466",
-    "1F469-200D-1F469-200D-1F467-200D-1F467",
-    "1F468-200D-1F467",
-    "1F468-200D-1F467-200D-1F466",
-    "1F468-200D-1F467-200D-1F467",
-    "1F469-200D-1F467",
-    "1F469-200D-1F467-200D-1F466",
-    "1F469-200D-1F467-200D-1F467",
-    "1F380"
+  "gemini": [
+    "1F46C",
+    "264A"
+  ],
+  "twins": [
+    "1F46C",
+    "264A"
   ],
   "boy": [
     "1F48F",
@@ -5248,6 +5229,25 @@
     "1F469-200D-1F466",
     "1F469-200D-1F466-200D-1F466",
     "1F469-200D-1F467-200D-1F466"
+  ],
+  "girl": [
+    "1F48F",
+    "1F468-200D-1F469-200D-1F467",
+    "1F468-200D-1F469-200D-1F467-200D-1F466",
+    "1F468-200D-1F469-200D-1F467-200D-1F467",
+    "1F468-200D-1F468-200D-1F467",
+    "1F468-200D-1F468-200D-1F467-200D-1F466",
+    "1F468-200D-1F468-200D-1F467-200D-1F467",
+    "1F469-200D-1F469-200D-1F467",
+    "1F469-200D-1F469-200D-1F467-200D-1F466",
+    "1F469-200D-1F469-200D-1F467-200D-1F467",
+    "1F468-200D-1F467",
+    "1F468-200D-1F467-200D-1F466",
+    "1F468-200D-1F467-200D-1F467",
+    "1F469-200D-1F467",
+    "1F469-200D-1F467-200D-1F466",
+    "1F469-200D-1F467-200D-1F467",
+    "1F380"
   ],
   "couple with heart": [
     "1F469-200D-2764-FE0F-200D-1F468",
@@ -5297,20 +5297,20 @@
     "1F464",
     "1F465"
   ],
-  "arms": [
-    "1FAC2"
-  ],
-  "making out": [
-    "1FAC2"
+  "harmony": [
+    "1FAC2",
+    "1F3B6"
   ],
   "humans": [
     "1FAC2",
     "E201",
     "E246"
   ],
-  "harmony": [
-    "1FAC2",
-    "1F3B6"
+  "arms": [
+    "1FAC2"
+  ],
+  "making out": [
+    "1FAC2"
   ],
   "clothing": [
     "1F463",
@@ -5341,27 +5341,32 @@
     "1F4FF",
     "E1CF"
   ],
+  "footprint": [
+    "1F463"
+  ],
   "print": [
     "1F463",
     "1F43E"
   ],
-  "footprint": [
-    "1F463"
+  "africa": [
+    "1F435",
+    "1F98F",
+    "1F30D"
   ],
-  "ape": [
+  "jungle": [
     "1F435",
     "1F412",
-    "1F9A7"
+    "E010"
   ],
   "primate": [
     "1F435",
     "1F412",
     "1F98D"
   ],
-  "africa": [
+  "ape": [
     "1F435",
-    "1F98F",
-    "1F30D"
+    "1F412",
+    "1F9A7"
   ],
   "evolution": [
     "1F435",
@@ -5369,13 +5374,26 @@
     "1F98D",
     "1F9EC"
   ],
-  "jungle": [
-    "1F435",
-    "1F412",
-    "E010"
-  ],
   "gorilla": [
     "1F98D"
+  ],
+  "dog": [
+    "1F436",
+    "1F415-200D-1F9BA",
+    "1F429",
+    "1F43A",
+    "E182"
+  ],
+  "friend": [
+    "1F436"
+  ],
+  "doggy": [
+    "1F436",
+    "1F415"
+  ],
+  "puppy": [
+    "1F436",
+    "1F415"
   ],
   "pet": [
     "1F436",
@@ -5388,24 +5406,6 @@
     "1F43E",
     "E182"
   ],
-  "doggy": [
-    "1F436",
-    "1F415"
-  ],
-  "dog": [
-    "1F436",
-    "1F415-200D-1F9BA",
-    "1F429",
-    "1F43A",
-    "E182"
-  ],
-  "friend": [
-    "1F436"
-  ],
-  "puppy": [
-    "1F436",
-    "1F415"
-  ],
   "guide": [
     "1F9AE"
   ],
@@ -5415,19 +5415,8 @@
   "assistance": [
     "1F415-200D-1F9BA"
   ],
-  "free": [
-    "1F43A",
-    "1F193",
-    "1F12F"
-  ],
   "pack": [
     "1F43A"
-  ],
-  "forest": [
-    "1F43A",
-    "1F98C",
-    "1F417",
-    "E003"
   ],
   "wild": [
     "1F43A",
@@ -5436,6 +5425,17 @@
     "1F405",
     "1F406",
     "1F417"
+  ],
+  "forest": [
+    "1F43A",
+    "1F98C",
+    "1F417",
+    "E003"
+  ],
+  "free": [
+    "1F43A",
+    "1F193",
+    "1F12F"
   ],
   "quick": [
     "1F98A"
@@ -5461,37 +5461,41 @@
   "bad luck": [
     "1F408-200D-2B1B"
   ],
-  "simba": [
-    "1F981"
-  ],
   "royal": [
     "1F981"
-  ],
-  "leo": [
-    "1F981",
-    "264C"
   ],
   "king": [
     "1F981",
     "1F451"
   ],
-  "tiger": [
-    "1F42F",
-    "1F405"
+  "leo": [
+    "1F981",
+    "264C"
+  ],
+  "simba": [
+    "1F981"
   ],
   "stripes": [
     "1F42F",
     "1F405"
   ],
-  "spots": [
-    "1F406",
-    "1F992"
+  "tiger": [
+    "1F42F",
+    "1F405"
   ],
   "dots": [
     "1F406"
   ],
+  "spots": [
+    "1F406",
+    "1F992"
+  ],
   "leopard": [
     "1F406"
+  ],
+  "riding": [
+    "1F434",
+    "1F40E"
   ],
   "sport": [
     "1F434",
@@ -5506,30 +5510,26 @@
     "26F3",
     "1F3BF"
   ],
-  "riding": [
-    "1F434",
-    "1F40E"
-  ],
-  "elk": [
+  "antlers": [
     "1FACE"
   ],
   "mammal": [
     "1FACE",
     "1FACF"
   ],
-  "antlers": [
+  "elk": [
     "1FACE"
   ],
   "stubborn": [
     "1FACF"
   ],
-  "mule": [
+  "ass": [
     "1FACF"
   ],
   "burro": [
     "1FACF"
   ],
-  "ass": [
+  "mule": [
     "1FACF"
   ],
   "equestrian": [
@@ -5560,10 +5560,6 @@
   "stripe": [
     "1F993"
   ],
-  "antler": [
-    "1F98C",
-    "E003"
-  ],
   "hunt": [
     "1F98C",
     "E003"
@@ -5572,15 +5568,23 @@
     "1F98C",
     "E003"
   ],
+  "antler": [
+    "1F98C",
+    "E003"
+  ],
   "herd": [
+    "1F9AC"
+  ],
+  "wisent": [
     "1F9AC"
   ],
   "buffalo": [
     "1F9AC",
     "1F403"
   ],
-  "wisent": [
-    "1F9AC"
+  "cow": [
+    "1F42E",
+    "1F404"
   ],
   "milk": [
     "1F42E",
@@ -5589,32 +5593,6 @@
     "1F37C",
     "1F95B",
     "1F9CB"
-  ],
-  "dairy": [
-    "1F42E",
-    "1F404",
-    "1F9C8"
-  ],
-  "grass": [
-    "1F42E",
-    "1F404",
-    "1F40F",
-    "1F411",
-    "1F3E1"
-  ],
-  "cow": [
-    "1F42E",
-    "1F404"
-  ],
-  "farm": [
-    "1F42E",
-    "1F402",
-    "1F404",
-    "1F437",
-    "1F416",
-    "1F411",
-    "1F410",
-    "1F69C"
   ],
   "beef": [
     "1F42E",
@@ -5630,19 +5608,51 @@
     "1F355",
     "1FAD5"
   ],
+  "farm": [
+    "1F42E",
+    "1F402",
+    "1F404",
+    "1F437",
+    "1F416",
+    "1F411",
+    "1F410",
+    "1F69C"
+  ],
+  "dairy": [
+    "1F42E",
+    "1F404",
+    "1F9C8"
+  ],
+  "grass": [
+    "1F42E",
+    "1F404",
+    "1F40F",
+    "1F411",
+    "1F3E1"
+  ],
   "acre": [
     "1F402",
     "1F69C"
-  ],
-  "taurus": [
-    "1F402",
-    "2649"
   ],
   "bull": [
     "1F402",
     "2649"
   ],
+  "taurus": [
+    "1F402",
+    "2649"
+  ],
+  "meat": [
+    "1F437",
+    "1F416",
+    "1F356",
+    "1F953"
+  ],
   "pork": [
+    "1F437",
+    "1F416"
+  ],
+  "oink": [
     "1F437",
     "1F416"
   ],
@@ -5650,16 +5660,6 @@
     "1F437",
     "1F417",
     "1F43D"
-  ],
-  "oink": [
-    "1F437",
-    "1F416"
-  ],
-  "meat": [
-    "1F437",
-    "1F416",
-    "1F356",
-    "1F953"
   ],
   "sow": [
     "1F416"
@@ -5671,7 +5671,20 @@
   "socket": [
     "1F43D"
   ],
+  "aries": [
+    "1F40F",
+    "2648"
+  ],
+  "wool": [
+    "1F40F",
+    "1F411",
+    "1F999"
+  ],
   "hooves": [
+    "1F40F",
+    "1F411"
+  ],
+  "sheep": [
     "1F40F",
     "1F411"
   ],
@@ -5681,19 +5694,6 @@
     "1F6BB",
     "E186"
   ],
-  "aries": [
-    "1F40F",
-    "2648"
-  ],
-  "sheep": [
-    "1F40F",
-    "1F411"
-  ],
-  "wool": [
-    "1F40F",
-    "1F411",
-    "1F999"
-  ],
   "capricorn": [
     "1F410",
     "2651"
@@ -5701,20 +5701,20 @@
   "dromedary": [
     "1F42A"
   ],
-  "sahara": [
-    "1F42A",
-    "1F42B"
-  ],
-  "hump": [
-    "1F42A",
-    "1F42B"
-  ],
   "desert": [
     "1F42A",
     "1F42B",
     "1F335",
     "1F3DC",
     "1F3DD"
+  ],
+  "hump": [
+    "1F42A",
+    "1F42B"
+  ],
+  "sahara": [
+    "1F42A",
+    "1F42B"
   ],
   "oasis": [
     "1F42A",
@@ -5726,14 +5726,20 @@
   "camel": [
     "1F42B"
   ],
+  "guanaco": [
+    "1F999"
+  ],
   "alpaca": [
     "1F999"
   ],
   "vicuña": [
     "1F999"
   ],
-  "guanaco": [
-    "1F999"
+  "big": [
+    "1F992",
+    "1F418",
+    "1F50D",
+    "1F50E"
   ],
   "neck": [
     "1F992",
@@ -5742,22 +5748,16 @@
   "trees": [
     "1F992"
   ],
-  "big": [
-    "1F992",
-    "1F418",
-    "1F50D",
-    "1F50E"
-  ],
-  "töröö": [
-    "1F418"
-  ],
-  "elephant": [
+  "trunk": [
     "1F418"
   ],
   "wrinkles": [
     "1F418"
   ],
-  "trunk": [
+  "töröö": [
+    "1F418"
+  ],
+  "elephant": [
     "1F418"
   ],
   "extinction": [
@@ -5776,16 +5776,16 @@
   "hippo": [
     "1F99B"
   ],
+  "whiskers": [
+    "1F42D",
+    "1F401"
+  ],
   "mouse": [
     "1F42D",
     "1F401",
     "1F5B1",
     "E104",
     "E106"
-  ],
-  "tiny": [
-    "1F42D",
-    "1F401"
   ],
   "rodent": [
     "1F42D",
@@ -5795,29 +5795,25 @@
     "1F430",
     "1F407"
   ],
-  "whiskers": [
+  "tiny": [
     "1F42D",
     "1F401"
   ],
-  "fleas": [
-    "1F400"
-  ],
-  "plaque": [
-    "1F400"
-  ],
   "canal": [
-    "1F400"
-  ],
-  "rat": [
     "1F400"
   ],
   "garbage": [
     "1F400",
     "1F6AE"
   ],
-  "corn": [
-    "1F439",
-    "1F33D"
+  "rat": [
+    "1F400"
+  ],
+  "fleas": [
+    "1F400"
+  ],
+  "plaque": [
+    "1F400"
   ],
   "fat": [
     "1F439"
@@ -5826,18 +5822,11 @@
     "1F439",
     "1F428"
   ],
-  "ears": [
-    "1F430",
-    "1F407"
-  ],
-  "rabbit": [
-    "1F430"
+  "corn": [
+    "1F439",
+    "1F33D"
   ],
   "bunny": [
-    "1F430",
-    "1F407"
-  ],
-  "hopping": [
     "1F430",
     "1F407"
   ],
@@ -5845,19 +5834,30 @@
     "1F430",
     "1F407"
   ],
-  "squirrel": [
-    "1F43F"
+  "hopping": [
+    "1F430",
+    "1F407"
+  ],
+  "rabbit": [
+    "1F430"
+  ],
+  "ears": [
+    "1F430",
+    "1F407"
   ],
   "alvin": [
+    "1F43F"
+  ],
+  "squirrel": [
     "1F43F"
   ],
   "dam": [
     "1F9AB"
   ],
-  "prickly": [
+  "spiny": [
     "1F994"
   ],
-  "spiny": [
+  "prickly": [
     "1F994"
   ],
   "vampire": [
@@ -5868,16 +5868,6 @@
   ],
   "ursa": [
     "1F43B-200D-2744-FE0F"
-  ],
-  "arctic": [
-    "1F43B-200D-2744-FE0F",
-    "E2C3",
-    "E2C4"
-  ],
-  "bear": [
-    "1F43B-200D-2744-FE0F",
-    "1F3F4-E0064-E0065-E0062-E0065-E007F",
-    "1F3F4-E0075-E0073-E0063-E0061-E007F"
   ],
   "ice": [
     "1F43B-200D-2744-FE0F",
@@ -5890,7 +5880,20 @@
     "26F8",
     "E2C0"
   ],
-  "eucalyptus": [
+  "arctic": [
+    "1F43B-200D-2744-FE0F",
+    "E2C3",
+    "E2C4"
+  ],
+  "bear": [
+    "1F43B-200D-2744-FE0F",
+    "1F3F4-E0064-E0065-E0062-E0065-E007F",
+    "1F3F4-E0075-E0073-E0063-E0061-E007F"
+  ],
+  "grey": [
+    "1F428"
+  ],
+  "clingy": [
     "1F428"
   ],
   "australia": [
@@ -5901,11 +5904,11 @@
     "1F428",
     "1F998"
   ],
-  "grey": [
+  "eucalyptus": [
     "1F428"
   ],
-  "clingy": [
-    "1F428"
+  "kawaii": [
+    "1F43C"
   ],
   "japan": [
     "1F43C",
@@ -5914,23 +5917,20 @@
     "1F458",
     "1F5FF"
   ],
-  "kawaii": [
-    "1F43C"
-  ],
-  "lazy": [
-    "1F9A5"
-  ],
   "slow": [
     "1F9A5",
     "1F422"
   ],
-  "fishing": [
-    "1F9A6",
-    "1FA9D"
+  "lazy": [
+    "1F9A5"
   ],
   "playful": [
     "1F9A6",
     "E283"
+  ],
+  "fishing": [
+    "1F9A6",
+    "1FA9D"
   ],
   "stink": [
     "1F9A8"
@@ -5942,10 +5942,10 @@
     "1F998",
     "1F438"
   ],
-  "honey badger": [
+  "pester": [
     "1F9A1"
   ],
-  "pester": [
+  "honey badger": [
     "1F9A1"
   ],
   "feet": [
@@ -5986,14 +5986,14 @@
     "1F424",
     "1F373"
   ],
-  "hatching": [
-    "1F423"
-  ],
   "chick": [
     "1F423",
     "1F424",
     "1F425",
     "1F6BA"
+  ],
+  "hatching": [
+    "1F423"
   ],
   "fly": [
     "1F426",
@@ -6025,12 +6025,6 @@
   "mauritius": [
     "1F9A4"
   ],
-  "flight": [
-    "1FAB6"
-  ],
-  "plumage": [
-    "1FAB6"
-  ],
   "light": [
     "1FAB6",
     "1F6A8",
@@ -6045,10 +6039,16 @@
     "1F526",
     "1F3EE"
   ],
-  "flamingo": [
-    "1F9A9"
+  "flight": [
+    "1FAB6"
+  ],
+  "plumage": [
+    "1FAB6"
   ],
   "flamboyant": [
+    "1F9A9"
+  ],
+  "flamingo": [
     "1F9A9"
   ],
   "tropical": [
@@ -6071,10 +6071,10 @@
   "mythology": [
     "1FABD"
   ],
-  "aviation": [
+  "angelic": [
     "1FABD"
   ],
-  "angelic": [
+  "aviation": [
     "1FABD"
   ],
   "raven": [
@@ -6086,22 +6086,28 @@
   "rook": [
     "1F426-200D-2B1B"
   ],
-  "silly": [
-    "1FABF"
-  ],
   "fowl": [
     "1FABF"
   ],
   "honk": [
     "1FABF"
   ],
-  "crocodile": [
-    "1F40A"
+  "silly": [
+    "1FABF"
   ],
   "dinosaur": [
     "1F40A",
     "1F995",
     "1F996"
+  ],
+  "crocodile": [
+    "1F40A"
+  ],
+  "terrapin": [
+    "1F422"
+  ],
+  "tortoise": [
+    "1F422"
   ],
   "sand": [
     "1F422",
@@ -6112,12 +6118,6 @@
     "231B",
     "23F3"
   ],
-  "terrapin": [
-    "1F422"
-  ],
-  "tortoise": [
-    "1F422"
-  ],
   "fast": [
     "1F98E",
     "1F40D",
@@ -6126,19 +6126,19 @@
   "reptile": [
     "1F98E"
   ],
-  "serpent": [
-    "1F40D",
-    "26CE"
-  ],
   "bearer": [
     "1F40D",
     "2652",
     "26CE"
   ],
+  "ophiuchus": [
+    "1F40D",
+    "26CE"
+  ],
   "wriggle": [
     "1F40D"
   ],
-  "ophiuchus": [
+  "serpent": [
     "1F40D",
     "26CE"
   ],
@@ -6160,20 +6160,24 @@
   "dragon": [
     "1F432"
   ],
-  "diplodocus": [
+  "brontosaurus": [
     "1F995"
   ],
   "brachiosaurus": [
     "1F995"
   ],
-  "brontosaurus": [
+  "diplodocus": [
     "1F995"
+  ],
+  "t-rex": [
+    "1F996"
   ],
   "tyrannosaurus rex": [
     "1F996"
   ],
-  "t-rex": [
-    "1F996"
+  "spouting": [
+    "1F433",
+    "E004"
   ],
   "whale": [
     "1F433",
@@ -6192,10 +6196,6 @@
     "E006",
     "E007",
     "E008"
-  ],
-  "spouting": [
-    "1F433",
-    "E004"
   ],
   "flipper": [
     "1F42C"
@@ -6219,6 +6219,10 @@
   "octopus": [
     "1F419"
   ],
+  "shell": [
+    "1F41A",
+    "1F9AA"
+  ],
   "beach": [
     "1F41A",
     "1F334",
@@ -6227,32 +6231,25 @@
     "1F31E",
     "1F30A"
   ],
-  "shell": [
-    "1F41A",
-    "1F9AA"
-  ],
   "reef": [
     "1FAB8"
-  ],
-  "stinger": [
-    "1FABC"
-  ],
-  "marine": [
-    "1FABC"
-  ],
-  "invertebrate": [
-    "1FABC"
   ],
   "jelly": [
     "1FABC",
     "1FAD9-200D-1F7E5",
     "1FAD9-200D-1F7E7"
   ],
+  "stinger": [
+    "1FABC"
+  ],
+  "invertebrate": [
+    "1FABC"
+  ],
+  "marine": [
+    "1FABC"
+  ],
   "snail": [
     "1F40C"
-  ],
-  "pretty": [
-    "1F98B"
   ],
   "insect": [
     "1F98B",
@@ -6264,6 +6261,9 @@
     "1FAB3",
     "1F577"
   ],
+  "pretty": [
+    "1F98B"
+  ],
   "bee": [
     "1F41D"
   ],
@@ -6273,29 +6273,29 @@
   "ladybug": [
     "1F41E"
   ],
-  "ladybird": [
+  "beetle": [
     "1F41E"
   ],
-  "beetle": [
+  "ladybird": [
     "1F41E"
   ],
   "grasshopper": [
     "1F997"
-  ],
-  "roach": [
-    "1FAB3"
   ],
   "pest": [
     "1FAB3",
     "1F99F",
     "1FAB0"
   ],
-  "spider": [
-    "1F578"
+  "roach": [
+    "1FAB3"
   ],
   "web": [
     "1F578",
     "E06A"
+  ],
+  "spider": [
+    "1F578"
   ],
   "scorpio": [
     "1F982",
@@ -6314,10 +6314,10 @@
     "E011",
     "E380"
   ],
-  "rotting": [
+  "maggot": [
     "1FAB0"
   ],
-  "maggot": [
+  "rotting": [
     "1FAB0"
   ],
   "parasite": [
@@ -6329,17 +6329,8 @@
   "annelid": [
     "1FAB1"
   ],
-  "amoeba": [
-    "1F9A0",
-    "E011"
-  ],
   "corona": [
     "1F9A0"
-  ],
-  "bacteria": [
-    "1F9A0",
-    "1F9EB",
-    "E011"
   ],
   "COVID-19": [
     "1F9A0",
@@ -6357,11 +6348,14 @@
     "E0B3",
     "E0B4"
   ],
-  "tulip": [
-    "1F490"
+  "bacteria": [
+    "1F9A0",
+    "1F9EB",
+    "E011"
   ],
-  "bouquet": [
-    "1F490"
+  "amoeba": [
+    "1F9A0",
+    "E011"
   ],
   "flower": [
     "1F490",
@@ -6377,21 +6371,27 @@
     "1FABB",
     "1F3B4"
   ],
-  "blossom": [
-    "1F338"
+  "bouquet": [
+    "1F490"
+  ],
+  "tulip": [
+    "1F490"
   ],
   "cherry": [
     "1F338",
     "1F352",
     "E0C7"
   ],
-  "purity": [
+  "blossom": [
+    "1F338"
+  ],
+  "buddhism": [
     "1FAB7"
   ],
   "hinduism": [
     "1FAB7"
   ],
-  "buddhism": [
+  "purity": [
     "1FAB7"
   ],
   "plant": [
@@ -6406,6 +6406,9 @@
     "2618",
     "1F340",
     "1F330"
+  ],
+  "valentines day": [
+    "1F339"
   ],
   "nature": [
     "1F339",
@@ -6426,9 +6429,6 @@
     "1F339",
     "1F940"
   ],
-  "valentines day": [
-    "1F339"
-  ],
   "wilted": [
     "1F940"
   ],
@@ -6441,17 +6441,22 @@
   "eastern": [
     "1F337"
   ],
+  "bluebonnet": [
+    "1FABB"
+  ],
+  "lupine": [
+    "1FABB"
+  ],
   "lavender": [
     "1FABB"
   ],
   "snapdragon": [
     "1FABB"
   ],
-  "lupine": [
-    "1FABB"
-  ],
-  "bluebonnet": [
-    "1FABB"
+  "farming": [
+    "1F331",
+    "1F69C",
+    "1F9FA"
   ],
   "leaves": [
     "1F331",
@@ -6469,10 +6474,8 @@
     "1F343",
     "1F530"
   ],
-  "farming": [
-    "1F331",
-    "1F69C",
-    "1F9FA"
+  "nurturing": [
+    "1FAB4"
   ],
   "house": [
     "1FAB4",
@@ -6485,9 +6488,6 @@
     "1FAB4"
   ],
   "boring": [
-    "1FAB4"
-  ],
-  "nurturing": [
     "1FAB4"
   ],
   "grow": [
@@ -6510,16 +6510,13 @@
   "deciduous": [
     "1F333"
   ],
+  "relax": [
+    "1F334"
+  ],
   "vacation": [
     "1F334",
     "1F3E8",
     "1F30A"
-  ],
-  "relax": [
-    "1F334"
-  ],
-  "texas": [
-    "1F335"
   ],
   "warm": [
     "1F335",
@@ -6527,23 +6524,18 @@
     "1F31E",
     "E30F"
   ],
+  "texas": [
+    "1F335"
+  ],
+  "grain": [
+    "1F33E"
+  ],
   "rice": [
     "1F33E",
     "1F358",
     "1F359",
     "1F35A",
     "1F35B"
-  ],
-  "grain": [
-    "1F33E"
-  ],
-  "four-leaf clover": [
-    "1F340"
-  ],
-  "four": [
-    "1F340",
-    "1F553",
-    "1F55F"
   ],
   "clover": [
     "1F340"
@@ -6553,8 +6545,13 @@
     "1F553",
     "1F55F"
   ],
-  "fall": [
-    "1F341"
+  "four": [
+    "1F340",
+    "1F553",
+    "1F55F"
+  ],
+  "four-leaf clover": [
+    "1F340"
   ],
   "autumn": [
     "1F341",
@@ -6570,31 +6567,37 @@
   "maple": [
     "1F341"
   ],
-  "wind": [
+  "fall": [
+    "1F341"
+  ],
+  "flutter": [
     "1F343",
-    "1F32A",
-    "1F32C",
-    "1F390"
+    "1FAAD"
   ],
   "blow": [
     "1F343",
     "1F32A",
     "1F32C"
   ],
-  "flutter": [
+  "wind": [
     "1F343",
-    "1FAAD"
+    "1F32A",
+    "1F32C",
+    "1F390"
   ],
   "nesting": [
     "1FAB9",
     "1FABA",
     "1FA86"
   ],
+  "mushroom": [
+    "1F344"
+  ],
   "toadstool": [
     "1F344"
   ],
-  "mushroom": [
-    "1F344"
+  "grape": [
+    "1F347"
   ],
   "fruit": [
     "1F347",
@@ -6615,9 +6618,6 @@
     "1F345",
     "1F951",
     "E0C4"
-  ],
-  "grape": [
-    "1F347"
   ],
   "melon": [
     "1F349"
@@ -6670,10 +6670,10 @@
   "aubergine": [
     "1F346"
   ],
-  "maze": [
+  "maize": [
     "1F33D"
   ],
-  "maize": [
+  "maze": [
     "1F33D"
   ],
   "pepper": [
@@ -6686,16 +6686,16 @@
   "pickle": [
     "1F952"
   ],
-  "cabbage": [
+  "lettuce": [
     "1F96C"
   ],
   "bok choy": [
     "1F96C"
   ],
-  "kale": [
+  "cabbage": [
     "1F96C"
   ],
-  "lettuce": [
+  "kale": [
     "1F96C"
   ],
   "wild cabbage": [
@@ -6708,18 +6708,12 @@
   "peanut": [
     "1F95C"
   ],
-  "kidney": [
-    "1FAD8"
-  ],
   "legume": [
     "1FAD8",
     "1FADB"
   ],
-  "spice": [
-    "1FADA"
-  ],
-  "root": [
-    "1FADA"
+  "kidney": [
+    "1FAD8"
   ],
   "beer": [
     "1FADA",
@@ -6727,13 +6721,19 @@
     "1F37B",
     "E181"
   ],
+  "root": [
+    "1FADA"
+  ],
+  "spice": [
+    "1FADA"
+  ],
   "pea": [
     "1FADB"
   ],
-  "edamame": [
+  "beans": [
     "1FADB"
   ],
-  "beans": [
+  "edamame": [
     "1FADB"
   ],
   "pod": [
@@ -6742,10 +6742,13 @@
   "loaf": [
     "1F35E"
   ],
-  "french": [
+  "bread": [
     "1F950",
     "1F956",
-    "1F35F"
+    "1F96A"
+  ],
+  "roll": [
+    "1F950"
   ],
   "breakfast": [
     "1F950",
@@ -6758,13 +6761,10 @@
     "1F963",
     "1F369"
   ],
-  "roll": [
-    "1F950"
-  ],
-  "bread": [
+  "french": [
     "1F950",
     "1F956",
-    "1F96A"
+    "1F35F"
   ],
   "baguette": [
     "1F956"
@@ -6772,12 +6772,12 @@
   "lavash": [
     "1FAD3"
   ],
-  "naan": [
-    "1FAD3"
-  ],
   "pita": [
     "1FAD3",
     "1F9C6"
+  ],
+  "naan": [
+    "1FAD3"
   ],
   "arepa": [
     "1FAD3"
@@ -6801,10 +6801,10 @@
   "hotcake": [
     "1F95E"
   ],
-  "indecisive": [
+  "iron": [
     "1F9C7"
   ],
-  "iron": [
+  "indecisive": [
     "1F9C7"
   ],
   "bone": [
@@ -6812,16 +6812,16 @@
     "1F357",
     "E31F"
   ],
-  "leg": [
-    "1F357"
-  ],
   "drumstick": [
     "1F357"
   ],
-  "chicken": [
+  "leg": [
     "1F357"
   ],
   "poultry": [
+    "1F357"
+  ],
+  "chicken": [
     "1F357"
   ],
   "chop": [
@@ -6832,10 +6832,10 @@
   "porkchop": [
     "1F969"
   ],
-  "lambchop": [
+  "steak": [
     "1F969"
   ],
-  "steak": [
+  "lambchop": [
     "1F969"
   ],
   "burger": [
@@ -6848,13 +6848,13 @@
     "1F355",
     "1F370"
   ],
+  "frankfurter": [
+    "1F32D"
+  ],
   "hotdog": [
     "1F32D"
   ],
   "sausage": [
-    "1F32D"
-  ],
-  "frankfurter": [
     "1F32D"
   ],
   "mexican": [
@@ -6869,16 +6869,6 @@
     "1FAD4",
     "1F381"
   ],
-  "flatbread": [
-    "1F959"
-  ],
-  "falafel": [
-    "1F959"
-  ],
-  "stuffed": [
-    "1F959",
-    "1F9F8"
-  ],
   "gyro": [
     "1F959"
   ],
@@ -6886,26 +6876,36 @@
     "1F959",
     "1F362"
   ],
-  "hummus": [
-    "1F9C6"
+  "flatbread": [
+    "1F959"
   ],
-  "chickpea": [
+  "stuffed": [
+    "1F959",
+    "1F9F8"
+  ],
+  "falafel": [
+    "1F959"
+  ],
+  "hummus": [
     "1F9C6"
   ],
   "meatball": [
     "1F9C6"
   ],
-  "pan": [
-    "1F373",
-    "1F958"
+  "chickpea": [
+    "1F9C6"
   ],
   "frying": [
     "1F373"
   ],
-  "paella": [
+  "pan": [
+    "1F373",
     "1F958"
   ],
   "casserole": [
+    "1F958"
+  ],
+  "paella": [
     "1F958"
   ],
   "shallow": [
@@ -6920,9 +6920,6 @@
     "1F36F",
     "1FAD6"
   ],
-  "swiss": [
-    "1FAD5"
-  ],
   "chocolate": [
     "1FAD5",
     "1F36B",
@@ -6931,10 +6928,13 @@
   "melted": [
     "1FAD5"
   ],
-  "congee": [
-    "1F963"
+  "swiss": [
+    "1FAD5"
   ],
   "cereal": [
+    "1F963"
+  ],
+  "congee": [
     "1F963"
   ],
   "salad": [
@@ -6954,9 +6954,6 @@
     "1F96B",
     "1F6AE"
   ],
-  "bento": [
-    "1F371"
-  ],
   "box": [
     "1F371",
     "1F9C3",
@@ -6970,6 +6967,9 @@
     "1F5C3",
     "1F5C4",
     "2611"
+  ],
+  "bento": [
+    "1F371"
   ],
   "cracker": [
     "1F358"
@@ -7017,14 +7017,17 @@
   "ramen": [
     "1F35C"
   ],
-  "noodle": [
+  "bowl": [
     "1F35C"
   ],
-  "bowl": [
+  "noodle": [
     "1F35C"
   ],
   "pasta": [
     "1F35D"
+  ],
+  "roasted": [
+    "1F360"
   ],
   "sweet": [
     "1F360",
@@ -7045,11 +7048,12 @@
     "1F37C",
     "1F9C3"
   ],
-  "roasted": [
-    "1F360"
-  ],
   "potato": [
     "1F360"
+  ],
+  "skewer": [
+    "1F362",
+    "1F361"
   ],
   "stick": [
     "1F362",
@@ -7064,14 +7068,13 @@
     "1F362",
     "1F99E"
   ],
-  "skewer": [
-    "1F362",
-    "1F361"
-  ],
   "sushi": [
     "1F363"
   ],
   "shrimp": [
+    "1F364"
+  ],
+  "prawn": [
     "1F364"
   ],
   "fried": [
@@ -7080,23 +7083,20 @@
   "tempura": [
     "1F364"
   ],
-  "prawn": [
-    "1F364"
-  ],
   "pastry": [
     "1F365",
     "1F382",
     "1F370",
     "1F967"
   ],
+  "swirl": [
+    "1F365",
+    "1F300"
+  ],
   "cake": [
     "1F365",
     "1F382",
     "1F370"
-  ],
-  "swirl": [
-    "1F365",
-    "1F300"
   ],
   "festival": [
     "1F96E",
@@ -7119,19 +7119,19 @@
     "1F36D",
     "1F36E"
   ],
+  "potsticker": [
+    "1F95F"
+  ],
+  "gyōza": [
+    "1F95F"
+  ],
   "jiaozi": [
     "1F95F"
   ],
   "pierogi": [
     "1F95F"
   ],
-  "potsticker": [
-    "1F95F"
-  ],
   "empanada": [
-    "1F95F"
-  ],
-  "gyōza": [
     "1F95F"
   ],
   "prophecy": [
@@ -7145,10 +7145,10 @@
     "264B",
     "E329"
   ],
-  "bisque": [
+  "claws": [
     "1F99E"
   ],
-  "claws": [
+  "bisque": [
     "1F99E"
   ],
   "shellfish": [
@@ -7166,16 +7166,16 @@
     "1F9CB",
     "1F4A7"
   ],
-  "soft": [
-    "1F366",
-    "1F508"
-  ],
   "cream": [
     "1F366",
     "1F368"
   ],
   "icecream": [
     "1F366"
+  ],
+  "soft": [
+    "1F366",
+    "1F508"
   ],
   "shaved": [
     "1F367"
@@ -7212,10 +7212,10 @@
   "pudding": [
     "1F36E"
   ],
-  "honey": [
+  "honeypot": [
     "1F36F"
   ],
-  "honeypot": [
+  "honey": [
     "1F36F"
   ],
   "drink": [
@@ -7254,11 +7254,13 @@
     "1F50E",
     "1F6B0"
   ],
-  "tea": [
+  "coffee": [
     "2615",
-    "1FAD6",
-    "1F375",
-    "1F9CB"
+    "E0C5",
+    "E150",
+    "E151",
+    "E152",
+    "E153"
   ],
   "beverage": [
     "2615",
@@ -7268,13 +7270,11 @@
     "1F964",
     "1F9C3"
   ],
-  "coffee": [
+  "tea": [
     "2615",
-    "E0C5",
-    "E150",
-    "E151",
-    "E152",
-    "E153"
+    "1FAD6",
+    "1F375",
+    "1F9CB"
   ],
   "teacup": [
     "1F375"
@@ -7283,8 +7283,9 @@
     "1F375",
     "1F376"
   ],
-  "popping": [
-    "1F37E"
+  "celebrate": [
+    "1F37E",
+    "1F942"
   ],
   "cork": [
     "1F37E"
@@ -7292,9 +7293,16 @@
   "event": [
     "1F37E"
   ],
-  "celebrate": [
-    "1F37E",
-    "1F942"
+  "popping": [
+    "1F37E"
+  ],
+  "classic": [
+    "1F377",
+    "1F378",
+    "1F943"
+  ],
+  "wine": [
+    "1F377"
   ],
   "alcohol": [
     "1F377",
@@ -7304,20 +7312,16 @@
     "1F943",
     "E181"
   ],
-  "wine": [
-    "1F377"
-  ],
-  "classic": [
-    "1F377",
-    "1F378",
-    "1F943"
+  "elegant": [
+    "1F378"
   ],
   "cocktail": [
     "1F378",
     "1F379"
   ],
-  "elegant": [
-    "1F378"
+  "german": [
+    "1F37A",
+    "1F37B"
   ],
   "mug": [
     "1F37A",
@@ -7327,16 +7331,15 @@
     "1F37A",
     "1F37B"
   ],
-  "german": [
-    "1F37A",
-    "1F37B"
-  ],
   "clink": [
     "1F37B",
     "1F942"
   ],
   "secco": [
     "1F942"
+  ],
+  "tumbler": [
+    "1F943"
   ],
   "liquor": [
     "1F943"
@@ -7348,15 +7351,15 @@
     "1F943",
     "1F489"
   ],
-  "tumbler": [
-    "1F943"
-  ],
   "empty": [
     "1FAD7",
     "1FAD9"
   ],
   "spill": [
     "1FAD7"
+  ],
+  "fastfood": [
+    "1F964"
   ],
   "juice": [
     "1F964",
@@ -7365,11 +7368,11 @@
   "soda": [
     "1F964"
   ],
-  "fastfood": [
-    "1F964"
-  ],
   "straw": [
     "1F9C3"
+  ],
+  "iceberg": [
+    "1F9CA"
   ],
   "isometric": [
     "1F9CA",
@@ -7381,8 +7384,14 @@
   "ice cube": [
     "1F9CA"
   ],
-  "iceberg": [
-    "1F9CA"
+  "hashi": [
+    "1F962"
+  ],
+  "chopstick": [
+    "1F962"
+  ],
+  "sticks": [
+    "1F962"
   ],
   "eat": [
     "1F962",
@@ -7391,27 +7400,18 @@
     "1F944",
     "1F52A"
   ],
-  "sticks": [
-    "1F962"
-  ],
-  "hashi": [
-    "1F962"
-  ],
-  "chopstick": [
-    "1F962"
-  ],
-  "knife": [
-    "1F37D",
-    "1F374",
-    "1F52A",
-    "1F5E1"
-  ],
   "fork": [
     "1F37D",
     "1F374"
   ],
   "plate": [
     "1F37D"
+  ],
+  "knife": [
+    "1F37D",
+    "1F374",
+    "1F52A",
+    "1F5E1"
   ],
   "cutlery": [
     "1F374"
@@ -7460,17 +7460,17 @@
     "1F52D",
     "1F531"
   ],
+  "container": [
+    "1FAD9"
+  ],
+  "sauce": [
+    "1FAD9"
+  ],
   "store": [
     "1FAD9",
     "1F3EA",
     "1F3EC",
     "E25C"
-  ],
-  "sauce": [
-    "1FAD9"
-  ],
-  "container": [
-    "1FAD9"
   ],
   "jug": [
     "1F3FA"
@@ -7478,6 +7478,31 @@
   "aquarius": [
     "1F3FA",
     "2652"
+  ],
+  "europe": [
+    "1F30D"
+  ],
+  "global": [
+    "1F30D",
+    "1F30E",
+    "1F30F",
+    "1F310",
+    "1F5FA",
+    "E2C7"
+  ],
+  "geographic": [
+    "1F30D",
+    "1F30E",
+    "1F30F",
+    "1F310",
+    "1F5FA",
+    "1F5FB"
+  ],
+  "globe": [
+    "1F30D",
+    "1F30E",
+    "1F30F",
+    "1F310"
   ],
   "globe showing europe-africa": [
     "1F30D"
@@ -7492,44 +7517,12 @@
     "1F31B",
     "1F31C"
   ],
-  "global": [
-    "1F30D",
-    "1F30E",
-    "1F30F",
-    "1F310",
-    "1F5FA",
-    "E2C7"
-  ],
   "earth": [
     "1F30D",
     "1F30E",
     "1F30F",
     "1F310",
     "1F5FA"
-  ],
-  "globe": [
-    "1F30D",
-    "1F30E",
-    "1F30F",
-    "1F310"
-  ],
-  "world": [
-    "1F30D",
-    "1F30E",
-    "1F30F",
-    "1F310",
-    "1F5FA"
-  ],
-  "europe": [
-    "1F30D"
-  ],
-  "geographic": [
-    "1F30D",
-    "1F30E",
-    "1F30F",
-    "1F310",
-    "1F5FA",
-    "1F5FB"
   ],
   "continent": [
     "1F30D",
@@ -7538,16 +7531,23 @@
     "1F310",
     "1F5FA"
   ],
-  "globe showing americas": [
-    "1F30E"
+  "world": [
+    "1F30D",
+    "1F30E",
+    "1F30F",
+    "1F310",
+    "1F5FA"
   ],
   "americas": [
     "1F30E"
   ],
-  "asia": [
-    "1F30F"
+  "globe showing americas": [
+    "1F30E"
   ],
   "globe showing asia-australia": [
+    "1F30F"
+  ],
+  "asia": [
     "1F30F"
   ],
   "grid": [
@@ -7567,6 +7567,16 @@
   "wayfinding": [
     "1F9ED"
   ],
+  "navigation": [
+    "1F9ED",
+    "E1CD",
+    "E1D0",
+    "E25E"
+  ],
+  "magnetic": [
+    "1F9ED",
+    "1F9F2"
+  ],
   "direction": [
     "1F9ED",
     "2B06",
@@ -7580,16 +7590,6 @@
     "2934",
     "2935"
   ],
-  "navigation": [
-    "1F9ED",
-    "E1CD",
-    "E1D0",
-    "E25E"
-  ],
-  "magnetic": [
-    "1F9ED",
-    "1F9F2"
-  ],
   "orienteering": [
     "1F9ED"
   ],
@@ -7598,17 +7598,6 @@
     "26F0",
     "1F97E",
     "E20E"
-  ],
-  "climbing": [
-    "1F3D4",
-    "26F0"
-  ],
-  "landscape": [
-    "1F3D4",
-    "26F0",
-    "1F30B",
-    "1F306",
-    "E142"
   ],
   "outdoor": [
     "1F3D4",
@@ -7626,22 +7615,29 @@
     "1F680",
     "E20B"
   ],
-  "smoke": [
+  "landscape": [
+    "1F3D4",
+    "26F0",
     "1F30B",
-    "1F6AC"
+    "1F306",
+    "E142"
+  ],
+  "climbing": [
+    "1F3D4",
+    "26F0"
   ],
   "vulcano": [
     "1F30B"
+  ],
+  "smoke": [
+    "1F30B",
+    "1F6AC"
   ],
   "eruption": [
     "1F30B"
   ],
   "fuji": [
     "1F5FB"
-  ],
-  "tent": [
-    "1F3D5",
-    "1F3AA"
   ],
   "sleeping": [
     "1F3D5"
@@ -7650,6 +7646,10 @@
     "1F3D5",
     "26FA",
     "1F97E"
+  ],
+  "tent": [
+    "1F3D5",
+    "1F3AA"
   ],
   "umbrella": [
     "1F3D6",
@@ -7673,11 +7673,14 @@
   "island": [
     "1F3DD"
   ],
+  "park": [
+    "1F3DE"
+  ],
   "woods": [
     "1F3DE"
   ],
-  "park": [
-    "1F3DE"
+  "olympic": [
+    "1F3DF"
   ],
   "building": [
     "1F3DF",
@@ -7703,17 +7706,14 @@
     "26E9",
     "1F54B"
   ],
+  "stadium": [
+    "1F3DF"
+  ],
   "football": [
     "1F3DF",
     "26BD",
     "1F3C8",
     "1F3C9"
-  ],
-  "olympic": [
-    "1F3DF"
-  ],
-  "stadium": [
-    "1F3DF"
   ],
   "classical": [
     "1F3DB"
@@ -7737,12 +7737,6 @@
     "2702",
     "E249"
   ],
-  "clay": [
-    "1F9F1"
-  ],
-  "bricks": [
-    "1F9F1"
-  ],
   "mortar": [
     "1F9F1"
   ],
@@ -7751,8 +7745,11 @@
     "1F4CC",
     "1F4CD"
   ],
-  "boulder": [
-    "1FAA8"
+  "bricks": [
+    "1F9F1"
+  ],
+  "clay": [
+    "1F9F1"
   ],
   "stone": [
     "1FAA8",
@@ -7761,40 +7758,43 @@
   "solid": [
     "1FAA8"
   ],
-  "timber": [
+  "boulder": [
+    "1FAA8"
+  ],
+  "log": [
     "1FAB5"
   ],
   "lumber": [
     "1FAB5",
     "1FA9A"
   ],
-  "log": [
+  "timber": [
     "1FAB5"
-  ],
-  "yurt": [
-    "1F6D6"
   ],
   "roundhouse": [
     "1F6D6"
   ],
-  "neighbourhood": [
+  "yurt": [
+    "1F6D6"
+  ],
+  "houses": [
     "1F3D8"
   ],
   "buildings": [
     "1F3D8",
     "1F3D9"
   ],
-  "houses": [
+  "neighbourhood": [
     "1F3D8"
   ],
   "dangerous": [
     "1F3DA",
     "1F32A"
   ],
-  "rotten": [
+  "derelict": [
     "1F3DA"
   ],
-  "derelict": [
+  "rotten": [
     "1F3DA"
   ],
   "home": [
@@ -7804,11 +7804,6 @@
   "garden": [
     "1F3E1"
   ],
-  "company": [
-    "1F3E2",
-    "E042",
-    "E043"
-  ],
   "workplace": [
     "1F3E2",
     "1F3ED"
@@ -7817,14 +7812,13 @@
     "1F3E2",
     "1F3ED"
   ],
-  "mailing": [
-    "1F3E3",
-    "1F3E4"
+  "company": [
+    "1F3E2",
+    "E042",
+    "E043"
   ],
-  "delivery": [
-    "1F3E3",
-    "1F3E4",
-    "1F69A"
+  "japanese post office": [
+    "1F3E3"
   ],
   "communication": [
     "1F3E3",
@@ -7835,6 +7829,11 @@
     "1F4E0",
     "E246",
     "E249"
+  ],
+  "delivery": [
+    "1F3E3",
+    "1F3E4",
+    "1F69A"
   ],
   "post": [
     "1F3E3",
@@ -7849,12 +7848,25 @@
     "1F4EA",
     "1F4EE"
   ],
-  "japanese post office": [
-    "1F3E3"
+  "mailing": [
+    "1F3E3",
+    "1F3E4"
   ],
   "european": [
     "1F3E4",
     "1F3F0"
+  ],
+  "public": [
+    "1F3E5",
+    "1F3EB"
+  ],
+  "social": [
+    "1F3E5",
+    "E041",
+    "E044",
+    "E045",
+    "E060",
+    "E061"
   ],
   "medicine": [
     "1F3E5",
@@ -7866,18 +7878,6 @@
     "E305",
     "E307",
     "E309"
-  ],
-  "social": [
-    "1F3E5",
-    "E041",
-    "E044",
-    "E045",
-    "E060",
-    "E061"
-  ],
-  "public": [
-    "1F3E5",
-    "1F3EB"
   ],
   "finance": [
     "1F3E6"
@@ -7922,12 +7922,12 @@
   "sex": [
     "1F3E9"
   ],
-  "convenience": [
-    "1F3EA"
-  ],
   "buying": [
     "1F3EA",
     "1F3EC"
+  ],
+  "convenience": [
+    "1F3EA"
   ],
   "shopping": [
     "1F3EA",
@@ -7951,6 +7951,10 @@
   "castle": [
     "1F3EF"
   ],
+  "war": [
+    "1F3EF",
+    "1F3F0"
+  ],
   "culture": [
     "1F3EF",
     "1F3F0",
@@ -7959,36 +7963,29 @@
     "1F3A8",
     "1F9EB"
   ],
-  "war": [
-    "1F3EF",
-    "1F3F0"
-  ],
   "chapel": [
     "1F492"
   ],
   "romance": [
     "1F492"
   ],
+  "tokyo": [
+    "1F5FC"
+  ],
   "tower": [
     "1F5FC",
     "E205",
     "E208"
   ],
-  "tokyo": [
-    "1F5FC"
-  ],
-  "liberty": [
+  "statue of liberty": [
     "1F5FD"
   ],
   "statue": [
     "1F5FD",
     "1F5FF"
   ],
-  "statue of liberty": [
+  "liberty": [
     "1F5FD"
-  ],
-  "mess": [
-    "26EA"
   ],
   "faith": [
     "26EA",
@@ -7996,6 +7993,9 @@
     "1F54D",
     "26E9",
     "1F54B"
+  ],
+  "mess": [
+    "26EA"
   ],
   "christian": [
     "26EA",
@@ -8007,26 +8007,26 @@
     "1F54B",
     "262A"
   ],
-  "temple": [
-    "1F6D5",
-    "1F54D"
-  ],
   "hindu": [
     "1F6D5",
     "1F549"
   ],
-  "jew": [
-    "1F54D",
-    "2721"
+  "temple": [
+    "1F6D5",
+    "1F54D"
   ],
   "jewish": [
     "1F54D",
     "2721"
   ],
-  "shinto": [
-    "26E9"
+  "jew": [
+    "1F54D",
+    "2721"
   ],
   "shrine": [
+    "26E9"
+  ],
+  "shinto": [
     "26E9"
   ],
   "mecca": [
@@ -8040,6 +8040,9 @@
     "1F301",
     "E20E"
   ],
+  "metropolis": [
+    "1F3D9"
+  ],
   "city": [
     "1F3D9",
     "1F306",
@@ -8047,26 +8050,23 @@
     "E203",
     "1F3F4-E0064-E0065-E0062-E0065-E007F"
   ],
-  "metropolis": [
-    "1F3D9"
+  "morning": [
+    "1F304",
+    "1F305"
   ],
   "sunrise": [
     "1F304",
     "2600",
     "1F31E"
   ],
-  "morning": [
-    "1F304",
-    "1F305"
-  ],
   "dusk": [
     "1F306",
     "1F307"
   ],
-  "evening": [
+  "sunset": [
     "1F306"
   ],
-  "sunset": [
+  "evening": [
     "1F306"
   ],
   "bridge": [
@@ -8081,16 +8081,16 @@
   "carousel": [
     "1F3A0"
   ],
-  "amusement park": [
-    "1F6DD",
-    "1F3A1",
-    "1F3A2"
-  ],
   "play": [
     "1F6DD",
     "1F4FD",
     "25B6",
     "23EF"
+  ],
+  "amusement park": [
+    "1F6DD",
+    "1F3A1",
+    "1F3A2"
   ],
   "ferris": [
     "1F3A1"
@@ -8107,12 +8107,15 @@
     "1F3A2",
     "1F6FC"
   ],
-  "hairdresser": [
-    "1F488"
-  ],
   "pole": [
     "1F488",
     "1F3A3"
+  ],
+  "hairdresser": [
+    "1F488"
+  ],
+  "circus": [
+    "1F3AA"
   ],
   "fun": [
     "1F3AA"
@@ -8121,20 +8124,23 @@
     "1F3AA",
     "1F3A8"
   ],
-  "circus": [
-    "1F3AA"
-  ],
   "entertainment": [
     "1F3AA",
     "1F3AD",
     "1F5BC",
     "1F3A8"
   ],
-  "locomotive": [
+  "steam": [
+    "1F682"
+  ],
+  "train": [
     "1F682",
     "1F683",
+    "1F684",
     "1F685",
-    "1F69D"
+    "1F689",
+    "1F69D",
+    "1F6E4"
   ],
   "railway": [
     "1F682",
@@ -8152,21 +8158,35 @@
     "1F682",
     "1F692"
   ],
+  "locomotive": [
+    "1F682",
+    "1F683",
+    "1F685",
+    "1F69D"
+  ],
   "drive": [
     "1F682",
     "1F17F"
   ],
-  "steam": [
-    "1F682"
-  ],
-  "train": [
-    "1F682",
+  "trolleybus": [
     "1F683",
-    "1F684",
-    "1F685",
-    "1F689",
-    "1F69D",
-    "1F6E4"
+    "1F68A",
+    "1F68B"
+  ],
+  "electric": [
+    "1F683",
+    "26A1",
+    "1F50B",
+    "1F50C",
+    "1F5A5",
+    "1F5A8",
+    "2328",
+    "1F5B1",
+    "1F4A1",
+    "1F526",
+    "E1D3",
+    "E1D4",
+    "E1D7"
   ],
   "car": [
     "1F683",
@@ -8191,29 +8211,9 @@
     "1F68B",
     "1F68E"
   ],
-  "trolleybus": [
-    "1F683",
-    "1F68A",
-    "1F68B"
-  ],
   "railway car": [
     "1F683",
     "1F685"
-  ],
-  "electric": [
-    "1F683",
-    "26A1",
-    "1F50B",
-    "1F50C",
-    "1F5A5",
-    "1F5A8",
-    "2328",
-    "1F5B1",
-    "1F4A1",
-    "1F526",
-    "E1D3",
-    "E1D4",
-    "E1D7"
   ],
   "speed": [
     "1F684",
@@ -8246,16 +8246,10 @@
   "subway": [
     "1F687"
   ],
-  "station": [
-    "1F689",
-    "1F68F",
-    "26FD",
-    "1F6BC"
-  ],
-  "train station": [
+  "arrives": [
     "1F689"
   ],
-  "arrives": [
+  "train station": [
     "1F689"
   ],
   "departure": [
@@ -8264,8 +8258,11 @@
     "2708",
     "1F6EB"
   ],
-  "monorail": [
-    "1F69D"
+  "station": [
+    "1F689",
+    "1F68F",
+    "26FD",
+    "1F6BC"
   ],
   "vehicle": [
     "1F69D",
@@ -8279,6 +8276,9 @@
     "1F6B2",
     "1F681",
     "E206"
+  ],
+  "monorail": [
+    "1F69D"
   ],
   "bus": [
     "1F68C",
@@ -8296,6 +8296,14 @@
   "trolley": [
     "1F68E",
     "1F6D2"
+  ],
+  "alarm": [
+    "1F691",
+    "1F692",
+    "23F0",
+    "E0AB",
+    "E10C",
+    "E201"
   ],
   "ambulance": [
     "1F691",
@@ -8316,32 +8324,24 @@
     "E325",
     "E328"
   ],
-  "alarm": [
-    "1F691",
-    "1F692",
-    "23F0",
-    "E0AB",
-    "E10C",
-    "E201"
-  ],
-  "fire engine": [
-    "1F692"
-  ],
   "truck": [
     "1F692",
     "1F6FB",
     "1F69A",
     "1F69B"
   ],
+  "fire engine": [
+    "1F692"
+  ],
   "patrol": [
     "1F693"
-  ],
-  "cab": [
-    "1F695"
   ],
   "taxi": [
     "1F695",
     "1F696"
+  ],
+  "cab": [
+    "1F695"
   ],
   "automobile": [
     "1F697",
@@ -8349,19 +8349,19 @@
     "1F699",
     "E206"
   ],
-  "sport utility": [
-    "1F699"
-  ],
   "recreational": [
     "1F699"
   ],
   "utility": [
     "1F699"
   ],
-  "pick-up": [
-    "1F6FB"
+  "sport utility": [
+    "1F699"
   ],
   "pickup": [
+    "1F6FB"
+  ],
+  "pick-up": [
     "1F6FB"
   ],
   "trucker": [
@@ -8371,26 +8371,26 @@
   "driver": [
     "1F69A"
   ],
-  "delivery truck": [
+  "truck driver": [
     "1F69B"
   ],
-  "semi": [
+  "delivery truck": [
     "1F69B"
   ],
   "lorry": [
     "1F69B"
   ],
-  "truck driver": [
+  "semi": [
     "1F69B"
   ],
   "field": [
     "1F69C",
     "1F3D1"
   ],
-  "towing": [
+  "tractor": [
     "1F69C"
   ],
-  "tractor": [
+  "towing": [
     "1F69C"
   ],
   "motor": [
@@ -8436,24 +8436,23 @@
     "2708",
     "1F6EC"
   ],
-  "road": [
-    "1F6E3"
-  ],
   "highway": [
     "1F6E3"
   ],
-  "oil": [
-    "1F6E2",
-    "1FA94"
+  "road": [
+    "1F6E3"
   ],
   "drum": [
     "1F6E2",
     "1F941",
     "1FA98"
   ],
-  "fuel": [
-    "26FD",
-    "E2CB"
+  "oil": [
+    "1F6E2",
+    "1FA94"
+  ],
+  "diesel": [
+    "26FD"
   ],
   "gas": [
     "26FD"
@@ -8461,8 +8460,9 @@
   "fuelpump": [
     "26FD"
   ],
-  "diesel": [
-    "26FD"
+  "fuel": [
+    "26FD",
+    "E2CB"
   ],
   "tire": [
     "1F6DE"
@@ -8507,9 +8507,6 @@
     "26A0",
     "1F198"
   ],
-  "octagonal": [
-    "1F6D1"
-  ],
   "sign": [
     "1F6D1",
     "1FAA7",
@@ -8525,10 +8522,13 @@
     "00AE",
     "E206"
   ],
-  "barrier": [
-    "1F6A7"
+  "octagonal": [
+    "1F6D1"
   ],
   "attention": [
+    "1F6A7"
+  ],
+  "barrier": [
     "1F6A7"
   ],
   "atlantic": [
@@ -8552,26 +8552,23 @@
     "2693",
     "1F531"
   ],
+  "life preserver": [
+    "1F6DF"
+  ],
   "safety": [
     "1F6DF",
     "1F9BA"
   ],
-  "life saver": [
-    "1F6DF"
-  ],
   "float": [
     "1F6DF"
   ],
-  "life preserver": [
+  "life saver": [
     "1F6DF"
   ],
-  "sailboat": [
-    "26F5"
-  ],
-  "yacht": [
-    "26F5"
-  ],
   "sail": [
+    "26F5"
+  ],
+  "sailboat": [
     "26F5"
   ],
   "passengers": [
@@ -8584,6 +8581,9 @@
   "resort": [
     "26F5"
   ],
+  "yacht": [
+    "26F5"
+  ],
   "passenger": [
     "1F6F3",
     "26F4",
@@ -8591,19 +8591,6 @@
   ],
   "motorboat": [
     "1F6E5"
-  ],
-  "aeroplane": [
-    "2708",
-    "1F6E9",
-    "1F6EB",
-    "1F6EC"
-  ],
-  "airplane": [
-    "2708",
-    "1F6E9",
-    "1F6EB",
-    "1F6EC",
-    "1F4BA"
   ],
   "sky": [
     "2708",
@@ -8621,19 +8608,32 @@
     "1F32C",
     "1F52D"
   ],
+  "airplane": [
+    "2708",
+    "1F6E9",
+    "1F6EB",
+    "1F6EC",
+    "1F4BA"
+  ],
+  "aeroplane": [
+    "2708",
+    "1F6E9",
+    "1F6EB",
+    "1F6EC"
+  ],
   "departures": [
     "1F6EB"
   ],
   "check-in": [
     "1F6EB"
   ],
-  "arrivals": [
+  "landing": [
     "1F6EC"
   ],
   "arriving": [
     "1F6EC"
   ],
-  "landing": [
+  "arrivals": [
     "1F6EC"
   ],
   "skydive": [
@@ -8645,32 +8645,28 @@
   "hang-glide": [
     "1FA82"
   ],
+  "seat": [
+    "1F4BA",
+    "1FA91"
+  ],
+  "chair": [
+    "1F4BA"
+  ],
   "sitting": [
     "1F4BA"
   ],
   "lounge": [
     "1F4BA"
   ],
-  "chair": [
-    "1F4BA"
-  ],
   "comfort": [
     "1F4BA",
     "E30F"
-  ],
-  "seat": [
-    "1F4BA",
-    "1FA91"
   ],
   "helicopter": [
     "1F681"
   ],
   "suspension": [
     "1F69F"
-  ],
-  "cable": [
-    "1F6A0",
-    "1F6A1"
   ],
   "gondola": [
     "1F6A0",
@@ -8679,23 +8675,24 @@
   "high": [
     "1F6A0"
   ],
-  "tramway": [
+  "cable": [
+    "1F6A0",
     "1F6A1"
   ],
   "aerial": [
     "1F6A1"
   ],
-  "galaxy": [
-    "1F6F0",
-    "1F680",
-    "E20B"
+  "tramway": [
+    "1F6A1"
   ],
   "satellite": [
     "1F6F0",
     "1F4E1"
   ],
-  "UFO": [
-    "1F6F8"
+  "galaxy": [
+    "1F6F0",
+    "1F680",
+    "E20B"
   ],
   "adventures": [
     "1F6F8"
@@ -8703,14 +8700,17 @@
   "planets": [
     "1F6F8"
   ],
+  "UFO": [
+    "1F6F8"
+  ],
+  "bellhop": [
+    "1F6CE"
+  ],
   "bell": [
     "1F6CE",
     "1F390",
     "1F514",
     "1F515"
-  ],
-  "bellhop": [
-    "1F6CE"
   ],
   "packing": [
     "1F9F3"
@@ -8791,17 +8791,6 @@
     "E0AB",
     "E1CE"
   ],
-  "12": [
-    "1F55B",
-    "1F567"
-  ],
-  "12:00": [
-    "1F55B"
-  ],
-  "twelve": [
-    "1F55B",
-    "1F567"
-  ],
   "00": [
     "1F55B",
     "1F550",
@@ -8830,6 +8819,17 @@
     "1F559",
     "1F55A"
   ],
+  "12": [
+    "1F55B",
+    "1F567"
+  ],
+  "12:00": [
+    "1F55B"
+  ],
+  "twelve": [
+    "1F55B",
+    "1F567"
+  ],
   "12:30": [
     "1F567"
   ],
@@ -8847,16 +8847,16 @@
     "1F565",
     "1F566"
   ],
-  "1": [
-    "1F550",
-    "1F55C"
+  "1:00": [
+    "1F550"
   ],
   "one": [
     "1F550",
     "1F55C"
   ],
-  "1:00": [
-    "1F550"
+  "1": [
+    "1F550",
+    "1F55C"
   ],
   "1:30": [
     "1F55C"
@@ -8866,22 +8866,22 @@
     "1F55D",
     "E246"
   ],
+  "2:00": [
+    "1F551"
+  ],
   "2": [
     "1F551",
     "1F55D"
   ],
-  "2:00": [
-    "1F551"
-  ],
   "2:30": [
     "1F55D"
-  ],
-  "3:00": [
-    "1F552"
   ],
   "3": [
     "1F552",
     "1F55E"
+  ],
+  "3:00": [
+    "1F552"
   ],
   "three": [
     "1F552",
@@ -8896,12 +8896,12 @@
   "4:30": [
     "1F55F"
   ],
+  "5:00": [
+    "1F554"
+  ],
   "5": [
     "1F554",
     "1F560"
-  ],
-  "5:00": [
-    "1F554"
   ],
   "5:30": [
     "1F560"
@@ -8920,6 +8920,10 @@
   "6:30": [
     "1F561"
   ],
+  "seven": [
+    "1F556",
+    "1F562"
+  ],
   "7": [
     "1F556",
     "1F562"
@@ -8927,22 +8931,18 @@
   "7:00": [
     "1F556"
   ],
-  "seven": [
-    "1F556",
-    "1F562"
-  ],
   "7:30": [
     "1F562"
   ],
   "8:00": [
     "1F557"
   ],
-  "8": [
+  "eight": [
     "1F557",
     "1F563",
     "1F3B1"
   ],
-  "eight": [
+  "8": [
     "1F557",
     "1F563",
     "1F3B1"
@@ -8950,11 +8950,11 @@
   "8:30": [
     "1F563"
   ],
-  "nine": [
+  "9": [
     "1F558",
     "1F564"
   ],
-  "9": [
+  "nine": [
     "1F558",
     "1F564"
   ],
@@ -8964,12 +8964,12 @@
   "9:30": [
     "1F564"
   ],
-  "10:00": [
-    "1F559"
-  ],
   "ten": [
     "1F559",
     "1F565"
+  ],
+  "10:00": [
+    "1F559"
   ],
   "10": [
     "1F559",
@@ -8978,11 +8978,11 @@
   "10:30": [
     "1F565"
   ],
-  "eleven": [
+  "11": [
     "1F55A",
     "1F566"
   ],
-  "11": [
+  "eleven": [
     "1F55A",
     "1F566"
   ],
@@ -9035,10 +9035,6 @@
     "1F316",
     "1F318"
   ],
-  "crescent moon": [
-    "1F319",
-    "23FE"
-  ],
   "far away": [
     "1F319",
     "2B50",
@@ -9051,6 +9047,10 @@
     "1F31C",
     "1F31D"
   ],
+  "crescent moon": [
+    "1F319",
+    "23FE"
+  ],
   "celestial body": [
     "1F319"
   ],
@@ -9059,8 +9059,9 @@
     "1F31B",
     "1F31C"
   ],
-  "first quarter": [
-    "1F31B"
+  "starry sky": [
+    "1F31B",
+    "1F31C"
   ],
   "sickle": [
     "1F31B",
@@ -9075,10 +9076,6 @@
     "1F31B",
     "1F31C"
   ],
-  "starry sky": [
-    "1F31B",
-    "1F31C"
-  ],
   "celestial bodies": [
     "1F31B",
     "1F31C",
@@ -9088,25 +9085,26 @@
     "1F31B",
     "1F31C"
   ],
+  "first quarter": [
+    "1F31B"
+  ],
   "last quarter": [
     "1F31C"
   ],
-  "room temperatures": [
-    "1F321"
+  "warming": [
+    "1F321",
+    "E2C7"
   ],
   "temperatures": [
+    "1F321"
+  ],
+  "degrees": [
     "1F321"
   ],
   "measure": [
     "1F321",
     "1F4CF",
     "1F4D0"
-  ],
-  "degrees": [
-    "1F321"
-  ],
-  "celsius": [
-    "1F321"
   ],
   "heat": [
     "1F321",
@@ -9126,17 +9124,19 @@
     "2744",
     "E20E"
   ],
-  "warming": [
-    "1F321",
-    "E2C7"
+  "celsius": [
+    "1F321"
   ],
-  "sunbeams": [
-    "2600",
-    "1F308"
+  "room temperatures": [
+    "1F321"
   ],
   "fireball": [
     "2600",
     "1F31E"
+  ],
+  "sunbeams": [
+    "2600",
+    "1F308"
   ],
   "tanning": [
     "2600",
@@ -9145,21 +9145,21 @@
   "feel good": [
     "2600"
   ],
-  "heavenly body": [
-    "2600"
-  ],
   "rays": [
     "2600",
     "1F31E"
   ],
-  "disc": [
-    "1F31D"
+  "heavenly body": [
+    "2600"
   ],
   "stars": [
     "1F31D",
     "1F52D"
   ],
   "no clouds": [
+    "1F31D"
+  ],
+  "disc": [
     "1F31D"
   ],
   "saturnine": [
@@ -9180,25 +9180,28 @@
     "2B50",
     "1F31F"
   ],
+  "shooting star": [
+    "1F31F",
+    "1F320"
+  ],
   "glow": [
     "1F31F",
     "1F525"
   ],
-  "glittery": [
-    "1F31F"
-  ],
   "constellation": [
     "1F31F"
-  ],
-  "shooting star": [
-    "1F31F",
-    "1F320"
   ],
   "milky way": [
     "1F31F"
   ],
   "shining": [
     "1F31F"
+  ],
+  "glittery": [
+    "1F31F"
+  ],
+  "star sky": [
+    "1F320"
   ],
   "lightning": [
     "1F320",
@@ -9209,31 +9212,7 @@
   "shooting": [
     "1F320"
   ],
-  "star sky": [
-    "1F320"
-  ],
-  "cloud": [
-    "2601",
-    "26C5",
-    "26C8",
-    "1F324",
-    "1F325",
-    "1F326",
-    "1F327",
-    "1F328",
-    "1F329",
-    "1F32A",
-    "1F32B",
-    "1F32C"
-  ],
   "dream": [
-    "2601"
-  ],
-  "diffuse": [
-    "2601",
-    "1F325"
-  ],
-  "misty": [
     "2601"
   ],
   "rain": [
@@ -9250,6 +9229,30 @@
     "26F1",
     "1F4A7"
   ],
+  "fleecy clouds": [
+    "2601"
+  ],
+  "cloud": [
+    "2601",
+    "26C5",
+    "26C8",
+    "1F324",
+    "1F325",
+    "1F326",
+    "1F327",
+    "1F328",
+    "1F329",
+    "1F32A",
+    "1F32B",
+    "1F32C"
+  ],
+  "diffuse": [
+    "2601",
+    "1F325"
+  ],
+  "misty": [
+    "2601"
+  ],
   "cloudy": [
     "2601",
     "26C5",
@@ -9260,29 +9263,26 @@
     "1F328",
     "1F329"
   ],
-  "fleecy clouds": [
-    "2601"
-  ],
-  "appear": [
-    "26C5"
-  ],
   "behind": [
     "26C5",
     "1F324",
     "1F325",
     "1F326"
   ],
-  "thunderstorm": [
-    "26C8"
-  ],
-  "thunder": [
-    "26C8"
+  "appear": [
+    "26C5"
   ],
   "storm": [
     "26C8",
     "1F329",
     "1F32A",
     "26A1"
+  ],
+  "thunder": [
+    "26C8"
+  ],
+  "thunderstorm": [
+    "26C8"
   ],
   "wet": [
     "1F326",
@@ -9297,18 +9297,15 @@
   "rainy": [
     "1F326"
   ],
-  "stormy": [
-    "1F327",
-    "1F328"
-  ],
   "raindrops": [
     "1F327",
     "2602",
     "2614",
     "1F4A7"
   ],
-  "glaring": [
-    "1F329"
+  "stormy": [
+    "1F327",
+    "1F328"
   ],
   "light up": [
     "1F329"
@@ -9321,55 +9318,57 @@
     "1F329",
     "26A1"
   ],
+  "glaring": [
+    "1F329"
+  ],
   "severe weather": [
     "1F32A"
   ],
   "cyclone": [
     "1F32A"
   ],
-  "whirlwind": [
-    "1F32A"
-  ],
   "tornado": [
     "1F32A"
-  ],
-  "hurricane": [
-    "1F32A",
-    "1F300"
   ],
   "typhoon": [
     "1F32A",
     "1F300"
   ],
-  "blowing": [
-    "1F32C"
+  "hurricane": [
+    "1F32A",
+    "1F300"
+  ],
+  "whirlwind": [
+    "1F32A"
   ],
   "mother nature": [
+    "1F32C"
+  ],
+  "blowing": [
     "1F32C"
   ],
   "turbulent": [
     "1F300"
   ],
-  "rotate": [
-    "1F300"
-  ],
   "twister": [
-    "1F300"
-  ],
-  "whirl": [
-    "1F300"
-  ],
-  "rotation": [
     "1F300"
   ],
   "funnel": [
     "1F300"
   ],
-  "color": [
-    "1F308",
-    "1F5A8"
+  "rotation": [
+    "1F300"
+  ],
+  "whirl": [
+    "1F300"
+  ],
+  "rotate": [
+    "1F300"
   ],
   "colorful": [
+    "1F308"
+  ],
+  "facet": [
     "1F308"
   ],
   "unicorn": [
@@ -9381,26 +9380,21 @@
   "colors formed in the sky": [
     "1F308"
   ],
-  "facet": [
-    "1F308"
+  "color": [
+    "1F308",
+    "1F5A8"
   ],
   "drops": [
     "2614",
     "1F4A7"
   ],
-  "rain falling": [
-    "2614"
-  ],
   "windy": [
     "2614"
   ],
+  "rain falling": [
+    "2614"
+  ],
   "volts": [
-    "26A1"
-  ],
-  "danger": [
-    "26A1"
-  ],
-  "high voltage": [
     "26A1"
   ],
   "zap": [
@@ -9409,15 +9403,27 @@
   "lights": [
     "26A1"
   ],
-  "frosty": [
-    "2744",
-    "26C4"
+  "high voltage": [
+    "26A1"
+  ],
+  "danger": [
+    "26A1"
+  ],
+  "melting": [
+    "2744"
   ],
   "wintry": [
     "2744"
   ],
+  "snowflake": [
+    "2744"
+  ],
   "snow storm": [
     "2744"
+  ],
+  "frosty": [
+    "2744",
+    "26C4"
   ],
   "season": [
     "2744"
@@ -9425,19 +9431,13 @@
   "icy": [
     "2744"
   ],
-  "melting": [
-    "2744"
-  ],
-  "snowflake": [
-    "2744"
-  ],
-  "not snowing": [
-    "26C4"
-  ],
   "frosty the snowman": [
     "26C4"
   ],
   "olaf": [
+    "26C4"
+  ],
+  "not snowing": [
     "26C4"
   ],
   "snowman": [
@@ -9449,10 +9449,10 @@
   "high temperature": [
     "1F525"
   ],
-  "puddle": [
+  "fluid": [
     "1F4A7"
   ],
-  "fluid": [
+  "puddle": [
     "1F4A7"
   ],
   "droplets": [
@@ -9468,15 +9468,15 @@
   "sough": [
     "1F30A"
   ],
-  "lantern": [
-    "1F383",
-    "1F3EE"
-  ],
   "halloween": [
     "1F383"
   ],
   "pumpkin": [
     "1F383"
+  ],
+  "lantern": [
+    "1F383",
+    "1F3EE"
   ],
   "jack": [
     "1F383"
@@ -9485,10 +9485,10 @@
     "1F387",
     "1F9E8"
   ],
-  "dynamite": [
+  "explosive": [
     "1F9E8"
   ],
-  "explosive": [
+  "dynamite": [
     "1F9E8"
   ],
   "*": [
@@ -9520,10 +9520,10 @@
   "banner": [
     "1F38B"
   ],
-  "bamboo": [
+  "pine": [
     "1F38D"
   ],
-  "pine": [
+  "bamboo": [
     "1F38D"
   ],
   "doll": [
@@ -9545,10 +9545,10 @@
   "ceremony": [
     "1F391"
   ],
-  "lai see": [
+  "hóngbāo": [
     "1F9E7"
   ],
-  "hóngbāo": [
+  "lai see": [
     "1F9E7"
   ],
   "gift": [
@@ -9572,13 +9572,6 @@
   "ticket": [
     "1F39F"
   ],
-  "medal": [
-    "1F396",
-    "1F3C5",
-    "1F947",
-    "1F948",
-    "1F949"
-  ],
   "military": [
     "1F396",
     "1FA96"
@@ -9586,31 +9579,38 @@
   "medallion": [
     "1F396"
   ],
-  "winner": [
-    "1F3C6"
+  "medal": [
+    "1F396",
+    "1F3C5",
+    "1F947",
+    "1F948",
+    "1F949"
   ],
   "trophy": [
-    "1F3C6"
-  ],
-  "prize": [
-    "1F3C6"
-  ],
-  "award": [
-    "1F3C6"
-  ],
-  "gold cup": [
     "1F3C6"
   ],
   "championship": [
     "1F3C6"
   ],
+  "prize": [
+    "1F3C6"
+  ],
+  "gold cup": [
+    "1F3C6"
+  ],
+  "winner": [
+    "1F3C6"
+  ],
+  "award": [
+    "1F3C6"
+  ],
   "sporting": [
     "1F3C5"
   ],
-  "gold medal": [
+  "first": [
     "1F947"
   ],
-  "first place medal": [
+  "gold medal": [
     "1F947"
   ],
   "gold": [
@@ -9618,13 +9618,17 @@
     "1F451",
     "1FA99"
   ],
-  "first": [
+  "first place medal": [
     "1F947"
   ],
   "1st place medal": [
     "1F947"
   ],
-  "second place medal": [
+  "second": [
+    "1F948",
+    "E25B"
+  ],
+  "2nd place medal": [
     "1F948"
   ],
   "second place": [
@@ -9633,26 +9637,22 @@
   "silver medal": [
     "1F948"
   ],
-  "2nd place medal": [
+  "second place medal": [
     "1F948"
   ],
-  "second": [
-    "1F948",
-    "E25B"
-  ],
-  "bronze medal": [
-    "1F949"
-  ],
-  "third": [
+  "third place": [
     "1F949"
   ],
   "3rd place medal": [
     "1F949"
   ],
-  "third place": [
+  "bronze medal": [
     "1F949"
   ],
   "bronze": [
+    "1F949"
+  ],
+  "third": [
     "1F949"
   ],
   "third place medal": [
@@ -9666,12 +9666,12 @@
     "1F3BE",
     "1F3D3"
   ],
-  "soccer": [
-    "26BD"
-  ],
   "team sports": [
     "26BD",
     "26BE"
+  ],
+  "soccer": [
+    "26BD"
   ],
   "game": [
     "26BD",
@@ -9707,18 +9707,12 @@
     "26BE",
     "1F3C8"
   ],
-  "underarm": [
-    "1F94E"
-  ],
   "glove": [
     "1F94E",
     "1F94A"
   ],
-  "canadian sport": [
-    "1F3C0"
-  ],
-  "orange ball": [
-    "1F3C0"
+  "underarm": [
+    "1F94E"
   ],
   "team sport": [
     "1F3C0",
@@ -9728,14 +9722,17 @@
     "1F3D1",
     "1F3D2"
   ],
+  "canadian sport": [
+    "1F3C0"
+  ],
+  "orange ball": [
+    "1F3C0"
+  ],
   "basketball": [
     "1F3C0"
   ],
   "hoop": [
     "1F3C0"
-  ],
-  "olympic games": [
-    "1F3D0"
   ],
   "hobby": [
     "1F3D0",
@@ -9744,14 +9741,23 @@
     "1F3A3",
     "1F3BF"
   ],
-  "superbowl": [
-    "1F3C8"
+  "olympic games": [
+    "1F3D0"
   ],
   "oval ball": [
     "1F3C8"
   ],
+  "superbowl": [
+    "1F3C8"
+  ],
   "american game": [
     "1F3C8"
+  ],
+  "union": [
+    "1F3C9"
+  ],
+  "brown ball": [
+    "1F3C9"
   ],
   "rugby": [
     "1F3C9"
@@ -9762,27 +9768,24 @@
   "british sports": [
     "1F3C9"
   ],
-  "brown ball": [
-    "1F3C9"
+  "racquet": [
+    "1F3BE",
+    "1F3F8"
   ],
-  "union": [
-    "1F3C9"
-  ],
-  "tennis ball": [
+  "tennis": [
     "1F3BE"
   ],
   "racket": [
     "1F3BE"
   ],
-  "tennis": [
+  "tennis ball": [
     "1F3BE"
-  ],
-  "racquet": [
-    "1F3BE",
-    "1F3F8"
   ],
   "ultimate": [
     "1F94F"
+  ],
+  "activity": [
+    "1F3CF"
   ],
   "cricket": [
     "1F3CF"
@@ -9790,25 +9793,22 @@
   "cricket bat and ball": [
     "1F3CF"
   ],
-  "activity": [
-    "1F3CF"
-  ],
   "bat": [
     "1F3CF",
     "1F3D3"
   ],
-  "ice hockey": [
+  "hockey": [
+    "1F3D1",
+    "1F3D2"
+  ],
+  "hockey stick": [
     "1F3D1",
     "1F3D2"
   ],
   "field hockey stick and ball": [
     "1F3D1"
   ],
-  "hockey stick": [
-    "1F3D1",
-    "1F3D2"
-  ],
-  "hockey": [
+  "ice hockey": [
     "1F3D1",
     "1F3D2"
   ],
@@ -9820,13 +9820,13 @@
     "1F945",
     "26F3"
   ],
-  "table tennis": [
-    "1F3D3"
-  ],
   "paddle": [
     "1F3D3"
   ],
   "ping pong": [
+    "1F3D3"
+  ],
+  "table tennis": [
     "1F3D3"
   ],
   "birdie": [
@@ -9838,31 +9838,31 @@
   "slap": [
     "1F94A"
   ],
-  "boxing": [
-    "1F94A"
-  ],
-  "mitt": [
-    "1F94A"
-  ],
   "slap in your face": [
     "1F94A"
   ],
   "muhammad ali": [
     "1F94A"
   ],
-  "karate": [
-    "1F94B"
+  "boxing": [
+    "1F94A"
   ],
-  "taekwondo": [
-    "1F94B"
+  "mitt": [
+    "1F94A"
   ],
-  "judo": [
+  "uniform": [
     "1F94B"
   ],
   "keikogi": [
     "1F94B"
   ],
-  "uniform": [
+  "taekwondo": [
+    "1F94B"
+  ],
+  "karate": [
+    "1F94B"
+  ],
+  "judo": [
     "1F94B"
   ],
   "martial arts": [
@@ -9871,16 +9871,19 @@
   "net": [
     "1F945"
   ],
-  "flag": [
+  "golf hole with flag": [
     "26F3"
   ],
-  "golf hole with flag": [
+  "flag": [
     "26F3"
   ],
   "golf flag": [
     "26F3"
   ],
   "fishing pole": [
+    "1F3A3"
+  ],
+  "caught": [
     "1F3A3"
   ],
   "fishing rod": [
@@ -9891,9 +9894,6 @@
     "1F4CF",
     "1F4D0",
     "002D"
-  ],
-  "caught": [
-    "1F3A3"
   ],
   "scuba": [
     "1F93F"
@@ -9911,9 +9911,6 @@
     "1F3BD",
     "1F455"
   ],
-  "skis": [
-    "1F3BF"
-  ],
   "skiing": [
     "1F3BF"
   ],
@@ -9923,19 +9920,16 @@
   "to ski": [
     "1F3BF"
   ],
+  "skis": [
+    "1F3BF"
+  ],
   "sledge": [
     "1F6F7"
   ],
   "sleigh": [
     "1F6F7"
   ],
-  "bullseye": [
-    "1F3AF"
-  ],
-  "darts": [
-    "1F3AF"
-  ],
-  "archery": [
+  "direct hit": [
     "1F3AF"
   ],
   "hit": [
@@ -9944,10 +9938,13 @@
   "direct": [
     "1F3AF"
   ],
-  "direct hit": [
+  "archery": [
     "1F3AF"
   ],
   "dart board": [
+    "1F3AF"
+  ],
+  "darts": [
     "1F3AF"
   ],
   "dart": [
@@ -9956,12 +9953,15 @@
   "target": [
     "1F3AF"
   ],
-  "toy": [
-    "1FA80",
-    "1F9F8"
+  "bullseye": [
+    "1F3AF"
   ],
   "fluctuate": [
     "1FA80"
+  ],
+  "toy": [
+    "1FA80",
+    "1F9F8"
   ],
   "soar": [
     "1FA81"
@@ -9978,42 +9978,42 @@
   "revolver": [
     "1F52B"
   ],
-  "billiard": [
-    "1F3B1"
-  ],
-  "8 ball": [
-    "1F3B1"
-  ],
-  "magic 8 ball": [
-    "1F3B1"
-  ],
-  "black ball": [
-    "1F3B1"
-  ],
-  "pool ball": [
-    "1F3B1"
-  ],
   "pool": [
-    "1F3B1"
-  ],
-  "snooker": [
-    "1F3B1"
-  ],
-  "billiards": [
     "1F3B1"
   ],
   "cue ball": [
     "1F3B1"
   ],
-  "fortune": [
-    "1F52E",
-    "1F52F"
+  "magic 8 ball": [
+    "1F3B1"
+  ],
+  "billiards": [
+    "1F3B1"
+  ],
+  "pool ball": [
+    "1F3B1"
+  ],
+  "8 ball": [
+    "1F3B1"
+  ],
+  "billiard": [
+    "1F3B1"
+  ],
+  "black ball": [
+    "1F3B1"
+  ],
+  "snooker": [
+    "1F3B1"
+  ],
+  "mystery": [
+    "1F52E"
   ],
   "crystal": [
     "1F52E"
   ],
-  "mystery": [
-    "1F52E"
+  "fortune": [
+    "1F52E",
+    "1F52F"
   ],
   "gamble": [
     "1F3AE"
@@ -10036,26 +10036,26 @@
   "die": [
     "1F3B2"
   ],
-  "piece": [
-    "1F9E9"
-  ],
   "puzzle": [
     "1F9E9"
   ],
-  "interlocking": [
+  "piece": [
     "1F9E9"
   ],
   "jigsaw": [
+    "1F9E9"
+  ],
+  "interlocking": [
     "1F9E9"
   ],
   "clue": [
     "1F9E9",
     "1F5DD"
   ],
-  "plush": [
+  "plaything": [
     "1F9F8"
   ],
-  "plaything": [
+  "plush": [
     "1F9F8"
   ],
   "disco": [
@@ -10079,13 +10079,13 @@
     "1F4C7",
     "1F5C3"
   ],
-  "dupe": [
-    "265F"
-  ],
   "expendable": [
     "265F"
   ],
   "chess": [
+    "265F"
+  ],
+  "dupe": [
     "265F"
   ],
   "wildcard": [
@@ -10097,18 +10097,14 @@
   "playing": [
     "1F3B4"
   ],
-  "theatre": [
-    "1F3AD"
-  ],
   "theater": [
     "1F3AD"
   ],
   "performing": [
     "1F3AD"
   ],
-  "museum": [
-    "1F5BC",
-    "1F3A8"
+  "theatre": [
+    "1F3AD"
   ],
   "frame": [
     "1F5BC",
@@ -10119,29 +10115,33 @@
     "1F5BC",
     "E142"
   ],
-  "spool": [
-    "1F9F5"
+  "museum": [
+    "1F5BC",
+    "1F3A8"
   ],
-  "string": [
+  "sewing": [
     "1F9F5",
-    "1F3BB"
+    "1FAA1"
   ],
   "needle": [
     "1F9F5",
     "1FAA1",
     "1F489"
   ],
-  "sewing": [
+  "string": [
     "1F9F5",
-    "1FAA1"
+    "1F3BB"
+  ],
+  "spool": [
+    "1F9F5"
   ],
   "embroidery": [
     "1FAA1"
   ],
-  "tailoring": [
+  "sutures": [
     "1FAA1"
   ],
-  "sutures": [
+  "tailoring": [
     "1FAA1"
   ],
   "stitches": [
@@ -10156,18 +10156,18 @@
   "twist": [
     "1FAA2"
   ],
-  "rope": [
-    "1FAA2"
-  ],
-  "tangled": [
-    "1FAA2"
-  ],
   "twine": [
+    "1FAA2"
+  ],
+  "rope": [
     "1FAA2"
   ],
   "tie": [
     "1FAA2",
     "1F454"
+  ],
+  "tangled": [
+    "1FAA2"
   ],
   "eyeglasses": [
     "1F453"
@@ -10213,6 +10213,9 @@
     "1FA72",
     "1FA73"
   ],
+  "swimsuit": [
+    "1FA72"
+  ],
   "one-piece": [
     "1FA72"
   ],
@@ -10220,8 +10223,8 @@
     "1FA72",
     "1FA73"
   ],
-  "swimsuit": [
-    "1FA72"
+  "fan": [
+    "1FAAD"
   ],
   "cooling": [
     "1FAAD",
@@ -10230,11 +10233,11 @@
   "shy": [
     "1FAAD"
   ],
-  "fan": [
-    "1FAAD"
-  ],
   "coin": [
     "1F45B"
+  ],
+  "purse": [
+    "1F45C"
   ],
   "bag": [
     "1F45C",
@@ -10245,9 +10248,6 @@
     "1F4BC",
     "E30C"
   ],
-  "purse": [
-    "1F45C"
-  ],
   "pouch": [
     "1F45D"
   ],
@@ -10257,14 +10257,11 @@
   "rucksack": [
     "1F392"
   ],
-  "satchel": [
-    "1F392"
-  ],
   "school": [
     "1F392"
   ],
-  "thongs": [
-    "1FA74"
+  "satchel": [
+    "1F392"
   ],
   "sandals": [
     "1FA74"
@@ -10272,10 +10269,13 @@
   "zōri": [
     "1FA74"
   ],
-  "beach sandals": [
+  "thong sandals": [
     "1FA74"
   ],
-  "thong sandals": [
+  "thongs": [
+    "1FA74"
+  ],
+  "beach sandals": [
     "1FA74"
   ],
   "shoe": [
@@ -10285,10 +10285,10 @@
     "1F461",
     "1F462"
   ],
-  "athletic": [
+  "sneaker": [
     "1F45F"
   ],
-  "sneaker": [
+  "athletic": [
     "1F45F"
   ],
   "backpacking": [
@@ -10298,10 +10298,10 @@
     "1F97E",
     "1F462"
   ],
-  "ballet flat": [
+  "slipper": [
     "1F97F"
   ],
-  "slipper": [
+  "ballet flat": [
     "1F97F"
   ],
   "slip-on": [
@@ -10316,15 +10316,15 @@
   "ballet": [
     "1FA70"
   ],
-  "pick": [
-    "1FAAE",
-    "2692"
+  "afro": [
+    "1FAAE"
   ],
   "comb": [
     "1FAAE"
   ],
-  "afro": [
-    "1FAAE"
+  "pick": [
+    "1FAAE",
+    "2692"
   ],
   "crone": [
     "1F451"
@@ -10339,13 +10339,13 @@
   "baseball cap": [
     "1F9E2"
   ],
-  "warrior": [
+  "army": [
     "1FA96"
   ],
   "soldier": [
     "1FA96"
   ],
-  "army": [
+  "warrior": [
     "1FA96"
   ],
   "aid": [
@@ -10355,10 +10355,10 @@
     "1F4FF",
     "1F48D"
   ],
-  "beads": [
+  "necklace": [
     "1F4FF"
   ],
-  "necklace": [
+  "beads": [
     "1F4FF"
   ],
   "makeup": [
@@ -10373,18 +10373,18 @@
     "1F539",
     "1F4A0"
   ],
+  "jewel": [
+    "1F48E"
+  ],
   "gem": [
     "1F48E"
   ],
-  "jewel": [
-    "1F48E"
+  "speaker": [
+    "1F507"
   ],
   "mute": [
     "1F507",
     "1F515"
-  ],
-  "speaker": [
-    "1F507"
   ],
   "sound": [
     "1F508",
@@ -10410,8 +10410,10 @@
   "postal": [
     "1F4EF"
   ],
-  "violin key": [
-    "1F3BC"
+  "rhythm": [
+    "1F3BC",
+    "1F3B6",
+    "1FA98"
   ],
   "music": [
     "1F3BC",
@@ -10436,17 +10438,23 @@
     "1F9D1-200D-1FAA9",
     "2117"
   ],
-  "rhythm": [
-    "1F3BC",
-    "1F3B6",
-    "1FA98"
+  "violin key": [
+    "1F3BC"
+  ],
+  "song": [
+    "1F3B5"
+  ],
+  "sounds": [
+    "1F3B5",
+    "1F3B6"
+  ],
+  "tone": [
+    "1F3B5",
+    "1F3A4"
   ],
   "melody": [
     "1F3B5",
     "1F3B6"
-  ],
-  "song": [
-    "1F3B5"
   ],
   "note": [
     "1F3B5",
@@ -10458,14 +10466,6 @@
     "1F5D2",
     "1F523"
   ],
-  "tone": [
-    "1F3B5",
-    "1F3A4"
-  ],
-  "sounds": [
-    "1F3B5",
-    "1F3B6"
-  ],
   "notes": [
     "1F3B6",
     "1F4C4",
@@ -10474,6 +10474,13 @@
     "1F5D2",
     "1F4CD",
     "E30B"
+  ],
+  "studio": [
+    "1F399",
+    "1F39A"
+  ],
+  "stereo": [
+    "1F399"
   ],
   "mic": [
     "1F399",
@@ -10485,17 +10492,10 @@
     "1F4F9",
     "1F4FC"
   ],
-  "studio": [
-    "1F399",
+  "slider": [
     "1F39A"
-  ],
-  "stereo": [
-    "1F399"
   ],
   "level": [
-    "1F39A"
-  ],
-  "slider": [
     "1F39A"
   ],
   "music slider": [
@@ -10504,15 +10504,12 @@
   "mix": [
     "1F39B"
   ],
-  "knobs": [
-    "1F39B"
-  ],
   "control": [
     "1F39B",
     "1F6C2"
   ],
-  "stage": [
-    "1F3A4"
+  "knobs": [
+    "1F39B"
   ],
   "karaoke": [
     "1F3A4"
@@ -10520,10 +10517,13 @@
   "singing": [
     "1F3A4"
   ],
-  "headphones": [
-    "1F3A7"
+  "stage": [
+    "1F3A4"
   ],
   "earbud": [
+    "1F3A7"
+  ],
+  "headphones": [
     "1F3A7"
   ],
   "stereo radio": [
@@ -10532,6 +10532,9 @@
   "radio": [
     "1F4FB",
     "1F518"
+  ],
+  "analog radio": [
+    "1F4FB"
   ],
   "video": [
     "1F4FB",
@@ -10543,9 +10546,6 @@
     "1F4FC",
     "E044",
     "E061"
-  ],
-  "analog radio": [
-    "1F4FB"
   ],
   "sax": [
     "1F3B7"
@@ -10567,42 +10567,42 @@
   "squeeze box": [
     "1FA97"
   ],
+  "instrumental": [
+    "1F3B8"
+  ],
   "acoustic": [
     "1F3B8"
   ],
   "guitar": [
     "1F3B8"
   ],
+  "e-guitar": [
+    "1F3B8"
+  ],
   "chords": [
     "1F3B8",
     "1F3B9"
   ],
-  "e-guitar": [
-    "1F3B8"
-  ],
-  "instrumental": [
-    "1F3B8"
+  "piano keys": [
+    "1F3B9"
   ],
   "keyboard": [
     "1F3B9",
     "E1D1"
   ],
-  "piano keys": [
-    "1F3B9"
-  ],
   "piano": [
     "1F3B9"
-  ],
-  "woodwind instrument": [
-    "1F3BA"
   ],
   "trumpet": [
     "1F3BA"
   ],
-  "fiddle": [
-    "1F3BB"
+  "woodwind instrument": [
+    "1F3BA"
   ],
   "violin": [
+    "1F3BB"
+  ],
+  "fiddle": [
     "1F3BB"
   ],
   "stringed": [
@@ -10614,14 +10614,11 @@
   "conga": [
     "1FA98"
   ],
-  "percussion": [
-    "1FA87"
-  ],
   "rattle": [
     "1FA87"
   ],
-  "woodwind": [
-    "1FA88"
+  "percussion": [
+    "1FA87"
   ],
   "fife": [
     "1FA88"
@@ -10629,17 +10626,11 @@
   "pipe": [
     "1FA88"
   ],
-  "recorder": [
+  "woodwind": [
     "1FA88"
   ],
-  "cell": [
-    "1F4F1",
-    "1F4F2",
-    "1F4F5",
-    "1F4F6",
-    "1F4F3",
-    "1F4F4",
-    "E1D6"
+  "recorder": [
+    "1FA88"
   ],
   "mobile": [
     "1F4F1",
@@ -10672,6 +10663,15 @@
     "260E",
     "1F4DE",
     "E061"
+  ],
+  "cell": [
+    "1F4F1",
+    "1F4F2",
+    "1F4F5",
+    "1F4F6",
+    "1F4F3",
+    "1F4F4",
+    "E1D6"
   ],
   "receive": [
     "1F4F2",
@@ -10714,15 +10714,20 @@
     "1F50B",
     "1F50C"
   ],
+  "low energy": [
+    "1FAAB"
+  ],
   "electronic": [
     "1FAAB",
     "1F4E7"
   ],
-  "low energy": [
-    "1FAAB"
-  ],
   "plug": [
     "1F50C"
+  ],
+  "retro": [
+    "1F4BB",
+    "1F4BD",
+    "1F4BE"
   ],
   "computer": [
     "1F4BB",
@@ -10744,11 +10749,6 @@
   "pc": [
     "1F4BB"
   ],
-  "retro": [
-    "1F4BB",
-    "1F4BD",
-    "1F4BE"
-  ],
   "desktop": [
     "1F5A5"
   ],
@@ -10762,29 +10762,29 @@
     "1F5DD",
     "E1D1"
   ],
-  "minidisk": [
-    "1F4BD"
-  ],
-  "optical": [
-    "1F4BD",
-    "1F4BF",
-    "1F4C0"
-  ],
   "disk": [
     "1F4BD",
     "1F4BE",
     "1F4BF",
     "1F4C0"
   ],
+  "optical": [
+    "1F4BD",
+    "1F4BF",
+    "1F4C0"
+  ],
+  "minidisk": [
+    "1F4BD"
+  ],
   "floppy": [
     "1F4BE"
-  ],
-  "cd": [
-    "1F4BF"
   ],
   "analog": [
     "1F4BF",
     "1F4C5"
+  ],
+  "cd": [
+    "1F4BF"
   ],
   "blu-ray": [
     "1F4C0"
@@ -10810,6 +10810,11 @@
     "E30A",
     "E25C"
   ],
+  "cinema": [
+    "1F3A5",
+    "1F39E",
+    "1F4FD"
+  ],
   "movie": [
     "1F3A5",
     "1F39E",
@@ -10820,17 +10825,12 @@
     "1F3A6",
     "25C9-FE0F-200D-1F534-200D-25AE-FE0F"
   ],
-  "cinema": [
-    "1F3A5",
-    "1F39E",
-    "1F4FD"
-  ],
-  "frames": [
-    "1F39E"
-  ],
   "clip": [
     "1F39E",
     "1F4CB"
+  ],
+  "frames": [
+    "1F39E"
   ],
   "film clip": [
     "1F4FD"
@@ -10838,25 +10838,25 @@
   "projector": [
     "1F4FD"
   ],
+  "clapper": [
+    "1F3AC"
+  ],
   "cut": [
     "1F3AC",
     "2702"
   ],
-  "clapper": [
-    "1F3AC"
-  ],
   "new recording": [
     "1F3AC"
   ],
-  "modern": [
-    "1F4FA",
-    "1F195"
+  "flat screen": [
+    "1F4FA"
   ],
   "tv": [
     "1F4FA"
   ],
-  "flat screen": [
-    "1F4FA"
+  "modern": [
+    "1F4FA",
+    "1F195"
   ],
   "digital": [
     "1F4F7"
@@ -10873,11 +10873,15 @@
   "cassette": [
     "1F4FC"
   ],
-  "zoom": [
+  "search": [
     "1F50D",
     "1F50E"
   ],
-  "search": [
+  "magnifying": [
+    "1F50D",
+    "1F50E"
+  ],
+  "zoom": [
     "1F50D",
     "1F50E"
   ],
@@ -10887,11 +10891,7 @@
     "1F4CF",
     "1F4D0"
   ],
-  "magnifying": [
-    "1F50D",
-    "1F50E"
-  ],
-  "bulb": [
+  "idea": [
     "1F4A1"
   ],
   "on": [
@@ -10901,26 +10901,26 @@
     "23FC",
     "23FD"
   ],
-  "idea": [
+  "bulb": [
     "1F4A1"
   ],
-  "torch": [
+  "flashlight": [
     "1F526"
   ],
-  "flashlight": [
+  "torch": [
     "1F526"
   ],
   "gadget": [
     "1F526"
   ],
-  "diya": [
-    "1FA94"
-  ],
   "lamp": [
     "1FA94",
     "1F6CB"
   ],
-  "decorated": [
+  "diya": [
+    "1FA94"
+  ],
+  "cover": [
     "1F4D4"
   ],
   "book": [
@@ -10940,7 +10940,7 @@
     "1F4D2",
     "1F431-200D-1F4BB"
   ],
-  "cover": [
+  "decorated": [
     "1F4D4"
   ],
   "read": [
@@ -10951,12 +10951,21 @@
     "1F4D2",
     "1F4F0"
   ],
+  "curl": [
+    "1F4C3",
+    "27B0",
+    "27BF"
+  ],
   "page": [
     "1F4C3",
     "1F4C4",
     "E25B",
     "E25D",
     "E25E"
+  ],
+  "rolled": [
+    "1F4C3",
+    "1F5DE"
   ],
   "text": [
     "1F4C3",
@@ -10965,21 +10974,12 @@
     "1F4F0",
     "E248"
   ],
-  "rolled": [
-    "1F4C3",
-    "1F5DE"
-  ],
   "document": [
     "1F4C3",
     "1F4C4",
     "E107",
     "E25B",
     "E25D"
-  ],
-  "curl": [
-    "1F4C3",
-    "27B0",
-    "27BF"
   ],
   "papyrus": [
     "1F4DC"
@@ -11012,18 +11012,7 @@
   "treasure": [
     "1FA99"
   ],
-  "yen": [
-    "1F4B4",
-    "1F4B9"
-  ],
   "banknote": [
-    "1F4B4",
-    "1F4B5",
-    "1F4B6",
-    "1F4B7",
-    "1F4B8"
-  ],
-  "bill": [
     "1F4B4",
     "1F4B5",
     "1F4B6",
@@ -11038,6 +11027,17 @@
     "1F4B1",
     "1F4B2"
   ],
+  "bill": [
+    "1F4B4",
+    "1F4B5",
+    "1F4B6",
+    "1F4B7",
+    "1F4B8"
+  ],
+  "yen": [
+    "1F4B4",
+    "1F4B9"
+  ],
   "euro": [
     "1F4B6"
   ],
@@ -11051,29 +11051,29 @@
     "1F4B3",
     "1F16F"
   ],
-  "proof": [
-    "1F9FE"
-  ],
-  "bookkeeping": [
+  "accounting": [
     "1F9FE"
   ],
   "evidence": [
     "1F9FE"
   ],
-  "accounting": [
+  "bookkeeping": [
     "1F9FE"
+  ],
+  "proof": [
+    "1F9FE"
+  ],
+  "graph": [
+    "1F4B9",
+    "1F4C8",
+    "1F4C9",
+    "1F4CA"
   ],
   "growth": [
     "1F4B9",
     "1F4C8"
   ],
   "chart": [
-    "1F4B9",
-    "1F4C8",
-    "1F4C9",
-    "1F4CA"
-  ],
-  "graph": [
     "1F4B9",
     "1F4C8",
     "1F4C9",
@@ -11088,11 +11088,11 @@
   "incoming": [
     "1F4E8"
   ],
-  "envelope": [
+  "e-mail": [
     "1F4E8",
     "1F4E9"
   ],
-  "e-mail": [
+  "envelope": [
     "1F4E8",
     "1F4E9"
   ],
@@ -11167,9 +11167,6 @@
   "notice": [
     "1F4DD"
   ],
-  "office bag": [
-    "1F4BC"
-  ],
   "leather bag": [
     "1F4BC"
   ],
@@ -11177,18 +11174,8 @@
     "1F4BC",
     "E309"
   ],
-  "organise": [
-    "1F4C1",
-    "1F4C2"
-  ],
-  "structure": [
-    "1F4C1",
-    "1F4C2",
-    "1F5C3"
-  ],
-  "folder": [
-    "1F4C1",
-    "1F4C2"
+  "office bag": [
+    "1F4BC"
   ],
   "file": [
     "1F4C1",
@@ -11199,11 +11186,30 @@
     "E25D",
     "E25F"
   ],
+  "organise": [
+    "1F4C1",
+    "1F4C2"
+  ],
+  "folder": [
+    "1F4C1",
+    "1F4C2"
+  ],
+  "structure": [
+    "1F4C1",
+    "1F4C2",
+    "1F5C3"
+  ],
   "open file": [
     "1F4C2"
   ],
   "dividers": [
     "1F5C2"
+  ],
+  "pages": [
+    "1F4C5"
+  ],
+  "date": [
+    "1F4C5"
   ],
   "calendar": [
     "1F4C5",
@@ -11213,17 +11219,8 @@
   "day view": [
     "1F4C5"
   ],
-  "pages": [
-    "1F4C5"
-  ],
-  "date": [
-    "1F4C5"
-  ],
   "tear off": [
     "1F4C6"
-  ],
-  "spiral block": [
-    "1F5D2"
   ],
   "handwrite": [
     "1F5D2"
@@ -11231,18 +11228,28 @@
   "college": [
     "1F5D2"
   ],
+  "spiral block": [
+    "1F5D2"
+  ],
   "pad": [
     "1F5D2",
-    "1F5D3"
-  ],
-  "month view": [
     "1F5D3"
   ],
   "year": [
     "1F5D3"
   ],
+  "month view": [
+    "1F5D3"
+  ],
   "rolodex": [
     "1F4C7"
+  ],
+  "trend": [
+    "1F4C8",
+    "1F4C9"
+  ],
+  "graph going up": [
+    "1F4C8"
   ],
   "upward trend": [
     "1F4C8"
@@ -11250,28 +11257,18 @@
   "upward": [
     "1F4C8"
   ],
-  "graph going up": [
-    "1F4C8"
-  ],
-  "trend": [
-    "1F4C8",
+  "downtrend": [
     "1F4C9"
   ],
   "graph going down": [
     "1F4C9"
   ],
-  "downtrend": [
-    "1F4C9"
-  ],
-  "sheet": [
-    "1F4CA"
-  ],
   "data": [
     "1F4CA",
     "E1D9"
   ],
-  "handwriting": [
-    "1F4CB"
+  "sheet": [
+    "1F4CA"
   ],
   "clipboard": [
     "1F4CB"
@@ -11282,6 +11279,9 @@
     "1FA93",
     "E347",
     "E348"
+  ],
+  "handwriting": [
+    "1F4CB"
   ],
   "pin": [
     "1F4CC",
@@ -11321,41 +11321,37 @@
     "1F4D0",
     "E25F"
   ],
-  "material": [
-    "2702"
-  ],
-  "cutting": [
-    "2702"
-  ],
   "scissors": [
     "2702",
     "E30E"
   ],
-  "system": [
-    "1F5C3"
+  "cutting": [
+    "2702"
+  ],
+  "material": [
+    "2702"
   ],
   "organising": [
+    "1F5C3"
+  ],
+  "system": [
     "1F5C3"
   ],
   "tidy": [
     "1F5C3"
   ],
-  "filing": [
-    "1F5C4",
-    "E30A"
+  "file system": [
+    "1F5C4"
   ],
   "file organising": [
     "1F5C4"
   ],
+  "filing": [
+    "1F5C4",
+    "E30A"
+  ],
   "cabinet": [
     "1F5C4"
-  ],
-  "file system": [
-    "1F5C4"
-  ],
-  "trash": [
-    "1F5D1",
-    "1F6AE"
   ],
   "bin": [
     "1F5D1",
@@ -11364,6 +11360,10 @@
   ],
   "wastebasket": [
     "1F5D1"
+  ],
+  "trash": [
+    "1F5D1",
+    "1F6AE"
   ],
   "locker": [
     "1F512",
@@ -11384,10 +11384,10 @@
   "unlock": [
     "1F513"
   ],
-  "privacy": [
+  "ink": [
     "1F50F"
   ],
-  "ink": [
+  "privacy": [
     "1F50F"
   ],
   "secure": [
@@ -11417,9 +11417,6 @@
     "2692",
     "1F6E0"
   ],
-  "craft mans": [
-    "1F6E0"
-  ],
   "spanner": [
     "1F6E0",
     "1F527"
@@ -11438,6 +11435,9 @@
     "E06B",
     "E06C",
     "E06D"
+  ],
+  "craft mans": [
+    "1F6E0"
   ],
   "swords": [
     "2694"
@@ -11474,36 +11474,36 @@
   "bolt": [
     "1F529"
   ],
+  "cogwheel": [
+    "2699"
+  ],
   "cog": [
     "2699"
   ],
-  "cogwheel": [
-    "2699"
+  "compress": [
+    "1F5DC"
   ],
   "vice": [
     "1F5DC"
   ],
-  "compress": [
-    "1F5DC"
+  "scale": [
+    "2696"
   ],
   "libra": [
     "2696",
     "264E"
   ],
-  "scale": [
-    "2696"
-  ],
   "chain": [
     "26D3",
     "E269"
   ],
-  "selling point": [
+  "ensnare": [
     "1FA9D"
   ],
   "crook": [
     "1FA9D"
   ],
-  "ensnare": [
+  "selling point": [
     "1FA9D"
   ],
   "curve": [
@@ -11512,19 +11512,19 @@
   "chest": [
     "1F9F0"
   ],
-  "attraction": [
-    "1F9F2"
-  ],
   "horseshoe": [
     "1F9F2"
   ],
-  "climb": [
+  "attraction": [
+    "1F9F2"
+  ],
+  "step": [
     "1FA9C"
   ],
   "rung": [
     "1FA9C"
   ],
-  "step": [
+  "climb": [
     "1FA9C"
   ],
   "chemistry": [
@@ -11542,14 +11542,19 @@
   "biology": [
     "1F9EB"
   ],
+  "genetics": [
+    "1F9EC"
+  ],
   "gene": [
     "1F9EC"
   ],
   "life": [
     "1F9EC"
   ],
-  "genetics": [
-    "1F9EC"
+  "antenna": [
+    "1F4E1",
+    "1F4F6",
+    "E1D0"
   ],
   "radiation": [
     "1F4E1",
@@ -11558,19 +11563,17 @@
     "E2D8",
     "E2D9"
   ],
-  "antenna": [
-    "1F4E1",
-    "1F4F6",
-    "E1D0"
-  ],
   "dish": [
     "1F4E1"
+  ],
+  "injection": [
+    "1F489"
   ],
   "health": [
     "1F489",
     "1F48A"
   ],
-  "injection": [
+  "IV": [
     "1F489"
   ],
   "drug": [
@@ -11578,26 +11581,23 @@
     "E305",
     "E307"
   ],
-  "IV": [
-    "1F489"
-  ],
-  "menstruation": [
-    "1FA78"
-  ],
   "bleed": [
     "1FA78"
   ],
   "blood donation": [
     "1FA78"
   ],
+  "menstruation": [
+    "1FA78"
+  ],
+  "mobility aid": [
+    "1FA7C"
+  ],
   "disability": [
     "1FA7C",
     "E327"
   ],
   "cane": [
-    "1FA7C"
-  ],
-  "mobility aid": [
     "1FA7C"
   ],
   "bones": [
@@ -11611,31 +11611,31 @@
   "door": [
     "1F6AA"
   ],
-  "lift": [
-    "1F6D7"
-  ],
   "hoist": [
     "1F6D7"
   ],
-  "reflection": [
+  "lift": [
+    "1F6D7"
+  ],
+  "reflector": [
     "1FA9E"
   ],
   "speculum": [
     "1FA9E"
   ],
-  "reflector": [
+  "reflection": [
     "1FA9E"
   ],
   "transparent": [
+    "1FA9F"
+  ],
+  "opening": [
     "1FA9F"
   ],
   "view": [
     "1FA9F"
   ],
   "fresh air": [
-    "1FA9F"
-  ],
-  "opening": [
     "1FA9F"
   ],
   "furniture": [
@@ -11674,29 +11674,29 @@
   "bait": [
     "1FAA4"
   ],
+  "mousetrap": [
+    "1FAA4"
+  ],
   "snare": [
     "1FAA4"
   ],
   "trap": [
     "1FAA4"
   ],
-  "mousetrap": [
-    "1FAA4"
+  "shave": [
+    "1FA92"
   ],
   "sharp": [
     "1FA92",
     "E064"
   ],
-  "shave": [
-    "1FA92"
+  "moisturizer": [
+    "1F9F4"
   ],
   "lotion": [
     "1F9F4"
   ],
   "shampoo": [
-    "1F9F4"
-  ],
-  "moisturizer": [
     "1F9F4"
   ],
   "sunscreen": [
@@ -11708,13 +11708,13 @@
   "punk rock": [
     "1F9F7"
   ],
+  "sweeping": [
+    "1F9F9"
+  ],
   "cleaning": [
     "1F9F9",
     "1F9FC",
     "1F9FD"
-  ],
-  "sweeping": [
-    "1F9F9"
   ],
   "laundry": [
     "1F9FA"
@@ -11731,28 +11731,28 @@
   "pail": [
     "1FAA3"
   ],
-  "vat": [
-    "1FAA3"
-  ],
   "cask": [
     "1FAA3"
   ],
-  "bathing": [
+  "vat": [
+    "1FAA3"
+  ],
+  "soapdish": [
     "1F9FC"
   ],
   "lather": [
     "1F9FC"
   ],
-  "soapdish": [
+  "bathing": [
     "1F9FC"
   ],
-  "soap": [
+  "underwater": [
     "1FAE7"
   ],
   "burp": [
     "1FAE7"
   ],
-  "underwater": [
+  "soap": [
     "1FAE7"
   ],
   "clean": [
@@ -11764,15 +11764,15 @@
     "E0B1",
     "E0B2"
   ],
+  "dental": [
+    "1FAA5"
+  ],
   "bathroom": [
     "1FAA5",
     "1F6B9",
     "1F6BA",
     "1F6BB",
     "1F6BE"
-  ],
-  "dental": [
-    "1FAA5"
   ],
   "hygiene": [
     "1FAA5",
@@ -11784,46 +11784,43 @@
   "absorbing": [
     "1F9FD"
   ],
-  "extinguish": [
+  "quench": [
     "1F9EF"
   ],
-  "quench": [
+  "extinguish": [
     "1F9EF"
   ],
   "cart": [
     "1F6D2"
   ],
-  "tobacco": [
-    "1F6AC"
-  ],
   "smoking": [
     "1F6AC",
     "1F6AD"
+  ],
+  "tobacco": [
+    "1F6AC"
   ],
   "funeral": [
     "26B0",
     "26B1"
   ],
-  "grave": [
-    "1FAA6"
-  ],
   "tombstone": [
     "1FAA6"
   ],
-  "cemetery": [
+  "grave": [
     "1FAA6"
   ],
   "graveyard": [
     "1FAA6"
   ],
-  "ashes": [
-    "26B1"
+  "cemetery": [
+    "1FAA6"
   ],
   "urn": [
     "26B1"
   ],
-  "charm": [
-    "1F9FF"
+  "ashes": [
+    "26B1"
   ],
   "evil-eye": [
     "1F9FF"
@@ -11831,44 +11828,54 @@
   "bead": [
     "1F9FF"
   ],
-  "nazar": [
-    "1F9FF"
-  ],
   "talisman": [
     "1F9FF"
   ],
-  "mary": [
-    "1FAAC"
+  "nazar": [
+    "1F9FF"
+  ],
+  "charm": [
+    "1F9FF"
   ],
   "amulet": [
-    "1FAAC"
-  ],
-  "fatima": [
     "1FAAC"
   ],
   "miriam": [
     "1FAAC"
   ],
-  "moyai": [
+  "mary": [
+    "1FAAC"
+  ],
+  "fatima": [
+    "1FAAC"
+  ],
+  "meeting point": [
     "1F5FF"
   ],
   "shibuya": [
     "1F5FF"
   ],
-  "meeting point": [
-    "1F5FF"
-  ],
   "meet": [
     "1F5FF"
   ],
-  "picket": [
-    "1FAA7"
+  "moyai": [
+    "1F5FF"
   ],
   "protest": [
     "1FAA7"
   ],
+  "picket": [
+    "1FAA7"
+  ],
   "demonstration": [
     "1FAA7"
+  ],
+  "id": [
+    "1FAAA",
+    "1F194"
+  ],
+  "credentials": [
+    "1FAAA"
   ],
   "license": [
     "1FAAA",
@@ -11880,40 +11887,33 @@
     "1F16F",
     "229C"
   ],
-  "id": [
-    "1FAAA",
-    "1F194"
-  ],
-  "credentials": [
-    "1FAAA"
-  ],
   "security": [
     "1FAAA"
-  ],
-  "atm": [
-    "1F3E7"
   ],
   "teller": [
     "1F3E7"
   ],
-  "atm sign": [
+  "automated": [
     "1F3E7"
   ],
   "bank": [
     "1F3E7",
     "1F4B1"
   ],
-  "automated": [
+  "atm sign": [
     "1F3E7"
   ],
-  "litter bin": [
+  "atm": [
+    "1F3E7"
+  ],
+  "throw": [
     "1F6AE"
   ],
   "litter": [
     "1F6AE",
     "1F6AF"
   ],
-  "throw": [
+  "litter bin": [
     "1F6AE"
   ],
   "away": [
@@ -11932,7 +11932,7 @@
   "potable": [
     "1F6B0"
   ],
-  "wheel chair": [
+  "access": [
     "267F"
   ],
   "restroom": [
@@ -11946,11 +11946,12 @@
   "disabled person": [
     "267F"
   ],
-  "access": [
+  "wheel chair": [
     "267F"
   ],
-  "dude": [
-    "1F6B9"
+  "guy": [
+    "1F6B9",
+    "E145"
   ],
   "lavatory": [
     "1F6B9",
@@ -11958,15 +11959,14 @@
     "1F6BB",
     "1F6BE"
   ],
-  "guy": [
-    "1F6B9",
-    "E145"
-  ],
   "wc": [
     "1F6B9",
     "1F6BA",
     "1F6BB",
     "1F6BE"
+  ],
+  "dude": [
+    "1F6B9"
   ],
   "unisex": [
     "1F6BB"
@@ -11986,22 +11986,22 @@
   "customs": [
     "1F6C3"
   ],
-  "claim": [
-    "1F6C4"
-  ],
   "baggage": [
     "1F6C4",
     "1F6C5"
   ],
+  "claim": [
+    "1F6C4"
+  ],
   "luggage": [
     "1F6C5"
-  ],
-  "crossing": [
-    "1F6B8"
   ],
   "pedestrian": [
     "1F6B8",
     "1F6B7"
+  ],
+  "crossing": [
+    "1F6B8"
   ],
   "not": [
     "26D4",
@@ -12014,13 +12014,13 @@
     "26D4",
     "1F6AB"
   ],
-  "non-potable": [
-    "1F6B1"
-  ],
   "non-drinking": [
     "1F6B1"
   ],
-  "18": [
+  "non-potable": [
+    "1F6B1"
+  ],
+  "age restriction": [
     "1F51E"
   ],
   "eighteen": [
@@ -12029,13 +12029,13 @@
   "underage": [
     "1F51E"
   ],
-  "age restriction": [
+  "18": [
     "1F51E"
   ],
-  "above": [
+  "north": [
     "2B06"
   ],
-  "north": [
+  "above": [
     "2B06"
   ],
   "cardinal": [
@@ -12047,8 +12047,11 @@
   "right up": [
     "2197"
   ],
-  "northeast": [
-    "2197"
+  "intercardinal": [
+    "2197",
+    "2198",
+    "2199",
+    "2196"
   ],
   "diagonal": [
     "2197",
@@ -12056,22 +12059,19 @@
     "2199",
     "2196"
   ],
-  "intercardinal": [
-    "2197",
-    "2198",
-    "2199",
-    "2196"
+  "northeast": [
+    "2197"
   ],
   "east": [
     "27A1"
   ],
-  "soon": [
-    "27A1",
-    "1F51C"
-  ],
   "future": [
     "27A1",
     "1F3F3-FE0F-200D-1F7E6-200D-1F30C"
+  ],
+  "soon": [
+    "27A1",
+    "1F51C"
   ],
   "right down": [
     "2198"
@@ -12085,10 +12085,10 @@
   "underneath": [
     "2B07"
   ],
-  "southwest": [
+  "left down": [
     "2199"
   ],
-  "left down": [
+  "southwest": [
     "2199"
   ],
   "west": [
@@ -12103,9 +12103,6 @@
   "northwest": [
     "2196"
   ],
-  "up and down": [
-    "2195"
-  ],
   "directions": [
     "2195",
     "2194",
@@ -12115,6 +12112,9 @@
   "opposite": [
     "2195",
     "2194"
+  ],
+  "up and down": [
+    "2195"
   ],
   "left and right": [
     "2194"
@@ -12129,17 +12129,16 @@
   "curve down": [
     "2935"
   ],
+  "reload": [
+    "1F503"
+  ],
   "clockwise": [
     "1F503",
     "1F501",
     "1F502"
   ],
-  "reload": [
-    "1F503"
-  ],
-  "cycle": [
-    "1F504",
-    "1F501"
+  "anticlockwise": [
+    "1F504"
   ],
   "withershins": [
     "1F504"
@@ -12147,8 +12146,9 @@
   "counterclockwise": [
     "1F504"
   ],
-  "anticlockwise": [
-    "1F504"
+  "cycle": [
+    "1F504",
+    "1F501"
   ],
   "back": [
     "1F519"
@@ -12163,40 +12163,40 @@
   "worship": [
     "1F6D0"
   ],
-  "atom": [
-    "269B"
-  ],
   "atheist": [
     "269B"
   ],
-  "david": [
-    "2721"
+  "atom": [
+    "269B"
   ],
   "star of david": [
     "2721"
   ],
-  "buddhist": [
-    "2638"
+  "david": [
+    "2721"
   ],
   "dharma": [
     "2638"
   ],
-  "taoist": [
+  "buddhist": [
+    "2638"
+  ],
+  "yang": [
     "262F"
   ],
   "yin": [
     "262F"
   ],
-  "yang": [
-    "262F"
-  ],
   "tao": [
     "262F"
   ],
-  "candlestick": [
-    "1F54E"
+  "taoist": [
+    "262F"
   ],
   "candelabrum": [
+    "1F54E"
+  ],
+  "candlestick": [
     "1F54E"
   ],
   "sikh": [
@@ -12246,10 +12246,10 @@
     "23F8",
     "27BF"
   ],
-  "next scene": [
+  "next track": [
     "23ED"
   ],
-  "next track": [
+  "next scene": [
     "23ED"
   ],
   "pause": [
@@ -12262,11 +12262,14 @@
   "rewind": [
     "23EA"
   ],
+  "previous scene": [
+    "23EE"
+  ],
   "previous track": [
     "23EE"
   ],
-  "previous scene": [
-    "23EE"
+  "improve": [
+    "1F53C"
   ],
   "button": [
     "1F53C",
@@ -12277,13 +12280,10 @@
     "1F533",
     "1F532"
   ],
-  "improve": [
-    "1F53C"
-  ],
-  "decrease": [
+  "decline": [
     "1F53D"
   ],
-  "decline": [
+  "decrease": [
     "1F53D"
   ],
   "square": [
@@ -12310,30 +12310,30 @@
   "eject": [
     "23CF"
   ],
-  "dim": [
+  "low": [
     "1F505"
   ],
-  "low": [
+  "dim": [
     "1F505"
   ],
   "brightness": [
     "1F505",
     "1F506"
   ],
-  "network": [
-    "1F6DC"
-  ],
   "internet": [
     "1F6DC",
     "E25E"
   ],
+  "network": [
+    "1F6DC"
+  ],
   "silent mode": [
     "1F4F3"
   ],
-  "vibration": [
+  "mode": [
     "1F4F3"
   ],
-  "mode": [
+  "vibration": [
     "1F4F3"
   ],
   "off": [
@@ -12350,32 +12350,19 @@
     "2642",
     "26A7"
   ],
+  "LGBT": [
+    "26A7"
+  ],
+  "transgender": [
+    "26A7"
+  ],
   "queer": [
     "26A7"
   ],
   "trans": [
     "26A7"
   ],
-  "transgender": [
-    "26A7"
-  ],
-  "LGBT": [
-    "26A7"
-  ],
-  "multiplication": [
-    "2716",
-    "274C"
-  ],
-  "x": [
-    "2716",
-    "274C",
-    "274E"
-  ],
   "wrong": [
-    "2716",
-    "274C"
-  ],
-  "cancel": [
     "2716",
     "274C"
   ],
@@ -12384,8 +12371,23 @@
     "274C",
     "274E"
   ],
-  "+": [
-    "2795"
+  "cancel": [
+    "2716",
+    "274C"
+  ],
+  "x": [
+    "2716",
+    "274C",
+    "274E"
+  ],
+  "multiplication": [
+    "2716",
+    "274C"
+  ],
+  "plus": [
+    "2795",
+    "E25F",
+    "E264"
   ],
   "math": [
     "2795",
@@ -12393,17 +12395,15 @@
     "2797",
     "1F7F0"
   ],
-  "plus": [
-    "2795",
-    "E25F",
-    "E264"
-  ],
-  "-": [
-    "2796"
+  "+": [
+    "2795"
   ],
   "minus": [
     "2796",
     "002D"
+  ],
+  "-": [
+    "2796"
   ],
   "−": [
     "2796"
@@ -12420,10 +12420,10 @@
   "unbounded": [
     "267E"
   ],
-  "universal": [
+  "forever": [
     "267E"
   ],
-  "forever": [
+  "universal": [
     "267E"
   ],
   "!!": [
@@ -12438,13 +12438,13 @@
     "2755",
     "2757"
   ],
-  "!?": [
-    "2049"
-  ],
   "question": [
     "2049",
     "2753",
     "2754"
+  ],
+  "!?": [
+    "2049"
   ],
   "interrobang": [
     "2049"
@@ -12474,19 +12474,19 @@
     "269C",
     "1F3F4-E0063-E0061-E0071-E0063-E007F"
   ],
-  "emblem": [
+  "trident": [
     "1F531"
   ],
-  "trident": [
+  "emblem": [
     "1F531"
   ],
   "name": [
     "1F4DB"
   ],
-  "japanese symbol for beginner": [
+  "chevron": [
     "1F530"
   ],
-  "chevron": [
+  "japanese symbol for beginner": [
     "1F530"
   ],
   "beginner": [
@@ -12567,14 +12567,6 @@
     "0039-FE0F-20E3",
     "1F51F"
   ],
-  "uppercase": [
-    "1F520"
-  ],
-  "latin": [
-    "1F520",
-    "1F521",
-    "1F524"
-  ],
   "input": [
     "1F520",
     "1F521",
@@ -12596,6 +12588,14 @@
     "1F521",
     "1F524"
   ],
+  "latin": [
+    "1F520",
+    "1F521",
+    "1F524"
+  ],
+  "uppercase": [
+    "1F520"
+  ],
   "lowercase": [
     "1F521"
   ],
@@ -12608,14 +12608,17 @@
   "ampersand": [
     "1F523"
   ],
-  "〒♪&%": [
+  "percentage": [
     "1F523"
   ],
-  "percentage": [
+  "〒♪&%": [
     "1F523"
   ],
   "abc": [
     "1F524"
+  ],
+  "a button (blood type)": [
+    "1F170"
   ],
   "blood type": [
     "1F170",
@@ -12623,22 +12626,19 @@
     "1F171",
     "1F17E"
   ],
-  "a button (blood type)": [
-    "1F170"
-  ],
   "a": [
     "1F170"
-  ],
-  "ab": [
-    "1F18E"
   ],
   "ab button (blood type)": [
     "1F18E"
   ],
-  "b": [
-    "1F171"
+  "ab": [
+    "1F18E"
   ],
   "b button (blood type)": [
+    "1F171"
+  ],
+  "b": [
     "1F171"
   ],
   "cl button": [
@@ -12659,36 +12659,36 @@
   "free button": [
     "1F193"
   ],
-  "i": [
-    "2139"
-  ],
   "advice": [
     "2139"
   ],
   "info": [
     "2139"
   ],
-  "identity": [
-    "1F194"
+  "i": [
+    "2139"
   ],
-  "id button": [
+  "identity": [
     "1F194"
   ],
   "id card": [
     "1F194"
   ],
-  "m": [
-    "24C2"
+  "id button": [
+    "1F194"
   ],
   "circled m": [
     "24C2"
   ],
-  "recent": [
-    "1F195"
+  "m": [
+    "24C2"
   ],
   "new": [
     "1F195",
     "E25F"
+  ],
+  "recent": [
+    "1F195"
   ],
   "new button": [
     "1F195"
@@ -12705,17 +12705,17 @@
   "ok button": [
     "1F197"
   ],
-  "p button": [
-    "1F17F"
-  ],
-  "place": [
-    "1F17F"
-  ],
   "p": [
     "1F17F",
     "E206"
   ],
   "parking": [
+    "1F17F"
+  ],
+  "p button": [
+    "1F17F"
+  ],
+  "place": [
     "1F17F"
   ],
   "sos": [
@@ -12730,16 +12730,16 @@
   "up! button": [
     "1F199"
   ],
-  "vs": [
-    "1F19A"
-  ],
   "vs button": [
     "1F19A"
   ],
-  "versus": [
+  "vs": [
     "1F19A"
   ],
   "against": [
+    "1F19A"
+  ],
+  "versus": [
     "1F19A"
   ],
   "japanese “here” button": [
@@ -12748,30 +12748,21 @@
   "“here”": [
     "1F201"
   ],
+  "ココ": [
+    "1F201"
+  ],
   "katakana": [
     "1F201",
     "1F202"
   ],
-  "ココ": [
-    "1F201"
+  "サ": [
+    "1F202"
   ],
   "“service charge”": [
     "1F202"
   ],
   "japanese “service charge” button": [
     "1F202"
-  ],
-  "サ": [
-    "1F202"
-  ],
-  "japanese “monthly amount” button": [
-    "1F237"
-  ],
-  "“monthly amount”": [
-    "1F237"
-  ],
-  "月": [
-    "1F237"
   ],
   "ideograph": [
     "1F237",
@@ -12796,23 +12787,35 @@
     "1F264",
     "1F265"
   ],
-  "有": [
-    "1F236"
+  "“monthly amount”": [
+    "1F237"
+  ],
+  "japanese “monthly amount” button": [
+    "1F237"
+  ],
+  "月": [
+    "1F237"
   ],
   "japanese “not free of charge” button": [
+    "1F236"
+  ],
+  "有": [
     "1F236"
   ],
   "“not free of charge”": [
     "1F236"
   ],
-  "japanese “reserved” button": [
+  "指": [
     "1F22F"
   ],
   "“reserved”": [
     "1F22F"
   ],
-  "指": [
+  "japanese “reserved” button": [
     "1F22F"
+  ],
+  "得": [
+    "1F250"
   ],
   "japanese “bargain” button": [
     "1F250"
@@ -12820,16 +12823,13 @@
   "“bargain”": [
     "1F250"
   ],
-  "得": [
-    "1F250"
+  "“discount”": [
+    "1F239"
   ],
   "japanese “discount” button": [
     "1F239"
   ],
   "割": [
-    "1F239"
-  ],
-  "“discount”": [
     "1F239"
   ],
   "japanese “free of charge” button": [
@@ -12844,20 +12844,23 @@
   "禁": [
     "1F232"
   ],
-  "japanese “prohibited” button": [
-    "1F232"
-  ],
   "“prohibited”": [
     "1F232"
   ],
-  "可": [
+  "japanese “prohibited” button": [
+    "1F232"
+  ],
+  "japanese “acceptable” button": [
     "1F251"
   ],
   "“acceptable”": [
     "1F251"
   ],
-  "japanese “acceptable” button": [
+  "可": [
     "1F251"
+  ],
+  "japanese “application” button": [
+    "1F238"
   ],
   "申": [
     "1F238"
@@ -12865,53 +12868,47 @@
   "“application”": [
     "1F238"
   ],
-  "japanese “application” button": [
-    "1F238"
-  ],
-  "japanese “passing grade” button": [
-    "1F234"
-  ],
   "合": [
     "1F234"
   ],
   "“passing grade”": [
     "1F234"
   ],
-  "“vacancy”": [
-    "1F233"
+  "japanese “passing grade” button": [
+    "1F234"
   ],
-  "空": [
+  "“vacancy”": [
     "1F233"
   ],
   "japanese “vacancy” button": [
     "1F233"
   ],
-  "japanese “congratulations” button": [
-    "3297"
+  "空": [
+    "1F233"
   ],
-  "“congratulations”": [
+  "japanese “congratulations” button": [
     "3297"
   ],
   "祝": [
     "3297"
   ],
+  "“congratulations”": [
+    "3297"
+  ],
   "compliments": [
     "3297"
   ],
-  "mysterious": [
+  "秘": [
     "3299"
   ],
   "japanese “secret” button": [
     "3299"
   ],
-  "秘": [
-    "3299"
-  ],
   "“secret”": [
     "3299"
   ],
-  "営": [
-    "1F23A"
+  "mysterious": [
+    "3299"
   ],
   "“open for business”": [
     "1F23A"
@@ -12919,13 +12916,16 @@
   "japanese “open for business” button": [
     "1F23A"
   ],
+  "営": [
+    "1F23A"
+  ],
+  "満": [
+    "1F235"
+  ],
   "“no vacancy”": [
     "1F235"
   ],
   "japanese “no vacancy” button": [
-    "1F235"
-  ],
-  "満": [
     "1F235"
   ],
   "geometric": [
@@ -12958,13 +12958,13 @@
   "goldfish": [
     "E000"
   ],
-  "veterans": [
-    "E002"
-  ],
   "remembrance": [
     "E002"
   ],
   "poppy": [
+    "E002"
+  ],
+  "veterans": [
     "E002"
   ],
   "orca": [
@@ -12979,10 +12979,10 @@
     "E004",
     "E005"
   ],
-  "vermin": [
+  "rock dove": [
     "E009"
   ],
-  "rock dove": [
+  "vermin": [
     "E009"
   ],
   "parrots": [
@@ -12999,11 +12999,11 @@
   "pins": [
     "E041"
   ],
-  "social-media": [
+  "facebook": [
     "E042",
     "E043"
   ],
-  "facebook": [
+  "social-media": [
     "E042",
     "E043"
   ],
@@ -13041,11 +13041,6 @@
   "open knowledge graph": [
     "E04B"
   ],
-  "fox": [
-    "E050",
-    "E066",
-    "E067"
-  ],
   "browser": [
     "E050",
     "E051",
@@ -13060,10 +13055,15 @@
     "E067",
     "E06A"
   ],
-  "compass": [
-    "E051"
+  "fox": [
+    "E050",
+    "E066",
+    "E067"
   ],
   "webkit": [
+    "E051"
+  ],
+  "compass": [
     "E051"
   ],
   "google": [
@@ -13096,16 +13096,12 @@
   "youtube": [
     "E05B"
   ],
-  "photo": [
-    "E05C",
-    "E142"
-  ],
   "image sharing platform": [
     "E05C"
   ],
-  "whatsapp": [
-    "E05D",
-    "E05E"
+  "photo": [
+    "E05C",
+    "E142"
   ],
   "messenger": [
     "E05D",
@@ -13124,6 +13120,10 @@
     "E10B",
     "E25E"
   ],
+  "whatsapp": [
+    "E05D",
+    "E05E"
+  ],
   "media": [
     "E05F"
   ],
@@ -13133,6 +13133,11 @@
   "chat": [
     "E061"
   ],
+  "hexagon": [
+    "E062",
+    "E063",
+    "E064"
+  ],
   "language": [
     "E062",
     "E063",
@@ -13141,11 +13146,6 @@
     "E069",
     "E06C"
   ],
-  "hexagon": [
-    "E062",
-    "E063",
-    "E064"
-  ],
   "programming": [
     "E062",
     "E063",
@@ -13153,19 +13153,19 @@
     "E068",
     "E069"
   ],
-  "plusplus": [
+  "cplusplus": [
     "E063"
   ],
-  "cplusplus": [
+  "plusplus": [
     "E063"
   ],
   "csharp": [
     "E064"
   ],
-  "chrome": [
+  "canary": [
     "E065"
   ],
-  "canary": [
+  "chrome": [
     "E065"
   ],
   "firefox": [
@@ -13175,10 +13175,10 @@
   "nightly": [
     "E067"
   ],
-  "js": [
+  "javascript": [
     "E068"
   ],
-  "javascript": [
+  "js": [
     "E068"
   ],
   "typescript": [
@@ -13187,23 +13187,26 @@
   "ts": [
     "E069"
   ],
-  "webassembly": [
+  "wasm": [
     "E06A"
   ],
   "wa": [
     "E06A"
   ],
-  "wasm": [
+  "webassembly": [
     "E06A"
   ],
   "vectorial": [
     "E06B"
   ],
+  "vector": [
+    "E06B"
+  ],
   "svg": [
     "E06B"
   ],
-  "vector": [
-    "E06B"
+  "markdown": [
+    "E06C"
   ],
   "md": [
     "E06C"
@@ -13211,16 +13214,13 @@
   "markup": [
     "E06C"
   ],
-  "markdown": [
-    "E06C"
-  ],
-  "win": [
-    "E06D"
-  ],
   "winrar": [
     "E06D"
   ],
   "rar": [
+    "E06D"
+  ],
+  "win": [
     "E06D"
   ],
   "Linux": [
@@ -13274,13 +13274,13 @@
   "fossil": [
     "E2CB"
   ],
-  "petrol": [
-    "E2CB"
-  ],
   "pollution": [
     "E2CB",
     "E2CC",
     "E2CF"
+  ],
+  "petrol": [
+    "E2CB"
   ],
   "carbon": [
     "E2CC",
@@ -13300,13 +13300,13 @@
   "carnivore": [
     "E2CE"
   ],
-  "tsunami": [
+  "sinking": [
     "E2D0"
   ],
   "flood": [
     "E2D0"
   ],
-  "sinking": [
+  "tsunami": [
     "E2D0"
   ],
   "turbine": [
@@ -13346,25 +13346,25 @@
     "E2D7",
     "E2D8"
   ],
-  "nbc suit": [
+  "hazmat": [
     "E2D9"
   ],
-  "hazmat": [
+  "nbc suit": [
     "E2D9"
   ],
   "gas mask": [
     "E2D9"
   ],
-  "WW2": [
-    "E2DA"
-  ],
   "nuke": [
     "E2DA"
   ],
-  "help elderly": [
-    "E083"
+  "WW2": [
+    "E2DA"
   ],
   "help wheelchair": [
+    "E083"
+  ],
+  "help elderly": [
     "E083"
   ],
   "earthquake safety": [
@@ -13420,13 +13420,13 @@
   "disinfect": [
     "E0B1"
   ],
-  "antarctic": [
+  "antarctica flag": [
     "1F1E6-1F1F6-1F48E"
   ],
   "antarctica": [
     "1F1E6-1F1F6-1F48E"
   ],
-  "antarctica flag": [
+  "antarctic": [
     "1F1E6-1F1F6-1F48E"
   ],
   "surrender": [
@@ -13435,10 +13435,10 @@
   "Hello Internet": [
     "1F3F3-FE0F-200D-1F4CC-200D-2699-FE0F"
   ],
-  "CGP Grey": [
+  "Brady Haran": [
     "1F3F3-FE0F-200D-1F4CC-200D-2699-FE0F"
   ],
-  "Brady Haran": [
+  "CGP Grey": [
     "1F3F3-FE0F-200D-1F4CC-200D-2699-FE0F"
   ],
   "socialism": [
@@ -13449,27 +13449,27 @@
     "1F3F3-FE0F-200D-1F7E5",
     "2691-FE0F-200D-1F7E5"
   ],
-  "trekker": [
+  "Star Trek": [
     "1F3F3-FE0F-200D-1F7E6-200D-1F30C"
   ],
-  "trekkie": [
+  "trekker": [
     "1F3F3-FE0F-200D-1F7E6-200D-1F30C"
   ],
   "utopia": [
     "1F3F3-FE0F-200D-1F7E6-200D-1F30C"
   ],
-  "Star Trek": [
+  "trekkie": [
     "1F3F3-FE0F-200D-1F7E6-200D-1F30C"
-  ],
-  "maratha": [
-    "1F3F3-FE0F-200D-1F7E7",
-    "2691-FE0F-200D-1F7E7"
   ],
   "pirate party": [
     "1F3F3-FE0F-200D-1F7E7",
     "2691-FE0F-200D-1F7E7"
   ],
   "Christian democracy": [
+    "1F3F3-FE0F-200D-1F7E7",
+    "2691-FE0F-200D-1F7E7"
+  ],
+  "maratha": [
     "1F3F3-FE0F-200D-1F7E7",
     "2691-FE0F-200D-1F7E7"
   ],
@@ -13489,16 +13489,16 @@
     "1F3F3-FE0F-200D-1F7E9",
     "2691-FE0F-200D-1F7E9"
   ],
-  "Zamenhof": [
-    "1F3F3-FE0F-200D-1F7E9-200D-2B50-200D-1F7E9"
-  ],
   "constructed": [
     "1F3F3-FE0F-200D-1F7E9-200D-2B50-200D-1F7E9"
   ],
-  "anarchist flag": [
-    "1F3F4-FE0F-200D-1F170-FE0F"
+  "Zamenhof": [
+    "1F3F3-FE0F-200D-1F7E9-200D-2B50-200D-1F7E9"
   ],
   "bisected flag": [
+    "1F3F4-FE0F-200D-1F170-FE0F"
+  ],
+  "anarchist flag": [
     "1F3F4-FE0F-200D-1F170-FE0F"
   ],
   "Firefly": [
@@ -13510,13 +13510,13 @@
   "Serenity": [
     "2691-FE0F-200D-1F7E9-200D-2605-FE0F"
   ],
-  "half": [
-    "E0C0"
-  ],
   "citrus fruits": [
     "E0C0"
   ],
-  "germany": [
+  "half": [
+    "E0C0"
+  ],
+  "swabian": [
     "E0C1",
     "E0C2",
     "E0C3",
@@ -13525,7 +13525,7 @@
     "E207",
     "E20A"
   ],
-  "swabian": [
+  "germany": [
     "E0C1",
     "E0C2",
     "E0C3",
@@ -13549,10 +13549,10 @@
   "brezel": [
     "E0C3"
   ],
-  "pomegranate": [
+  "seeds": [
     "E0C4"
   ],
-  "seeds": [
+  "pomegranate": [
     "E0C4"
   ],
   "custard": [
@@ -13562,10 +13562,10 @@
     "E0C8",
     "E0C9"
   ],
-  "traditional bread": [
+  "round bread": [
     "E0CA"
   ],
-  "round bread": [
+  "traditional bread": [
     "E0CA"
   ],
   "french bread": [
@@ -13585,16 +13585,16 @@
   "stump": [
     "E347"
   ],
-  "rip saw": [
+  "branch": [
     "E348"
   ],
   "foxtail": [
     "E348"
   ],
-  "carpentry": [
+  "rip saw": [
     "E348"
   ],
-  "branch": [
+  "carpentry": [
     "E348"
   ],
   "surgery": [
@@ -13613,23 +13613,23 @@
     "E305",
     "E307"
   ],
-  "patch": [
+  "plaster": [
     "E306"
   ],
   "wound": [
     "E306",
     "E31B"
   ],
-  "plaster": [
-    "E306"
-  ],
-  "band aid": [
+  "patch": [
     "E306"
   ],
   "dressing": [
     "E306",
     "E31B",
     "E325"
+  ],
+  "band aid": [
+    "E306"
   ],
   "electrocardiogram": [
     "E308"
@@ -13649,10 +13649,10 @@
   "bleeding": [
     "E30D"
   ],
-  "cramps": [
+  "period": [
     "E30F"
   ],
-  "period": [
+  "cramps": [
     "E30F"
   ],
   "bile": [
@@ -13663,6 +13663,9 @@
     "E312",
     "E316"
   ],
+  "acid": [
+    "E313"
+  ],
   "digestion": [
     "E313",
     "E315"
@@ -13671,9 +13674,6 @@
     "E313",
     "E314",
     "E315"
-  ],
-  "acid": [
-    "E313"
   ],
   "colon": [
     "E314",
@@ -13689,16 +13689,16 @@
   "tongs": [
     "E318"
   ],
-  "cortex": [
-    "E319"
-  ],
-  "grey matter": [
-    "E319"
-  ],
   "IQ": [
     "E319"
   ],
   "intelligence": [
+    "E319"
+  ],
+  "cortex": [
+    "E319"
+  ],
+  "grey matter": [
     "E319"
   ],
   "sheets": [
@@ -13710,6 +13710,10 @@
   "gauze": [
     "E31B",
     "E325"
+  ],
+  "headache": [
+    "E31C",
+    "E31E"
   ],
   "sore": [
     "E31C",
@@ -13724,10 +13728,6 @@
     "E31C",
     "E322"
   ],
-  "headache": [
-    "E31C",
-    "E31E"
-  ],
   "tension": [
     "E31D"
   ],
@@ -13740,21 +13740,21 @@
   "cast": [
     "E31F"
   ],
+  "ACL": [
+    "E320"
+  ],
+  "patella": [
+    "E320"
+  ],
   "ache": [
     "E320",
     "E321",
     "E322"
   ],
-  "patella": [
-    "E320"
-  ],
-  "ACL": [
-    "E320"
-  ],
-  "lumbar": [
+  "spine": [
     "E321"
   ],
-  "spine": [
+  "lumbar": [
     "E321"
   ],
   "arthritis": [
@@ -13772,10 +13772,10 @@
   "broken leg": [
     "E326"
   ],
-  "DACA": [
+  "mobility": [
     "E327"
   ],
-  "mobility": [
+  "DACA": [
     "E327"
   ],
   "gurney": [
@@ -13790,10 +13790,10 @@
   "tumour": [
     "E329"
   ],
-  "BMI": [
+  "mass": [
     "E32B"
   ],
-  "mass": [
+  "BMI": [
     "E32B"
   ],
   "movement": [
@@ -13810,18 +13810,15 @@
     "E109",
     "E10B"
   ],
-  "sideways": [
-    "E105"
-  ],
   "move": [
     "E105",
     "E106"
   ],
-  "swipe": [
+  "sideways": [
     "E105"
   ],
-  "scrolling": [
-    "E106"
+  "swipe": [
+    "E105"
   ],
   "x-axis": [
     "E106",
@@ -13831,13 +13828,16 @@
   "scrollwheel": [
     "E106"
   ],
-  "previous": [
+  "scrolling": [
+    "E106"
+  ],
+  "site": [
     "E107"
   ],
   "next": [
     "E107"
   ],
-  "site": [
+  "previous": [
     "E107"
   ],
   "touch": [
@@ -13846,26 +13846,26 @@
     "E10A",
     "E10B"
   ],
-  "pushing": [
-    "E10C"
-  ],
-  "launch": [
+  "nuclear missile": [
     "E10C"
   ],
   "start": [
     "E10C",
     "E244"
   ],
-  "nuclear missile": [
+  "pushing": [
     "E10C"
   ],
   "pressing": [
     "E10C"
   ],
-  "bic": [
-    "E143"
+  "launch": [
+    "E10C"
   ],
   "lighter": [
+    "E143"
+  ],
+  "bic": [
     "E143"
   ],
   "outlet": [
@@ -13874,10 +13874,10 @@
   "vendetta": [
     "E145"
   ],
-  "anonymous": [
+  "fawkes": [
     "E145"
   ],
-  "fawkes": [
+  "anonymous": [
     "E145"
   ],
   "spätzle": [
@@ -13892,16 +13892,16 @@
   "police box": [
     "E149"
   ],
-  "time machine": [
-    "E149"
-  ],
   "police booth": [
     "E149"
   ],
-  "motorcycle": [
-    "E14A"
+  "time machine": [
+    "E149"
   ],
   "motorbike": [
+    "E14A"
+  ],
+  "motorcycle": [
     "E14A"
   ],
   "latte": [
@@ -13910,17 +13910,7 @@
   "burned coffee": [
     "E154"
   ],
-  "techno": [
-    "1F468-200D-1FAA9",
-    "1F469-200D-1FAA9",
-    "1F9D1-200D-1FAA9"
-  ],
   "rave": [
-    "1F468-200D-1FAA9",
-    "1F469-200D-1FAA9",
-    "1F9D1-200D-1FAA9"
-  ],
-  "Diskjockey": [
     "1F468-200D-1FAA9",
     "1F469-200D-1FAA9",
     "1F9D1-200D-1FAA9"
@@ -13930,38 +13920,45 @@
     "1F469-200D-1FAA9",
     "1F9D1-200D-1FAA9"
   ],
-  "person-gesture": [
-    "E181"
+  "Diskjockey": [
+    "1F468-200D-1FAA9",
+    "1F469-200D-1FAA9",
+    "1F9D1-200D-1FAA9"
   ],
-  "person-sport": [
-    "E181"
+  "techno": [
+    "1F468-200D-1FAA9",
+    "1F469-200D-1FAA9",
+    "1F9D1-200D-1FAA9"
   ],
   "person-activity": [
     "E181",
     "E182"
   ],
+  "person-sport": [
+    "E181"
+  ],
+  "person-gesture": [
+    "E181"
+  ],
   "drunk": [
     "E181"
   ],
-  "donald": [
-    "E183"
-  ],
-  "trump": [
-    "E183"
-  ],
-  "president": [
+  "america": [
     "E183"
   ],
   "usa": [
     "E183"
   ],
-  "america": [
+  "donald": [
     "E183"
   ],
-  "climate change": [
-    "E188"
+  "president": [
+    "E183"
   ],
-  "Sweden": [
+  "trump": [
+    "E183"
+  ],
+  "FFF": [
     "E188"
   ],
   "activist": [
@@ -13970,13 +13967,16 @@
   "Fridays for Future": [
     "E188"
   ],
-  "FFF": [
+  "climate change": [
     "E188"
   ],
-  "watersport": [
-    "E189"
+  "Sweden": [
+    "E188"
   ],
   "windsurfing": [
+    "E189"
+  ],
+  "watersport": [
     "E189"
   ],
   "sleepy": [
@@ -13991,16 +13991,16 @@
   "._.": [
     "E282"
   ],
-  "childish": [
-    "E283"
-  ],
-  "frustrated": [
-    "E283"
-  ],
   "offended": [
     "E283"
   ],
   "tongue out": [
+    "E283"
+  ],
+  "childish": [
+    "E283"
+  ],
+  "frustrated": [
     "E283"
   ],
   "legacy computing": [
@@ -14016,29 +14016,36 @@
   "pride": [
     "2B21-FE0F-200D-1F308"
   ],
-  "germs": [
-    "E380"
-  ],
   "spread": [
     "E380"
   ],
-  "subscribe": [
-    "E381"
+  "germs": [
+    "E380"
   ],
-  "atom feed": [
-    "E381"
-  ],
-  "web feed": [
+  "feed": [
     "E381"
   ],
   "RSS": [
     "E381"
   ],
-  "feed": [
+  "web feed": [
     "E381"
   ],
   "podcast": [
     "E381"
+  ],
+  "atom feed": [
+    "E381"
+  ],
+  "subscribe": [
+    "E381"
+  ],
+  "AI": [
+    "25C9-FE0F-200D-1F534",
+    "25C9-FE0F-200D-1F534-200D-25AE-FE0F"
+  ],
+  "turret": [
+    "25C9-FE0F-200D-1F534"
   ],
   "Portal": [
     "25C9-FE0F-200D-1F534"
@@ -14047,20 +14054,13 @@
     "25C9-FE0F-200D-1F534",
     "25C9-FE0F-200D-1F534-200D-25AE-FE0F"
   ],
-  "turret": [
-    "25C9-FE0F-200D-1F534"
-  ],
-  "AI": [
-    "25C9-FE0F-200D-1F534",
+  "I'm sorry Dave": [
     "25C9-FE0F-200D-1F534-200D-25AE-FE0F"
   ],
   "artificial intelligence": [
     "25C9-FE0F-200D-1F534-200D-25AE-FE0F"
   ],
-  "I'm sorry Dave": [
-    "25C9-FE0F-200D-1F534-200D-25AE-FE0F"
-  ],
-  "Stanley Kubrick": [
+  "science fiction": [
     "25C9-FE0F-200D-1F534-200D-25AE-FE0F"
   ],
   "I'm afraid I can't do that": [
@@ -14069,25 +14069,25 @@
   "Space Odyssey": [
     "25C9-FE0F-200D-1F534-200D-25AE-FE0F"
   ],
+  "Stanley Kubrick": [
+    "25C9-FE0F-200D-1F534-200D-25AE-FE0F"
+  ],
   "2001": [
     "25C9-FE0F-200D-1F534-200D-25AE-FE0F"
   ],
-  "science fiction": [
-    "25C9-FE0F-200D-1F534-200D-25AE-FE0F"
-  ],
-  "toggling": [
+  "changeover switch": [
     "E1C3"
   ],
   "exchange counter": [
     "E1C3"
   ],
-  "changeover switch": [
+  "toggling": [
     "E1C3"
   ],
-  "CCTV": [
+  "surveillance": [
     "E1C4"
   ],
-  "surveillance": [
+  "CCTV": [
     "E1C4"
   ],
   "phablet": [
@@ -14096,54 +14096,54 @@
   "portable": [
     "E1CC"
   ],
-  "ipad": [
-    "E1CC"
+  "technology": [
+    "E1CC",
+    "E1D0"
   ],
   "device": [
     "E1CC",
     "E1CE"
   ],
-  "technology": [
-    "E1CC",
+  "ipad": [
+    "E1CC"
+  ],
+  "wireless": [
+    "E1CD",
     "E1D0"
   ],
   "location": [
+    "E1CD"
+  ],
+  "crosshair": [
+    "E1CD"
+  ],
+  "where": [
     "E1CD"
   ],
   "reception": [
     "E1CD",
     "E1D0"
   ],
-  "crosshair": [
-    "E1CD"
-  ],
   "localization": [
     "E1CD",
     "E1D0"
   ],
-  "where": [
-    "E1CD"
-  ],
-  "wireless": [
-    "E1CD",
-    "E1D0"
-  ],
-  "apps": [
+  "armlet": [
     "E1CE"
   ],
   "monitor": [
     "E1CE"
   ],
-  "armlet": [
+  "apps": [
     "E1CE"
   ],
   "cleaner": [
     "E1CF"
   ],
-  "home electronics": [
+  "appliance": [
     "E1CF"
   ],
-  "appliance": [
+  "home electronics": [
     "E1CF"
   ],
   "garment": [
@@ -14161,31 +14161,31 @@
   "type": [
     "E1D1"
   ],
-  "drone": [
-    "E1D2"
-  ],
-  "quadcopter": [
-    "E1D2"
-  ],
   "UAV": [
     "E1D2"
   ],
   "RC": [
     "E1D2"
   ],
-  "arduino": [
-    "E1D3"
+  "drone": [
+    "E1D2"
   ],
-  "prototyping": [
+  "quadcopter": [
+    "E1D2"
+  ],
+  "arduino": [
     "E1D3"
   ],
   "sensor": [
     "E1D3"
   ],
-  "cord": [
-    "E1D4"
+  "prototyping": [
+    "E1D3"
   ],
   "litz-wire": [
+    "E1D4"
+  ],
+  "cord": [
     "E1D4"
   ],
   "wire": [
@@ -14194,20 +14194,26 @@
   "potentiometer": [
     "E1D5"
   ],
-  "module": [
+  "photovoltaic": [
     "E1D6"
   ],
-  "photovoltaic": [
+  "module": [
     "E1D6"
   ],
   "solar": [
     "E1D6"
   ],
+  "prototype": [
+    "E1D7"
+  ],
   "circuit": [
     "E1D7"
   ],
-  "prototype": [
-    "E1D7"
+  "barcode": [
+    "E1D8"
+  ],
+  "quick response": [
+    "E1D8"
   ],
   "tag": [
     "E1D8",
@@ -14216,42 +14222,33 @@
   "matrix": [
     "E1D8"
   ],
-  "barcode": [
-    "E1D8"
-  ],
   "scan": [
     "E1D8",
     "E1D9"
   ],
-  "quick response": [
-    "E1D8"
-  ],
   "machine readable": [
     "E1D9"
   ],
-  "route": [
-    "E201"
-  ],
-  "people": [
-    "E201"
-  ],
   "escape": [
-    "E201"
-  ],
-  "signage": [
-    "E201"
-  ],
-  "run": [
-    "E201"
-  ],
-  "way": [
     "E201"
   ],
   "guidance": [
     "E201"
   ],
-  "steps": [
-    "E202"
+  "people": [
+    "E201"
+  ],
+  "way": [
+    "E201"
+  ],
+  "route": [
+    "E201"
+  ],
+  "run": [
+    "E201"
+  ],
+  "signage": [
+    "E201"
   ],
   "descend": [
     "E202"
@@ -14259,10 +14256,13 @@
   "ascend": [
     "E202"
   ],
-  "village": [
-    "E203"
+  "steps": [
+    "E202"
   ],
   "town": [
+    "E203"
+  ],
+  "village": [
     "E203"
   ],
   "elevator": [
@@ -14274,10 +14274,10 @@
   "france": [
     "E205"
   ],
-  "parking lot": [
+  "traffic sign": [
     "E206"
   ],
-  "traffic sign": [
+  "parking lot": [
     "E206"
   ],
   "schwaebisch gmuend": [
@@ -14288,10 +14288,10 @@
   "town hall": [
     "E209"
   ],
-  "shuttle": [
+  "nasa": [
     "E20B"
   ],
-  "nasa": [
+  "shuttle": [
     "E20B"
   ],
   "viennese coffee culture": [
@@ -14306,13 +14306,13 @@
   "event horizon": [
     "E20D"
   ],
-  "peak": [
-    "E20E"
-  ],
   "berg": [
     "E20E"
   ],
   "elevation": [
+    "E20E"
+  ],
+  "peak": [
     "E20E"
   ],
   "egypt": [
@@ -14342,23 +14342,23 @@
   "easter island": [
     "E216"
   ],
-  "scaling": [
-    "E243"
-  ],
   "distance": [
     "E243",
     "E244"
   ],
-  "size": [
-    "E243"
-  ],
   "meters": [
     "E243"
   ],
-  "inches": [
+  "scaling": [
+    "E243"
+  ],
+  "size": [
     "E243"
   ],
   "measurement": [
+    "E243"
+  ],
+  "inches": [
     "E243"
   ],
   "miles": [
@@ -14367,60 +14367,60 @@
   "kilometers": [
     "E243"
   ],
-  "destination": [
-    "E244"
-  ],
   "transport": [
     "E244"
   ],
   "track": [
     "E244"
   ],
+  "destination": [
+    "E244"
+  ],
   "driving": [
     "E244"
   ],
-  "chatting": [
+  "talking": [
     "E246"
   ],
   "conversation": [
     "E246"
   ],
-  "talking": [
+  "users": [
     "E246"
   ],
-  "users": [
+  "chatting": [
     "E246"
   ],
   "face-to-face": [
     "E246"
   ],
-  "messaging": [
-    "E248"
-  ],
   "typing": [
     "E248"
   ],
-  "collab": [
-    "E249"
+  "messaging": [
+    "E248"
   ],
   "group": [
     "E249"
   ],
-  "team": [
+  "collab": [
     "E249"
   ],
   "teamwork": [
     "E249"
   ],
+  "team": [
+    "E249"
+  ],
   "interview": [
     "E24A"
+  ],
+  "intricate": [
+    "E24B"
   ],
   "abstract": [
     "E24B",
     "E24C"
-  ],
-  "intricate": [
-    "E24B"
   ],
   "simple": [
     "E24C"
@@ -14438,53 +14438,53 @@
     "E25B",
     "E25F"
   ],
-  "hard drive": [
-    "E25C"
-  ],
   "harddisk": [
     "E25C"
   ],
   "hdd": [
     "E25C"
   ],
+  "hard drive": [
+    "E25C"
+  ],
   "download": [
     "E25C"
   ],
-  "change": [
+  "scribble": [
     "E25D"
   ],
-  "scribble": [
+  "change": [
     "E25D"
   ],
   "editing": [
     "E25D"
   ],
-  "website": [
-    "E25E"
-  ],
-  "main": [
-    "E25E"
-  ],
   "symbol": [
+    "E25E"
+  ],
+  "ui": [
+    "E25E"
+  ],
+  "website": [
     "E25E"
   ],
   "homepage": [
     "E25E"
   ],
-  "ui": [
+  "main": [
     "E25E"
   ],
   "more": [
     "E25F",
     "E264"
   ],
-  "cupboard": [
+  "save to": [
     "E260"
   ],
   "library": [
     "E260"
   ],
-  "save to": [
+  "cupboard": [
     "E260"
   ],
   "drawer": [
@@ -14493,20 +14493,20 @@
   "lines": [
     "E261"
   ],
-  "overview": [
-    "E261"
-  ],
   "list": [
     "E261",
     "E265"
   ],
-  "remove": [
-    "E262"
+  "overview": [
+    "E261"
   ],
   "delete": [
     "E262"
   ],
   "waste": [
+    "E262"
+  ],
+  "remove": [
     "E262"
   ],
   "comment": [
@@ -14537,23 +14537,23 @@
   "contact": [
     "E268"
   ],
-  "health potion": [
+  "red potion": [
     "1FAD9-200D-1F7E5"
   ],
-  "red potion": [
+  "health potion": [
     "1FAD9-200D-1F7E5"
   ],
   "jam": [
     "1FAD9-200D-1F7E5",
     "1FAD9-200D-1F7EA"
   ],
-  "mana potion": [
-    "1FAD9-200D-1F7E6"
-  ],
   "blue potion": [
     "1FAD9-200D-1F7E6"
   ],
   "magic potion": [
+    "1FAD9-200D-1F7E6"
+  ],
+  "mana potion": [
     "1FAD9-200D-1F7E6"
   ],
   "marmelade": [
@@ -14575,25 +14575,25 @@
   "nut spread": [
     "1FAD9-200D-1F7EB"
   ],
-  "canada": [
+  "quebec": [
     "1F3F4-E0063-E0061-E0071-E0063-E007F"
   ],
   "province": [
     "1F3F4-E0063-E0061-E0071-E0063-E007F"
   ],
-  "quebec": [
+  "canada": [
     "1F3F4-E0063-E0061-E0071-E0063-E007F"
   ],
   "capital": [
     "1F3F4-E0064-E0065-E0062-E0065-E007F"
   ],
+  "lozenge": [
+    "1F3F4-E0064-E0065-E0062-E0079-E007F"
+  ],
   "state": [
     "1F3F4-E0064-E0065-E0062-E0079-E007F",
     "1F3F4-E0075-E0073-E0063-E0061-E007F",
     "1F3F4-E0075-E0073-E0074-E0078-E007F"
-  ],
-  "lozenge": [
-    "1F3F4-E0064-E0065-E0062-E0079-E007F"
   ],
   "arago": [
     "1F3F4-E0065-E0073-E0061-E0072-E007F"
@@ -14601,10 +14601,10 @@
   "aragon": [
     "1F3F4-E0065-E0073-E0061-E0072-E007F"
   ],
-  "asturian": [
+  "asturina": [
     "1F3F4-E0065-E0073-E0061-E0073-E007F"
   ],
-  "asturina": [
+  "asturian": [
     "1F3F4-E0065-E0073-E0061-E0073-E007F"
   ],
   "catalan": [
@@ -14614,32 +14614,41 @@
     "1F3F4-E0065-E0073-E0063-E0074-E007F",
     "1F3F4-E0065-E0073-E0076-E0063-E007F"
   ],
-  "balearic": [
-    "1F3F4-E0065-E0073-E0069-E0062-E007F"
-  ],
   "balears": [
     "1F3F4-E0065-E0073-E0069-E0062-E007F"
   ],
   "islands": [
     "1F3F4-E0065-E0073-E0069-E0062-E007F"
   ],
-  "illes": [
+  "balearic": [
     "1F3F4-E0065-E0073-E0069-E0062-E007F"
   ],
-  "murcia": [
-    "1F3F4-E0065-E0073-E006D-E0063-E007F"
+  "illes": [
+    "1F3F4-E0065-E0073-E0069-E0062-E007F"
   ],
   "region": [
     "1F3F4-E0065-E0073-E006D-E0063-E007F"
   ],
-  "basque": [
+  "murcia": [
+    "1F3F4-E0065-E0073-E006D-E0063-E007F"
+  ],
+  "euskal": [
     "1F3F4-E0065-E0073-E0070-E0076-E007F"
   ],
   "ikurrina": [
     "1F3F4-E0065-E0073-E0070-E0076-E007F"
   ],
-  "euskal": [
+  "basque": [
     "1F3F4-E0065-E0073-E0070-E0076-E007F"
+  ],
+  "valencia": [
+    "1F3F4-E0065-E0073-E0076-E0063-E007F"
+  ],
+  "reial": [
+    "1F3F4-E0065-E0073-E0076-E0063-E007F"
+  ],
+  "valenciana": [
+    "1F3F4-E0065-E0073-E0076-E0063-E007F"
   ],
   "valencian": [
     "1F3F4-E0065-E0073-E0076-E0063-E007F"
@@ -14647,25 +14656,16 @@
   "community": [
     "1F3F4-E0065-E0073-E0076-E0063-E007F"
   ],
-  "valenciana": [
-    "1F3F4-E0065-E0073-E0076-E0063-E007F"
-  ],
-  "reial": [
-    "1F3F4-E0065-E0073-E0076-E0063-E007F"
-  ],
   "comunitat": [
-    "1F3F4-E0065-E0073-E0076-E0063-E007F"
-  ],
-  "valencia": [
     "1F3F4-E0065-E0073-E0076-E0063-E007F"
   ],
   "breton": [
     "1F3F4-E0066-E0072-E0062-E0072-E0065-E007F"
   ],
-  "gwenn-ha-du": [
+  "brittany": [
     "1F3F4-E0066-E0072-E0062-E0072-E0065-E007F"
   ],
-  "brittany": [
+  "gwenn-ha-du": [
     "1F3F4-E0066-E0072-E0062-E0072-E0065-E007F"
   ],
   "republic": [
@@ -14683,20 +14683,20 @@
     "1F16D",
     "1F16E"
   ],
-  "libre": [
+  "creative commons": [
     "1F10D",
     "1F10E",
     "1F10F",
-    "1F12F",
     "1F16D",
     "1F16E",
     "1F16F",
     "229C"
   ],
-  "creative commons": [
+  "libre": [
     "1F10D",
     "1F10E",
     "1F10F",
+    "1F12F",
     "1F16D",
     "1F16E",
     "1F16F",
@@ -14708,10 +14708,10 @@
   "non commercial": [
     "1F10F"
   ],
-  "open source": [
+  "reciprocal": [
     "1F12F"
   ],
-  "reciprocal": [
+  "open source": [
     "1F12F"
   ],
   "by": [
@@ -14720,9 +14720,6 @@
   "attribution": [
     "1F16F"
   ],
-  "福": [
-    "1F260"
-  ],
   "chinese": [
     "1F260",
     "1F261",
@@ -14730,6 +14727,9 @@
     "1F263",
     "1F264",
     "1F265"
+  ],
+  "福": [
+    "1F260"
   ],
   "prosperity": [
     "1F261"
@@ -14740,19 +14740,19 @@
   "祿": [
     "1F261"
   ],
-  "壽": [
+  "longevity": [
     "1F262"
   ],
-  "longevity": [
+  "壽": [
     "1F262"
   ],
   "寿": [
     "1F262"
   ],
-  "喜": [
+  "happiness": [
     "1F263"
   ],
-  "happiness": [
+  "喜": [
     "1F263"
   ],
   "love and marriage": [
@@ -14764,10 +14764,10 @@
   "double happiness": [
     "1F264"
   ],
-  "財": [
+  "财": [
     "1F265"
   ],
-  "财": [
+  "財": [
     "1F265"
   ],
   "wealth": [

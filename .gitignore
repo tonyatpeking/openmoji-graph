@@ -29,3 +29,4 @@ src-tauri/target
 
 # Embeddings
 embeddings.json
+similarity_matrix.npy
