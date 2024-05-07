@@ -7,13 +7,14 @@ import ForceGraph3D from '3d-force-graph';
 import { SVGLoader } from 'three/addons/loaders/SVGLoader.js';
 import * as THREE from 'three';
 import { forceCollide, forceManyBody, forceLink, forceCenter } from 'd3-force-3d';
+import { useResizeObserver } from '@vueuse/core'
 
 const DEBUG_COUNT = 100
 const loadingManager = new THREE.LoadingManager();
 const loader = new SVGLoader(loadingManager);
 const SVGOffsetX = -36;
 const SVGOffsetY = 36;
-const NodeCollisionRadius = 36;
+const NodeCollisionRadius = 30;
 
 const greetMsg = ref("");
 
@@ -27,6 +28,8 @@ const ZERO_WIDTH_JOINER = "\u200D";
 let loadedEmojis = new Map<string, THREE.Object3D>();
 let loadedEmojisIndexed = new Map<number, THREE.Object3D>();
 
+let Graph: any = null;
+
 // Finished loading all svg files
 loadingManager.onLoad = function () {
   console.log('Loading complete!');
@@ -34,7 +37,7 @@ loadingManager.onLoad = function () {
 
   loadedEmojisIndexed = new Map([...loadedEmojis.entries()].map(([_, v], i) => [i, v]));
 
-  const Graph = ForceGraph3D()
+  Graph = ForceGraph3D()
     (canvasDiv.value!)
     .nodeRelSize(NodeCollisionRadius);
 
@@ -54,16 +57,30 @@ loadingManager.onLoad = function () {
   Graph.d3Force('charge')!
     .strength(-300)
     .distanceMin(1)
-    .distanceMax(200);
+    .distanceMax(300);
+
 
   Graph.d3Force('link')!
-    .distance(40)
+    .distance(30)
     .strength(1);
   console.log(Graph.length);
+  let tigerUrl = `${import.meta.env.BASE_URL}tiger.svg`
   //loadSVGtoScene(tigerUrl, Graph.scene());
+
+
+  let renderer = Graph.renderer();
 
   let { nodes, links } = Graph.graphData();
   console.log(nodes);
+
+  const controls = Graph.controls();
+
+  // This really mean controls.mouseButtons.ROTATE = undefined
+  controls.mouseButtons.LEFT = undefined; 
+  // This means PAN is done with left
+  controls.mouseButtons.RIGHT = THREE.MOUSE.LEFT; // PAN is done with 
+
+  let scene = Graph.scene();
 };
 
 // Display all emojis
@@ -279,6 +296,16 @@ function loadSVGtoScene(url: string, scene: THREE.Scene) {
 
 // Mount
 let canvasDiv = ref<HTMLDivElement>();
+
+// container resize
+useResizeObserver(canvasDiv, (entries) => {
+  console.log(entries[0].contentRect.width, entries[0].contentRect.height)
+  if(Graph) {
+    Graph.width(entries[0].contentRect.width);
+    Graph.height(entries[0].contentRect.height);
+    Graph.controls().handleResize();
+  }
+})
 
 onMounted(() => {
   loadAllSVG(loader);

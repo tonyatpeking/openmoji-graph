@@ -13,6 +13,7 @@
   "dependencies": {
     "@tauri-apps/api": "^1",
     "@types/three": "^0.164.0",
+    "@vueuse/core": "^10.9.0",
     "3d-force-graph": "^1.73.3",
     "d3-force-3d": "^3.0.5",
     "three": "^0.164.1",
