@@ -12,15 +12,30 @@ OPEN_AI_ORG = 'YOUR_ORG_KEY'
 EMBEDDING_MODEL_NAME = 'text-embedding-3-small'
 FIELDS_TO_PARSE = []
 
+ANNOTATION_WEIGHT = 1.0
+TAG_FIRST_ENTRY_WEIGHT = 0.9
+TAG_LATER_ENTRY_WEIGHT = 0.7
+
+# Top N similar emoji
+
+# 6 connections from annotations
+# Max 12 connections from tags
+
+# How weights get combined - asymptotic approach 1
+# w1 = 0.6 w2 = 0.3 w3 = 0.1
+# w123 = 1 - (1-w1)(1-w2)(1-w3) = 0.748
+
+
+
 client = OpenAI(
     organization = OPEN_AI_ORG,
 )
 
 
-def is_base_emoji(emoji):
-    if not emoji['skintone_base_emoji']:
+def is_base_emoji(emoji_data):
+    if not emoji_data['skintone_base_emoji']:
         return True
-    if emoji['skintone_base_emoji'] == emoji['emoji']:
+    if emoji_data['skintone_base_emoji'] == emoji_data['emoji']:
         return True
     return False
 
@@ -31,32 +46,44 @@ def add_to_dict_list(d, key, value):
     else:
         d[key].append(value)
 
+def parse_annotations(emoji_data):
+    return emoji_data['annotation'].strip()
+
+def parse_tags(emoji_data):
+    tag_list = emoji_data['tags'].split(', ')
+    tag_list = [tag.strip() for tag in tag_list]
+    openmoji_tag_list = emoji_data['openmoji_tags'].split(', ')
+    openmoji_tag_list = [tag.strip() for tag in openmoji_tag_list]
+    tag_list.extend(openmoji_tag_list)
+    tag_list = list(set(tag_list))
+    return tag_list
+
 def export_word_dicts(filepath, export_dir):
     with open(filepath, 'r', encoding='utf-8') as f:
-        data = json.load(f)
-    group_to_hex = {}
-    subgroups_to_hex = {}
-    annotations_to_hex = {}
-    tags_to_hex = {}
-    tags_and_annotations_to_hex = {}
+        all_emoji_data = json.load(f)
+    group_to_idx = {}
+    subgroups_to_idx = {}
+    annotations_to_idx = {}
+    tags_to_idx = {}
+    tags_and_annotations_to_idx = {}
     hex_to_idx = {}
 
-    for idx, emoji in enumerate(data):
+    for idx, emoji_data in enumerate(all_emoji_data):
 
-        hexcode_s = emoji['hexcode'].strip()
-        hexcode = emoji['hexcode']
+        hexcode_s = emoji_data['hexcode'].strip()
+        hexcode = emoji_data['hexcode']
         if hexcode != hexcode_s:
             print('WARNING hexcode has space:', hexcode)
 
         hex_to_idx[hexcode] = idx
 
 
-        if not is_base_emoji(emoji):
+        if not is_base_emoji(emoji_data):
             continue
 
-        group = emoji['group'].strip()
-        subgroup = emoji['subgroups'].strip()
-        annotation = emoji['annotation'].strip()
+        group = emoji_data['group'].strip()
+        subgroup = emoji_data['subgroups'].strip()
+        annotation = parse_annotations(emoji_data)
         # skip groups
         if group in ['component']:
             continue
@@ -66,66 +93,61 @@ def export_word_dicts(filepath, export_dir):
             continue
 
 
-        add_to_dict_list(group_to_hex, group, hexcode)
-        add_to_dict_list(subgroups_to_hex, subgroup, hexcode)
-        add_to_dict_list(annotations_to_hex, annotation, hexcode)
+        add_to_dict_list(group_to_idx, group, idx)
+        add_to_dict_list(subgroups_to_idx, subgroup, idx)
+        add_to_dict_list(annotations_to_idx, annotation, idx)
 
 
         # skip flag tags
         if group == 'flags':
             continue
 
-        tag_list = emoji['tags'].split(', ')
-        tag_list = [tag.strip() for tag in tag_list]
-        openmoji_tag_list = emoji['openmoji_tags'].split(', ')
-        openmoji_tag_list = [tag.strip() for tag in openmoji_tag_list]
-        tag_list.extend(openmoji_tag_list)
-        tag_list = list(set(tag_list))
+        tag_list = parse_tags(emoji_data)
 
         for tag in tag_list:
-            add_to_dict_list(tags_to_hex, tag, hexcode)
+            add_to_dict_list(tags_to_idx, tag, idx)
 
 
     # remove empty tags and annotations
-    for key in list(tags_to_hex.keys()):
+    for key in list(tags_to_idx.keys()):
         if not key:
-            del tags_to_hex[key]
-    for key in list(annotations_to_hex.keys()):
+            del tags_to_idx[key]
+    for key in list(annotations_to_idx.keys()):
         if not key:
-            del annotations_to_hex[key]
+            del annotations_to_idx[key]
 
     # merge tags and annotations
-    for key in annotations_to_hex.keys():
-        tags_and_annotations_to_hex[key] = annotations_to_hex[key].copy()
-        if key in tags_to_hex:
-            tags_and_annotations_to_hex[key].extend(tags_to_hex[key])
-            tags_and_annotations_to_hex[key] = list(set(tags_and_annotations_to_hex[key]))
-    for key in tags_to_hex.keys():
-        if key not in tags_and_annotations_to_hex:
-            tags_and_annotations_to_hex[key] = tags_to_hex[key].copy()
+    for key in annotations_to_idx.keys():
+        tags_and_annotations_to_idx[key] = annotations_to_idx[key].copy()
+        if key in tags_to_idx:
+            tags_and_annotations_to_idx[key].extend(tags_to_idx[key])
+            tags_and_annotations_to_idx[key] = list(set(tags_and_annotations_to_idx[key]))
+    for key in tags_to_idx.keys():
+        if key not in tags_and_annotations_to_idx:
+            tags_and_annotations_to_idx[key] = tags_to_idx[key].copy()
 
 
-    # print('group_to_hex:', len(group_to_hex))
-    # print('subgroups_to_hex:', len(subgroups_to_hex))
-    # print('annotations_to_hex:', len(annotations_to_hex))
-    # print('tags_to_hex:', len(tags_to_hex))
-    # print('tags_and_annotations_to_hex:', len(tags_and_annotations_to_hex))
+    # print('group_to_idx:', len(group_to_idx))
+    # print('subgroups_to_idx:', len(subgroups_to_idx))
+    # print('annotations_to_idx:', len(annotations_to_idx))
+    # print('tags_to_idx:', len(tags_to_idx))
+    # print('tags_and_annotations_to_idx:', len(tags_and_annotations_to_idx))
     # print('hex_to_idx:', len(hex_to_idx))
 
-    with open(f'{export_dir}group-to-hex.json', 'w', encoding='utf-8') as f:
-        json.dump(group_to_hex, f, indent=2, ensure_ascii=False)
-    with open(f'{export_dir}subgroups-to-hex.json', 'w', encoding='utf-8') as f:
-        json.dump(subgroups_to_hex, f, indent=2, ensure_ascii=False)
-    with open(f'{export_dir}annotations-to-hex.json', 'w', encoding='utf-8') as f:
-        json.dump(annotations_to_hex, f, indent=2, ensure_ascii=False)
-    with open(f'{export_dir}tags-to-hex.json', 'w', encoding='utf-8') as f:
-        json.dump(tags_to_hex, f, indent=2, ensure_ascii=False)
-    with open(f'{export_dir}tags-and-annotations-to-hex.json', 'w', encoding='utf-8') as f:
-        json.dump(tags_and_annotations_to_hex, f, indent=2, ensure_ascii=False)
+    with open(f'{export_dir}group-to-idx.json', 'w', encoding='utf-8') as f:
+        json.dump(group_to_idx, f, indent=2, ensure_ascii=False)
+    with open(f'{export_dir}subgroups-to-idx.json', 'w', encoding='utf-8') as f:
+        json.dump(subgroups_to_idx, f, indent=2, ensure_ascii=False)
+    with open(f'{export_dir}annotations-to-idx.json', 'w', encoding='utf-8') as f:
+        json.dump(annotations_to_idx, f, indent=2, ensure_ascii=False)
+    with open(f'{export_dir}tags-to-idx.json', 'w', encoding='utf-8') as f:
+        json.dump(tags_to_idx, f, indent=2, ensure_ascii=False)
+    with open(f'{export_dir}tags-and-annotations-to-idx.json', 'w', encoding='utf-8') as f:
+        json.dump(tags_and_annotations_to_idx, f, indent=2, ensure_ascii=False)
     with open(f'{export_dir}hex-to-idx.json', 'w', encoding='utf-8') as f:
         json.dump(hex_to_idx, f, indent=2, ensure_ascii=False)
 
-    return group_to_hex, subgroups_to_hex, annotations_to_hex, tags_to_hex, tags_and_annotations_to_hex, hex_to_idx
+    return group_to_idx, subgroups_to_idx, annotations_to_idx, tags_to_idx, tags_and_annotations_to_idx, hex_to_idx
 
 
 
@@ -151,7 +173,7 @@ def make_similarity_matrix(embeddings_filepath, output_filepath ):
     # df = pd.DataFrame(similarity_matrix, index=texts, columns=texts)
     # df.to_excel(output_filepath + '.xlsx')
 
-def make_top_n_similar(similarity_matrix_filepath, output_dir, texts, n):
+def make_top_n_similar_text(similarity_matrix_filepath, output_dir, texts, n):
     similarity_matrix = np.load(similarity_matrix_filepath)
     assert similarity_matrix.shape[0] == len(texts)
     assert similarity_matrix.shape[1] == len(texts)
@@ -176,6 +198,76 @@ def make_top_n_similar(similarity_matrix_filepath, output_dir, texts, n):
     with open(f'{output_dir}top_{n}_similar.json', 'w', encoding='utf-8') as f:
         json.dump(top_n_similar_dict, f, indent=2, ensure_ascii=False)
 
+
+def adjust_similar_text_by_weight(similar_text_dict, first_weight, later_weights):
+    first_processed = False
+    for text, similarity in similar_text_dict.items():
+        if not first_processed:
+            similar_text_dict[text] = similarity * first_weight
+            first_processed = True
+        else:
+            similar_text_dict[text] = similarity * later_weights
+    return similar_text_dict
+
+def make_top_n_similar_emoji(top_n_similar_text_filepath, output_dir, emoji_json_filepath, tags_and_annotations_to_idx_filepath, n):
+    '''
+
+
+    '''
+    with open(top_n_similar_text_filepath, 'r', encoding='utf-8') as f:
+        top_n_similar_text_dict = json.load(f)
+    with open(emoji_json_filepath, 'r', encoding='utf-8') as f:
+        all_emoji_data = json.load(f)
+    with open(tags_and_annotations_to_idx_filepath, 'r', encoding='utf-8') as f:
+        tags_and_annotations_to_idx = json.load(f)
+    
+    similar_emojis_all = {}
+    for idx, emoji_data in enumerate(all_emoji_data):
+        if not is_base_emoji(emoji_data):
+            continue
+        annotation = parse_annotations(emoji_data)
+        tag_list = parse_tags(emoji_data)
+        tag_list = [tag for tag in tag_list if tag not in annotation]
+
+        similar_texts = top_n_similar_text_dict.get(annotation, {})
+        similar_texts = adjust_similar_text_by_weight(similar_texts, ANNOTATION_WEIGHT, ANNOTATION_WEIGHT)
+
+        for tag in tag_list:
+            similar_text_tag = top_n_similar_text_dict.get(tag, {})
+            similar_text_tag = adjust_similar_text_by_weight(similar_text_tag, TAG_FIRST_ENTRY_WEIGHT, TAG_LATER_ENTRY_WEIGHT)
+            for text, similarity in similar_text_tag.items():
+                if text not in similar_texts:
+                    similar_texts[text] = similarity
+                elif similar_texts[text] < similarity:
+                    similar_texts[text] = similarity
+                else:
+                    pass
+
+        similar_emojis_to_emoji = {}
+        for text in similar_texts:
+            assert text in tags_and_annotations_to_idx
+            similar_emojis = tags_and_annotations_to_idx[text]
+            for emoji_idx in similar_emojis:
+                if emoji_idx == idx:
+                    continue
+                if emoji_idx in similar_emojis_to_emoji:
+                    w1 = similar_emojis_to_emoji[emoji_idx]
+                    w2 = similar_texts[text]
+                    w12 = 1.0 - (1.0-w1)*(1.0-w2)
+                    similar_emojis_to_emoji[emoji_idx] = w12
+                else:
+                    similar_emojis_to_emoji[emoji_idx] = similar_texts[text]
+        similar_emojis_to_emoji = dict(sorted(similar_emojis_to_emoji.items(), key=lambda item: item[1], reverse=True))
+        similar_emojis_to_emoji = {k: similar_emojis_to_emoji[k] for k in list(similar_emojis_to_emoji)[:n]}
+        similar_emojis_all[idx] = similar_emojis_to_emoji
+        
+    with open(f'{output_dir}top_{n}_similar_emojis.json', 'w', encoding='utf-8') as f:
+        json.dump(similar_emojis_all, f, indent=2, ensure_ascii=False)
+                    
+
+
+        
+        
 
 def make_embeddings(output_filepath, texts, max_count = -1, update_existing=True):
     '''
@@ -211,33 +303,30 @@ def make_embeddings(output_filepath, texts, max_count = -1, update_existing=True
 if __name__ == '__main__':
     data_dir = '../src/assets/data/'
 
-    (group_to_hex,
-    subgroups_to_hex, 
-    annotations_to_hex, 
-    tags_to_hex, 
-    tags_and_annotations_to_hex, 
+    (group_to_idx,
+    subgroups_to_idx, 
+    annotations_to_idx, 
+    tags_to_idx, 
+    tags_and_annotations_to_idx, 
     hex_to_idx
     ) = export_word_dicts(f'{data_dir}openmoji.json', data_dir)
 
-    print('group_to_hex:', len(group_to_hex))
-    print('subgroups_to_hex:', len(subgroups_to_hex))
-    print('annotations_to_hex:', len(annotations_to_hex))
-    print('tags_to_hex:', len(tags_to_hex))
-    print('tags_and_annotations_to_hex:', len(tags_and_annotations_to_hex))
+    print('group_to_idx:', len(group_to_idx))
+    print('subgroups_to_idx:', len(subgroups_to_idx))
+    print('annotations_to_idx:', len(annotations_to_idx))
+    print('tags_to_idx:', len(tags_to_idx))
+    print('tags_and_annotations_to_idx:', len(tags_and_annotations_to_idx))
     print('hex_to_idx:', len(hex_to_idx))
 
-    embeddings_path = 'embeddings.json'
-    texts = list(tags_and_annotations_to_hex.keys())
+    # embeddings_path = 'embeddings.json'
+    # texts = list(tags_and_annotations_to_idx.keys())
+
+    
 
     # make_embeddings(embeddings_path, texts, -1, update_existing=True )
  
     # make_similarity_matrix(embeddings_path, 'similarity_matrix.npy')
-    make_top_n_similar('similarity_matrix.npy', '', texts, 30)
+    # make_top_n_similar_text('similarity_matrix.npy', '', texts, 30)
 
+    make_top_n_similar_emoji('top_30_similar.json', '', f'{data_dir}openmoji.json', f'{data_dir}tags-and-annotations-to-idx.json', 30)
 
-    # eb = get_embedding('pine decoration')
-    # eb1 = get_embedding('bamboo')
-    # eb = np.array(eb)
-    # eb1 = np.array(eb1)
-    # d = np.dot(eb,eb1)
-    # print(d)
