@@ -8,7 +8,7 @@ import pandas as pd
 
 # see openai.com for how to set up your api key
 
-OPEN_AI_ORG = 'YOUR_ORG_KEY'
+OPEN_AI_ORG = os.environ['OPEN_AI_ORG']
 EMBEDDING_MODEL_NAME = 'text-embedding-3-small'
 FIELDS_TO_PARSE = []
 
@@ -296,9 +296,17 @@ def make_embeddings(output_filepath, texts, max_count = -1, update_existing=True
 
 
 
+
     with open(output_filepath, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
     
+
+def get_top_n_frequent_emoji(tsv_filepath, n=None):
+    df = pd.read_csv(tsv_filepath, sep='\t')
+    top_n_emoji = df.loc[:n, 'Emoji'].tolist()
+    return top_n_emoji
+
+
 
 if __name__ == '__main__':
     data_dir = '../src/assets/data/'
@@ -318,15 +326,22 @@ if __name__ == '__main__':
     print('tags_and_annotations_to_idx:', len(tags_and_annotations_to_idx))
     print('hex_to_idx:', len(hex_to_idx))
 
+
+
     # embeddings_path = 'embeddings.json'
     # texts = list(tags_and_annotations_to_idx.keys())
-
-    
-
     # make_embeddings(embeddings_path, texts, -1, update_existing=True )
  
     # make_similarity_matrix(embeddings_path, 'similarity_matrix.npy')
     # make_top_n_similar_text('similarity_matrix.npy', '', texts, 30)
 
-    make_top_n_similar_emoji('top_30_similar.json', '', f'{data_dir}openmoji.json', f'{data_dir}tags-and-annotations-to-idx.json', 30)
+    # make_top_n_similar_emoji('top_30_similar.json', '', f'{data_dir}openmoji.json', f'{data_dir}tags-and-annotations-to-idx.json', 30)
 
+    # --- embeddings for 2021 frequent emojis ---
+
+    frequent_emojis = get_top_n_frequent_emoji(f'2021_ranked.tsv')
+    frequent_emoji_embeddings_path = 'frequent_emoji_embeddings.json'
+    # make_embeddings(frequent_emoji_embeddings_path, frequent_emojis, -1, update_existing=True )
+
+    # make_similarity_matrix(frequent_emoji_embeddings_path, 'frequent_emoji_similarity_matrix.npy')
+    make_top_n_similar_text('frequent_emoji_similarity_matrix.npy', 'frequent_emoji_', frequent_emojis, 30)

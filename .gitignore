@@ -30,3 +30,5 @@ src-tauri/target
 # Embeddings
 embeddings.json
 similarity_matrix.npy
+frequent_emoji_embeddings.json
+frequent_emoji_similarity_matrix.npy
