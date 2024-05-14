@@ -18,6 +18,7 @@ src-tauri/target
 !.vscode/extensions.json
 !.vscode/settings.json
 !.vscode/TauriDev.code-profile
+!.vscode/launch.json
 .idea
 .DS_Store
 *.suo

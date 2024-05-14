@@ -258,8 +258,14 @@ def make_top_n_similar_emoji(top_n_similar_text_filepath, output_dir, emoji_json
                 else:
                     similar_emojis_to_emoji[emoji_idx] = similar_texts[text]
         similar_emojis_to_emoji = dict(sorted(similar_emojis_to_emoji.items(), key=lambda item: item[1], reverse=True))
-        similar_emojis_to_emoji = {k: similar_emojis_to_emoji[k] for k in list(similar_emojis_to_emoji)[:n]}
-        similar_emojis_all[idx] = similar_emojis_to_emoji
+        similar_emojis_to_emoji_dict = {'idxs': [], 'weights': []}
+        similar_emojis_to_emoji_dict['idxs'] = list(similar_emojis_to_emoji.keys())[:n]
+        similar_emojis_to_emoji_dict['weights'] = list(similar_emojis_to_emoji.values())[:n]
+
+
+         
+
+        similar_emojis_all[idx] = similar_emojis_to_emoji_dict
         
     with open(f'{output_dir}top_{n}_similar_emojis.json', 'w', encoding='utf-8') as f:
         json.dump(similar_emojis_all, f, indent=2, ensure_ascii=False)
@@ -335,13 +341,14 @@ if __name__ == '__main__':
     # make_similarity_matrix(embeddings_path, 'similarity_matrix.npy')
     # make_top_n_similar_text('similarity_matrix.npy', '', texts, 30)
 
-    # make_top_n_similar_emoji('top_30_similar.json', '', f'{data_dir}openmoji.json', f'{data_dir}tags-and-annotations-to-idx.json', 30)
+    make_top_n_similar_emoji('top_30_similar.json', '', f'{data_dir}openmoji.json', f'{data_dir}tags-and-annotations-to-idx.json', 30)
 
     # --- embeddings for 2021 frequent emojis ---
 
-    frequent_emojis = get_top_n_frequent_emoji(f'2021_ranked.tsv')
-    frequent_emoji_embeddings_path = 'frequent_emoji_embeddings.json'
+    # frequent_emojis = get_top_n_frequent_emoji(f'2021_ranked.tsv')
+    # frequent_emoji_embeddings_path = 'frequent_emoji_embeddings.json'
+
     # make_embeddings(frequent_emoji_embeddings_path, frequent_emojis, -1, update_existing=True )
 
     # make_similarity_matrix(frequent_emoji_embeddings_path, 'frequent_emoji_similarity_matrix.npy')
-    make_top_n_similar_text('frequent_emoji_similarity_matrix.npy', 'frequent_emoji_', frequent_emojis, 30)
+    # make_top_n_similar_text('frequent_emoji_similarity_matrix.npy', 'frequent_emoji_', frequent_emojis, 30)

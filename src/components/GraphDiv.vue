@@ -2,12 +2,14 @@
 import { ref, onMounted } from "vue";
 //import { invoke } from "@tauri-apps/api/tauri";
 import openMojiData from '../assets/data/openmoji.json';
+import topSimilarEmoji from '../assets/data/top_30_similar_emojis.json';
 import specialCases from '../assets/data/special-cases.json';
 import ForceGraph3D from '3d-force-graph';
 import { SVGLoader } from 'three/addons/loaders/SVGLoader.js';
 import * as THREE from 'three';
 import { forceCollide, forceManyBody, forceLink, forceCenter } from 'd3-force-3d';
 import { useResizeObserver } from '@vueuse/core'
+
 
 const DEBUG_COUNT = 100
 const loadingManager = new THREE.LoadingManager();
@@ -43,6 +45,126 @@ let Graph: any = null;
 const linkMaterial = new THREE.MeshBasicMaterial()
 linkMaterial.color.set(.2, .2, .2)
 
+
+const displayData: any = {
+  nodes: [],
+  links: []
+}
+
+let startingNodeIdx = 3;
+
+
+// returned array in the shape of [{id: similarity}, ...]
+function getTopNSimilarIdxs(idx: Number, n: Number) {
+
+  let topIdxs = topSimilarEmoji[idx.toString()].idxs.slice(0, n);
+  return topIdxs;
+}
+
+function getTopNSimilarWeights(idx: Number, n: Number) {
+  let topWeights = topSimilarEmoji[idx.toString()].weights.slice(0, n);
+  return topWeights;
+}
+
+function getNode(nodeIdx: number) {
+  return displayData.nodes.find((node: any) => node.id == nodeIdx);
+}
+
+
+function addOrGetNode(nodeIdx: number) {
+  let node = getNode(nodeIdx);
+  if (!node) {
+    node = { id: nodeIdx, outLinks: [], inLinks: [] };
+    displayData.nodes.push(node);
+  }
+  return node;
+}
+
+function removeNode(nodeToRemove: any) {
+  displayData.nodes = displayData.nodes.filter((node: any) => node.id != nodeToRemove.id);
+}
+
+
+function getLink(sourceNode: any, targetNode: any) {
+  return displayData.links.find((link: any) => link.source.id == sourceNode.id && link.target.id == targetNode.id);
+}
+
+// also adds to source and target node outLinks and inLinks
+function addOrGetLink(sourceNode: any, targetNode: any, weight: number) {
+  let link = getLink(sourceNode, targetNode);
+  if (!link) {
+    link = { source: sourceNode, target: targetNode, weight: weight }
+    displayData.links.push(link);
+    sourceNode.outLinks.push(link);
+    targetNode.inLinks.push(link);
+  }
+  return link
+}
+
+// also removes from source and target node outLinks and inLinks
+function removeLink(sourceNode: any, targetNode: any) {
+  let link = getLink(sourceNode, targetNode);
+  if (!link) {
+    return;
+  }
+  link.source.outLinks = link.source.outLinks.filter((l: any) => l != link);
+  link.target.inLinks = link.target.inLinks.filter((l: any) => l != link);
+  displayData.links = displayData.links.filter((l: any) => l != link);
+}
+
+
+function toggleNodeExpansion(node: any) {
+  if (node.expanded) {
+    collapseNode(node, node);
+    console.log(`Collapsing node ${node.id}`);
+    console.log(displayData)
+  } else {
+    expandNode(node);
+    console.log(`Expanding node ${node.id}`);
+    console.log(displayData)
+  }
+  node.expanded = !node.expanded;
+
+}
+
+function expandNode(sourceNode: any) {
+  // get top x similar emojis
+  const topIdxs = getTopNSimilarIdxs(sourceNode.id, 5);
+  const topWeights = getTopNSimilarWeights(sourceNode.id, 5);
+  for (let i = 0; i < topIdxs.length; i++) {
+    let idx = topIdxs[i];
+    let weight = topWeights[i];
+    let targetNode = addOrGetNode(idx);
+    addOrGetLink(sourceNode, targetNode, weight);
+  }
+  Graph.graphData(displayData);
+}
+
+function collapseNode(node: any, initialCallerNode: any) {
+
+  let outLinks = node.outLinks;
+  for (let i = 0; i < outLinks.length; i++) {
+    let link = outLinks[i];
+    let targetNode = link.target;
+
+    removeLink(node, targetNode);
+
+    // don't collapse or remove the initial node that called this function
+    if (targetNode.id == initialCallerNode.id) {
+      console.log("Skipping collapse of initial caller node")
+      continue;
+    }
+
+    if (targetNode.inLinks.length == 0) {
+      collapseNode(targetNode, initialCallerNode);
+
+    }
+    removeNode(targetNode)
+  }
+  Graph.graphData(displayData);
+}
+
+
 // Finished loading all svg files
 loadingManager.onLoad = function () {
   console.log('Loading complete!');
@@ -55,10 +177,16 @@ loadingManager.onLoad = function () {
     .nodeRelSize(NodeCollisionRadius)
     .nodeOpacity(NODE_OPACITY)
 
-
   Graph
-    .nodeThreeObject((o: any) => { return loadedEmojisIndexed.get(o.id)! })
-    .graphData(gData)
+    .nodeThreeObject((o: any) => {
+      let obj = loadedEmojisIndexed.get(o.id)
+      if (obj) {
+        return obj.clone()
+      }
+      return null
+
+    })
+    .graphData(displayData)
     .numDimensions(2)
     .onNodeDrag((node: any) => {
       // setting fx and fy will pin the node
@@ -83,15 +211,22 @@ loadingManager.onLoad = function () {
   Graph.d3Force('link')!
     .distance(30)
     .strength(1);
-  console.log(Graph.length);
-  let tigerUrl = `${import.meta.env.BASE_URL}tiger.svg`
+
+
+
+  // Click
+  Graph.onNodeClick((engineNode: any) => {
+    const node = getNode(engineNode.id);
+    toggleNodeExpansion(node);
+  });
+
+  // let tigerUrl = `${import.meta.env.BASE_URL}tiger.svg`
   //loadSVGtoScene(tigerUrl, Graph.scene());
 
 
   let renderer = Graph.renderer();
 
   let { nodes, links } = Graph.graphData();
-  console.log(nodes);
 
   const controls = Graph.controls();
 
@@ -116,7 +251,7 @@ for (let i = 0; i < count; i++) {
     console.log(`WARNING empty annotation ${emoji}`)
   }
   else if (annotation.includes(":")) {
-    //console.log(`Variation ${emoji}`)
+
     continue
   }
   if (emojiData.subgroups == "skin-tone") {
@@ -148,15 +283,17 @@ for (let i = 0; i < count; i++) {
 
 // Graph Data
 const N = DEBUG_COUNT;
-const gData = {
-  nodes: [...Array(N).keys()].map(i => ({ id: i, fz: 0 })),
-  links: [...Array(N).keys()]
-    .filter(id => id)
-    .map(id => ({
-      source: id,
-      target: Math.round(Math.random() * (id - 1))
-    }))
-};
+// const gData = {
+//   nodes: [...Array(N).keys()].map(i => ({ id: i, fz: 0 })),
+//   links: [...Array(N).keys()]
+//     .filter(id => id)
+//     .map(id => ({
+//       source: id,
+//       target: Math.round(Math.random() * (id - 1))
+//     }))
+// };
+
+addOrGetNode(startingNodeIdx);
 
 
 function loadSVG(loader: SVGLoader, url: string, id: string) {
@@ -225,7 +362,7 @@ function loadAllSVG(loader: SVGLoader) {
       console.log(`WARNING empty annotation ${emoji}`)
     }
     else if (annotation.includes(":")) {
-      //console.log(`Variation ${emoji}`)
+
       continue
     }
     if (emojiData.subgroups == "skin-tone") {
