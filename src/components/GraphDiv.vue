@@ -12,9 +12,19 @@ import { useResizeObserver } from '@vueuse/core'
 const DEBUG_COUNT = 100
 const loadingManager = new THREE.LoadingManager();
 const loader = new SVGLoader(loadingManager);
+
+
+
+// Node styling
+const NODE_OPACITY = 1;
+const NodeCollisionRadius = 30;
 const SVGOffsetX = -36;
 const SVGOffsetY = 36;
-const NodeCollisionRadius = 30;
+
+// Link styling
+const LINK_WIDTH = 3;
+const LINK_RESOLUTION = 2;
+const LINK_OPACITY = 1;
 
 const greetMsg = ref("");
 
@@ -30,6 +40,9 @@ let loadedEmojisIndexed = new Map<number, THREE.Object3D>();
 
 let Graph: any = null;
 
+const linkMaterial = new THREE.MeshBasicMaterial()
+linkMaterial.color.set(.2, .2, .2)
+
 // Finished loading all svg files
 loadingManager.onLoad = function () {
   console.log('Loading complete!');
@@ -37,9 +50,10 @@ loadingManager.onLoad = function () {
 
   loadedEmojisIndexed = new Map([...loadedEmojis.entries()].map(([_, v], i) => [i, v]));
 
-  Graph = ForceGraph3D({controlType: 'orbit'})
+  Graph = ForceGraph3D({ controlType: 'orbit' })
     (canvasDiv.value!)
-    .nodeRelSize(NodeCollisionRadius);
+    .nodeRelSize(NodeCollisionRadius)
+    .nodeOpacity(NODE_OPACITY)
 
 
   Graph
@@ -60,6 +74,11 @@ loadingManager.onLoad = function () {
     .distanceMin(1)
     .distanceMax(300);
 
+  // Link styling
+  Graph.linkWidth(LINK_WIDTH)
+    .linkResolution(LINK_RESOLUTION)
+    .linkOpacity(LINK_OPACITY)
+    .linkMaterial(linkMaterial);
 
   Graph.d3Force('link')!
     .distance(30)
@@ -76,9 +95,9 @@ loadingManager.onLoad = function () {
 
   const controls = Graph.controls();
 
-  controls.mouseButtons.LEFT = THREE.MOUSE.PAN; 
-  controls.mouseButtons.MIDDLE = THREE.MOUSE.DOLLY; 
-  controls.mouseButtons.RIGHT = undefined; 
+  controls.mouseButtons.LEFT = THREE.MOUSE.PAN;
+  controls.mouseButtons.MIDDLE = THREE.MOUSE.DOLLY;
+  controls.mouseButtons.RIGHT = undefined;
   controls.touches.ONE = THREE.TOUCH.PAN;
   controls.touches.TWO = THREE.TOUCH.DOLLY_PAN;
 
@@ -302,7 +321,7 @@ let canvasDiv = ref<HTMLDivElement>();
 // container resize
 useResizeObserver(canvasDiv, (entries) => {
   console.log(entries[0].contentRect.width, entries[0].contentRect.height)
-  if(Graph) {
+  if (Graph) {
     Graph.width(entries[0].contentRect.width);
     Graph.height(entries[0].contentRect.height);
   }
