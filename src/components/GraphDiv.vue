@@ -27,6 +27,7 @@ const SVGOffsetY = 36;
 const LINK_WIDTH = 3;
 const LINK_RESOLUTION = 2;
 const LINK_OPACITY = 1;
+const LINK_COUNT = 10
 
 const greetMsg = ref("");
 
@@ -140,8 +141,8 @@ function toggleNodeExpansion(node: any) {
 
 function expandNode(sourceNode: any) {
   // get top x similar emojis
-  const topIdxs = getTopNSimilarIdxs(sourceNode.id, 5);
-  const topWeights = getTopNSimilarWeights(sourceNode.id, 5);
+  const topIdxs = getTopNSimilarIdxs(sourceNode.id, LINK_COUNT);
+  const topWeights = getTopNSimilarWeights(sourceNode.id, LINK_COUNT);
   for (let i = 0; i < topIdxs.length; i++) {
     let idx = topIdxs[i];
     let weight = topWeights[i];
@@ -221,7 +222,7 @@ loadingManager.onLoad = function () {
 
   Graph.d3Force('link')!
     .distance(60)
-    .strength(1);
+    .strength(0.2);
 
 
 
@@ -230,6 +231,10 @@ loadingManager.onLoad = function () {
     const node = getNode(engineNode.id);
     toggleNodeExpansion(node);
   });
+
+  // Hover
+  Graph.onNodeHover((node, prevNode) => { console.log(node); console.log(prevNode); })
+
 
   // let tigerUrl = `${import.meta.env.BASE_URL}tiger.svg`
   //loadSVGtoScene(tigerUrl, Graph.scene());
