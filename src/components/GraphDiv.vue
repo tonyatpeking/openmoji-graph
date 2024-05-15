@@ -11,7 +11,7 @@ import { forceCollide, forceManyBody, forceLink, forceCenter } from 'd3-force-3d
 import { useResizeObserver } from '@vueuse/core'
 
 
-const DEBUG_COUNT = 100
+const DEBUG_COUNT = 200
 const loadingManager = new THREE.LoadingManager();
 const loader = new SVGLoader(loadingManager);
 
@@ -74,13 +74,28 @@ function getNode(nodeIdx: number) {
 function addOrGetNode(nodeIdx: number) {
   let node = getNode(nodeIdx);
   if (!node) {
-    node = { id: nodeIdx, outLinks: [], inLinks: [] };
+    node = { id: nodeIdx, outLinks: [], inLinks: [], parant: null, children: [], expanded: false };
     displayData.nodes.push(node);
   }
   return node;
 }
 
+// also removes any links connected to the node
 function removeNode(nodeToRemove: any) {
+
+  // copy the array because removeLink modifies the array
+  let outLinks = [...nodeToRemove.outLinks];
+  for (let i = 0; i < outLinks.length; i++) {
+    let link = outLinks[i];
+    let targetNode = link.target;
+    removeLink(nodeToRemove, targetNode);
+  }
+  let inLinks = [...nodeToRemove.inLinks];
+  for (let i = 0; i < inLinks.length; i++) {
+    let link = inLinks[i];
+    let sourceNode = link.source;
+    removeLink(sourceNode, nodeToRemove);
+  }
   displayData.nodes = displayData.nodes.filter((node: any) => node.id != nodeToRemove.id);
 }
 
@@ -116,15 +131,11 @@ function removeLink(sourceNode: any, targetNode: any) {
 function toggleNodeExpansion(node: any) {
   if (node.expanded) {
     collapseNode(node, node);
-    console.log(`Collapsing node ${node.id}`);
-    console.log(displayData)
   } else {
     expandNode(node);
-    console.log(`Expanding node ${node.id}`);
-    console.log(displayData)
   }
   node.expanded = !node.expanded;
-
+  Graph.graphData(displayData);
 }
 
 function expandNode(sourceNode: any) {
@@ -137,7 +148,7 @@ function expandNode(sourceNode: any) {
     let targetNode = addOrGetNode(idx);
     addOrGetLink(sourceNode, targetNode, weight);
   }
-  Graph.graphData(displayData);
+
 }
 
 function collapseNode(node: any, initialCallerNode: any) {
@@ -161,7 +172,7 @@ function collapseNode(node: any, initialCallerNode: any) {
     }
     removeNode(targetNode)
   }
-  Graph.graphData(displayData);
+
 }
 
 
@@ -209,7 +220,7 @@ loadingManager.onLoad = function () {
     .linkMaterial(linkMaterial);
 
   Graph.d3Force('link')!
-    .distance(30)
+    .distance(60)
     .strength(1);
 
 
