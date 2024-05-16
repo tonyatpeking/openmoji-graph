@@ -154,7 +154,7 @@ function getNode(nodeIdx: number): Node | undefined {
 
 function loadOrGetNode(nodeIdx: number): Promise<Node> {
   let node = getNode(nodeIdx);
-  return new Promise(function (resolve, reject) {
+  return new Promise(function (resolve, _reject) {
     if (node) {
       resolve(node);
     }
@@ -310,7 +310,7 @@ function loadNode(nodeIdx: number): Promise<Node> {
   const url = `${import.meta.env.BASE_URL}openmoji/color/svg/${emojiData.hexcode}.svg`
   const node: Node = { id: nodeIdx, outLinks: [], inLinks: [], expanded: false, mesh: null };
 
-  return new Promise(function (resolve, reject) {
+  return new Promise(function (resolve, _reject) {
     loadSVG(url).then((mesh: any) => {
       node.mesh = mesh;
       displayData.nodes.push(node);
@@ -374,7 +374,7 @@ function SVGToMesh(data: any) {
 }
 
 function loadSVG(url: string): Promise<THREE.Object3D> {
-  return new Promise<THREE.Object3D>(function (resolve, reject) {
+  return new Promise<THREE.Object3D>(function (resolve, _reject) {
     loader.load(url, (data) => {
       const mesh = SVGToMesh(data);
       resolve(mesh);
@@ -389,7 +389,7 @@ let canvasDiv = ref<HTMLDivElement>();
 
 
 onMounted(() => {
-  loadOrGetNode(startingNodeIdx).then((node: Node) => {
+  loadOrGetNode(startingNodeIdx).then((_node: Node) => {
     initGraph();
   });
   //displayAllEmojiChars();
