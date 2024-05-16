@@ -159,19 +159,18 @@ function collapseNode(node: any, initialCallerNode: any) {
     let link = outLinks[i];
     let targetNode = link.target;
 
-    removeLink(node, targetNode);
-
-    // don't collapse or remove the initial node that called this function
+    // don't remove any inLinks to the initial caller node
     if (targetNode.id == initialCallerNode.id) {
-      console.log("Skipping collapse of initial caller node")
       continue;
     }
+    removeLink(node, targetNode);
 
     if (targetNode.inLinks.length == 0) {
       collapseNode(targetNode, initialCallerNode);
-
+      if (targetNode.outLinks.length == 0) {
+        removeNode(targetNode);
+      }
     }
-    removeNode(targetNode)
   }
 
 }
@@ -218,11 +217,18 @@ loadingManager.onLoad = function () {
   Graph.linkWidth(LINK_WIDTH)
     .linkResolution(LINK_RESOLUTION)
     .linkOpacity(LINK_OPACITY)
-    .linkMaterial(linkMaterial);
+    .linkMaterial(linkMaterial)
+    .linkDirectionalArrowLength(13)
+    .linkDirectionalArrowRelPos(1)
+    .linkDirectionalArrowResolution(4)
+  // .linkDirectionalParticles(2)
+  // .linkDirectionalParticleSpeed(0.007)
+  // .linkDirectionalParticleWidth(5)
+  // .linkDirectionalParticleResolution(4);
 
   Graph.d3Force('link')!
-    .distance(60)
-    .strength(0.2);
+    .distance(80)
+    .strength(0.1);
 
 
 
@@ -233,7 +239,7 @@ loadingManager.onLoad = function () {
   });
 
   // Hover
-  Graph.onNodeHover((node, prevNode) => { console.log(node); console.log(prevNode); })
+  //Graph.onNodeHover((node, prevNode) => { console.log(node); console.log(prevNode); })
 
 
   // let tigerUrl = `${import.meta.env.BASE_URL}tiger.svg`
@@ -309,7 +315,8 @@ const N = DEBUG_COUNT;
 //     }))
 // };
 
-addOrGetNode(startingNodeIdx);
+// starting node
+let startingNode = addOrGetNode(startingNodeIdx);
 
 
 function loadSVG(loader: SVGLoader, url: string, id: string) {
