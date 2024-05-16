@@ -6,7 +6,7 @@ import GraphDiv from "./components/GraphDiv.vue";
 
 <template>
   <div class="container">
-    <h1>Welcome to Tauri!</h1>
+    <h1>OpenMoji Graph Explorer</h1>
     <GraphDiv />
   </div>
 </template>
