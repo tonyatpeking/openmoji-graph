@@ -19,4 +19,16 @@ import GraphDiv from "./components/GraphDiv.vue";
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #249b73);
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+html,
+body {
+  overflow: hidden;
+}
 </style>

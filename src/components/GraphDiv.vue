@@ -8,7 +8,6 @@ import ForceGraph3D from '3d-force-graph';
 import { SVGLoader } from 'three/addons/loaders/SVGLoader.js';
 import * as THREE from 'three';
 import { forceCollide, forceManyBody, forceLink, forceCenter } from 'd3-force-3d';
-import { useResizeObserver } from '@vueuse/core'
 
 // Types
 
@@ -387,19 +386,21 @@ function loadSVG(url: string): Promise<THREE.Object3D> {
 // Mount
 let canvasDiv = ref<HTMLDivElement>();
 
-// container resize
-useResizeObserver(canvasDiv, (entries) => {
-  if (Graph) {
-    Graph.width(entries[0].contentRect.width);
-    Graph.height(entries[0].contentRect.height);
-  }
-})
+
 
 onMounted(() => {
   loadOrGetNode(startingNodeIdx).then((node: Node) => {
     initGraph();
   });
-  displayAllEmojiChars();
+  //displayAllEmojiChars();
+  // resize
+  window.addEventListener("resize", () => {
+    if (Graph) {
+      Graph.width(window.innerWidth);
+      Graph.height(window.innerHeight);
+      console.log("resize")
+    }
+  });
 })
 
 
@@ -407,7 +408,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div ref="canvasDiv"></div>
+  <div ref="canvasDiv" class="webgl"></div>
   <div class="openmoji-color">{{ allEmojiStr }}</div>
 </template>
 
@@ -429,5 +430,12 @@ onMounted(() => {
 
 .openmoji-black {
   font-family: OpenMojiBlack, sans-serif;
+}
+
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
 }
 </style>
